@@ -1,0 +1,13 @@
+{
+  "run_id": "principle-memory-clear-cli-smoke-20261006",
+  "status": "cleared_and_verified",
+  "test_type": "local_sqlite_cli_smoke",
+  "session_id": "clear-cli-smoke-20261006",
+  "simulation_user_id": "SIM-USER-003",
+  "database": "runs/memory-clear-cli-smoke-20261006.sqlite3",
+  "clear_script": "scripts/clear_principle_memory_windows.py",
+  "cli_status": "cleared",
+  "history_after_clear": [],
+  "paid_api_request_attempted": false,
+  "paid_api_request_performed": false
+}

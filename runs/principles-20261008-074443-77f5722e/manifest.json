@@ -1,0 +1,74 @@
+{
+  "run_id": "principles-20261008-074443-77f5722e",
+  "started_at": "2026-10-08T07:44:43+08:00",
+  "implementation": "principles_python_numpy_httpx_tool_registry",
+  "case_id": "K07",
+  "category": "knowledge",
+  "question": "2026年暑期通知提醒宿舍里哪些电器和电动车行为有安全风险？",
+  "simulation_user_id": null,
+  "request_id": "principles-457fbc7b-094a-4d68-a663-9cd8a5422e6c",
+  "prompt_version": "v1",
+  "prompt_sha256": "39405b803feb23d38c1159a1b2260fff803d48969b3de0a39984a65be360776d",
+  "implementation_sha256": {
+    "principle_agent.py": "5512f60e2e3d9b201dfaece08dd5591a25a89244a5afb2c2c47eccc3cff4cb22",
+    "principle_tools.py": "6b0e5499b337b6b4edea282ad1579e4082b170e57787507502cc5c105493ac3a",
+    "runtime.py": "5eaef740665934502f1c5179864cd74c3e7c03910a9d9dc24f1eb02d3e7ba29d"
+  },
+  "source_manifest_sha256": "05e297bcf2fc85151e7741c9a1fa33a995d3e3b122a49630f6318c7c499c0b4c",
+  "frozen_cases_sha256": "9407a364794143c553b34ffd933ea25d4ee71a7f6e643f9dd4d0d85e55d26d44",
+  "index_id": "campus-fixed500-bge-m3-v1",
+  "embedding": {
+    "provider": "ollama",
+    "model": "bge-m3:latest",
+    "dimension": 1024
+  },
+  "vector_backend": "numpy_cosine",
+  "top_k": 5,
+  "chat_model": "deepseek-flash",
+  "configured_max_output_tokens": 768,
+  "paid_api_request_attempted": true,
+  "paid_api_request_performed": true,
+  "course_case_result": true,
+  "retrieval_case_result": false,
+  "synthetic_business_data_only": true,
+  "answer": "根据检索到的官方资料，2026年暑期通知对宿舍用电和电动车安全有明确提醒：\n\n**一、违规电器**\n- 严禁使用**大功率、高发热等违规电器**（E4、E6）。\n- 历史规定《长安大学消防安全管理规定》（2012-06-30）中也列举了禁止使用的电器，包括电热杯、电饭锅、电热水器、电热炉、热得快、电热毯等，并严禁使用劣质电源插座和劣质充电照明灯（E3）。需注意该文件为历史规定，现行效力待保卫处核验。\n\n**二、电动车相关**\n- 严禁各类电动车（**包括拆卸式电池**）在宿舍**充电或储存**（E4、E6）。\n\n**三、其他相关要求**\n- 离校时务必妥善存放贵重物品，关好宿舍门窗，关闭电源开关和水龙头（E6）。\n\n**来源：**\n- 《关于做好2026年暑期学生工作的通知》，日期 2026-07-03，适用范围仅限2026年暑假安排：https://webplus.chd.edu.cn/_s86/2026/0908/c4706a262541/page.psp\n- 《长安大学消防安全管理规定》，日期 2012-06-30（历史规定，现行效力待核验）：https://xxgk.chd.edu.cn/info/1032/2271.htm\n\n如需了解更完整的原文条款，建议以通知原文为准。",
+  "trace_file": "trace.json",
+  "error_type": null,
+  "price_source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
+  "cost_estimate_basis": "DeepSeek peak rate; all prompt tokens assumed uncached.",
+  "conversation_memory_enabled": false,
+  "session_id": null,
+  "prior_memory_turns": 0,
+  "status": "completed",
+  "model_request_count": 1,
+  "api_usage_records": [
+    {
+      "run_id": "principles-20261008-074443-77f5722e",
+      "case_id": "K07",
+      "implementation": "principles",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "invocation": 1,
+      "request_status": "succeeded",
+      "request_attempted": true,
+      "usage_available": true,
+      "usage": {
+        "input_tokens": 3069,
+        "output_tokens": 312,
+        "total_tokens": 3381
+      },
+      "estimated_cost_usd": 0.0012951,
+      "cost_basis": "DeepSeek peak rate; cache miss assumed for all input tokens",
+      "pricing_source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/"
+    }
+  ],
+  "estimated_total_cost_usd": 0.0012951,
+  "tool_call_count": 0,
+  "tool_names": [],
+  "registered_tool_names": [
+    "search_campus_knowledge",
+    "query_application_status",
+    "create_human_service_request"
+  ],
+  "finished_at": "2026-10-08T07:44:52+08:00"
+}

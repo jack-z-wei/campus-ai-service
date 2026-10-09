@@ -1,0 +1,5 @@
+﻿record_id,owner_sim_user_id,service_type,status,updated_at,public_note,simulation_only
+SIM-REC-001,SIM-USER-001,aid_application,材料审核中,2026-09-28T10:00:00+08:00,材料已提交，等待审核。,true
+SIM-REC-002,SIM-USER-002,dorm_repair,已派单,2026-09-27T14:30:00+08:00,维修人员已接单，演示预计时间以本模拟记录为准。,true
+SIM-REC-003,SIM-USER-003,library_service,已办结,2026-09-26T16:20:00+08:00,服务请求已处理。,true
+SIM-REC-004,SIM-USER-001,scholarship_application,待补充材料,2026-09-25T09:15:00+08:00,演示状态：请补齐所需材料后再提交。,true

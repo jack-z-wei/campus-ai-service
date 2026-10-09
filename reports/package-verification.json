@@ -1,0 +1,71 @@
+{
+  "checked_at": "2026-10-08T08:22:25+08:00",
+  "platform": "win32",
+  "dependency_lock": "uv.lock",
+  "supported_python_range": ">=3.12,<3.15",
+  "project_environment": {
+    "python": "3.12.7",
+    "full_suite": {
+      "passed": 244,
+      "failed": 0,
+      "skipped": 4,
+      "warnings": 18,
+      "duration_seconds": 28.16,
+      "evidence": "runs/windows-test-summary.json"
+    }
+  },
+  "standalone_packages": {
+    "02_Python_Version": {
+      "uv_sync_frozen": "passed",
+      "installed_packages": 248,
+      "python": "3.13.14",
+      "campus_suite": {
+        "passed": 35,
+        "failed": 0,
+        "skipped": 0,
+        "duration_seconds": 5.67,
+        "command": ".venv\\Scripts\\python.exe -m pytest -q tests/campus"
+      },
+      "ollama_retrieval_only": {
+        "status": "retrieval_only_complete",
+        "case_id": "K01",
+        "run_id": "principles-20261006-202257-4f3fc9c1",
+        "chat_api_requests": 0
+      }
+    },
+    "03_AI_Coding_Version": {
+      "uv_sync_frozen": "passed",
+      "installed_packages": 248,
+      "python": "3.13.14",
+      "full_suite": {
+        "passed": 244,
+        "failed": 0,
+        "skipped": 4,
+        "warnings": 18,
+        "duration_seconds": 83.37,
+        "command": ".venv\\Scripts\\python.exe -m pytest -q"
+      }
+    }
+  },
+  "configuration_boundary": {
+    "both_package_settings_point_to_their_own_root_env_file": true,
+    "package_env_files_present": false,
+    "check_used_transient_process_only_placeholder": true,
+    "placeholder_value_recorded": false
+  },
+  "known_packaging_correction": {
+    "initial_python_package_test": "34 passed, 1 failed because a test contract JSON was omitted",
+    "correction": "Added evaluation/human_service_contract.json to the allowlisted Python package copy",
+    "rerun": "35 passed",
+    "report_link_audit": "The copied final report contains 27 local file/image links; all 27 resolve within the six-folder handoff package."
+  },
+  "paid_model_requests_during_dependency_and_package_tests": 0,
+  "coze_platform_requests_during_dependency_and_package_tests": 0,
+  "limitations": [
+    "The standalone Windows sync/test ran on Python 3.13.14, within the declared range; the root project environment is Python 3.12.7.",
+    "Four Docker-marked tests were skipped in both default full-suite runs.",
+    "The standalone Python package campus suite and Engineering package full suite passed; package test virtual environments and caches are removed before handoff.",
+    "Engineering U02 still retrieves only one of two expected sources despite the fixed parallel Chroma cold-start initialization.",
+    "Browser UI requests and Coze billing are not included in logged token-cost estimates because their token usage or actual charge was not exposed."
+  ]
+}

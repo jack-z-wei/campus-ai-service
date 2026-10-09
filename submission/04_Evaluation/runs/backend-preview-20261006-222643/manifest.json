@@ -1,0 +1,20 @@
+{
+  "run_id": "backend-preview-20261006-222643",
+  "started_at": "2026-10-06T22:26:43+08:00",
+  "api_url": "http://127.0.0.1:8080",
+  "ui_url": "http://127.0.0.1:8501",
+  "model": "deepseek-flash",
+  "fake_model": false,
+  "frontend_started": false,
+  "sqlite_path": "C:\\Users\\26313\\Desktop\\人工智能课设\\campus-ai-service\\runs\\backend-preview-20261006-222643\\checkpoints.sqlite3",
+  "synthetic_data_only": true,
+  "course_result": false,
+  "api_pid": 31684,
+  "api_health_status": 200,
+  "api_info_status": 200,
+  "agent_count": 11,
+  "ready": true,
+  "paid_chat_performed_by_launcher": false,
+  "api_log": "C:\\Users\\26313\\Desktop\\人工智能课设\\campus-ai-service\\runs\\backend-preview-20261006-222643\\api.log",
+  "finished_at": "2026-10-06T22:26:53+08:00"
+}

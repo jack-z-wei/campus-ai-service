@@ -1,0 +1,474 @@
+{"event": "request_started", "model": "deepseek-flash", "paid_api_request_count": 1, "run_id": "api-smoke-20261006-173028", "timestamp": "2026-10-06T17:30:28+08:00"}
+{"error_status_code": null, "error_type": null, "event": "request_finished", "run_id": "api-smoke-20261006-173028", "status": "succeeded", "timestamp": "2026-10-06T17:30:30+08:00"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1484.0, "run_id": "principles-20261006-182118-c183be16", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1500.0, "run_id": "principles-20261006-182229-bdf65396", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1516.0, "run_id": "principles-20261006-182445-b9893872", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 609.0, "run_id": "principles-20261006-182527-52cdfe74", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1125.0, "run_id": "principles-20261006-182725-6b464d98", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 2, "latency_ms": 1094.0, "run_id": "principles-20261006-182725-6b464d98", "status": "succeeded"}
+{"error_type": null, "event": "principles_multiturn_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1047.0, "run_id": "principles-multiturn-20261006-184014-e3debe8c", "status": "succeeded", "turn_number": 1}
+{"error_type": null, "event": "principles_multiturn_request_finished", "http_status": null, "invocation": 1, "latency_ms": 656.0, "run_id": "principles-multiturn-20261006-184014-e3debe8c", "status": "succeeded", "turn_number": 2}
+{"error_type": null, "event": "principles_multiturn_request_finished", "http_status": null, "invocation": 2, "latency_ms": 1313.0, "run_id": "principles-multiturn-20261006-184014-e3debe8c", "status": "succeeded", "turn_number": 2}
+{"error_type": null, "event": "principles_multiturn_request_finished", "http_status": null, "invocation": 1, "latency_ms": 953.0, "run_id": "principles-multiturn-20261006-184055-dedf150d", "status": "succeeded", "turn_number": 1}
+{"error_type": null, "event": "principles_multiturn_request_finished", "http_status": null, "invocation": 2, "latency_ms": 718.0, "run_id": "principles-multiturn-20261006-184055-dedf150d", "status": "succeeded", "turn_number": 1}
+{"error_type": null, "event": "principles_multiturn_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1219.0, "run_id": "principles-multiturn-20261006-184055-dedf150d", "status": "succeeded", "turn_number": 2}
+{"error_type": null, "event": "principles_multiturn_request_finished", "http_status": null, "invocation": 2, "latency_ms": 1031.0, "run_id": "principles-multiturn-20261006-184055-dedf150d", "status": "succeeded", "turn_number": 2}
+{"event": "engineering_multiturn_request_finished", "invocation": 1, "run_id": "engineering-multiturn-20261006-184452-62342997", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_multiturn_request_finished", "invocation": 1, "run_id": "engineering-multiturn-20261006-184452-62342997", "status": "succeeded", "turn_number": 2}
+{"event": "engineering_multiturn_request_finished", "invocation": 2, "run_id": "engineering-multiturn-20261006-184452-62342997", "status": "succeeded", "turn_number": 2}
+{"event": "engineering_multiturn_request_finished", "invocation": 1, "run_id": "engineering-multiturn-20261006-184518-5069f94b", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_multiturn_request_finished", "invocation": 2, "run_id": "engineering-multiturn-20261006-184518-5069f94b", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_multiturn_request_finished", "invocation": 1, "run_id": "engineering-multiturn-20261006-184518-5069f94b", "status": "succeeded", "turn_number": 2}
+{"event": "engineering_multiturn_request_finished", "invocation": 2, "run_id": "engineering-multiturn-20261006-184518-5069f94b", "status": "succeeded", "turn_number": 2}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1094.0, "run_id": "principles-20261006-191428-eb9c8767", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1359.0, "run_id": "principles-20261006-191440-74e8e23f", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1344.0, "run_id": "principles-20261006-191450-faceace1", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1828.0, "run_id": "principles-20261006-191459-68f1000a", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1391.0, "run_id": "principles-20261006-191509-004666d9", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1469.0, "run_id": "principles-20261006-191523-8859c182", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1781.0, "run_id": "principles-20261006-191532-c135b2b4", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1454.0, "run_id": "principles-20261006-191542-86d678ab", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1171.0, "run_id": "principles-20261006-191552-10b37067", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1031.0, "run_id": "principles-20261006-191601-7de41385", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 672.0, "run_id": "principles-20261006-191615-d64493ad", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 2, "latency_ms": 1093.0, "run_id": "principles-20261006-191615-d64493ad", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 922.0, "run_id": "principles-20261006-191625-70df3db6", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 2, "latency_ms": 875.0, "run_id": "principles-20261006-191625-70df3db6", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1110.0, "run_id": "principles-20261006-191635-84684784", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 2, "latency_ms": 1187.0, "run_id": "principles-20261006-191635-84684784", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1109.0, "run_id": "principles-20261006-191646-895b16dd", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 2, "latency_ms": 719.0, "run_id": "principles-20261006-191646-895b16dd", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 891.0, "run_id": "principles-20261006-191656-68bb1e85", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 2, "latency_ms": 1312.0, "run_id": "principles-20261006-191656-68bb1e85", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1985.0, "run_id": "principles-20261006-191710-d38e04ad", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1656.0, "run_id": "principles-20261006-191720-b88c0b34", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1125.0, "run_id": "principles-20261006-191730-75384ac0", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1703.0, "run_id": "principles-20261006-191739-41348dc2", "status": "succeeded"}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-191800-f570fdee", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-191800-f570fdee", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-191812-1ce803df", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-191812-1ce803df", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-191825-2abf4436", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-191825-2abf4436", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-191838-889e5998", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-191838-889e5998", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-191851-5ab9ec2a", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-191851-5ab9ec2a", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-191905-1e10173b", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-191905-1e10173b", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-191918-fdc52397", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-191918-fdc52397", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-191931-a09a1677", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-191931-a09a1677", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-191943-0fdff7bc", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-191943-0fdff7bc", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-191955-2eb79417", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-191955-2eb79417", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-192011-3c622303", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-192011-3c622303", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-192022-936fed97", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-192022-936fed97", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-192034-608a087b", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-192034-608a087b", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-192046-f1d6ba53", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-192046-f1d6ba53", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-192058-0f353067", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-192058-0f353067", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-192112-edc875be", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-192112-edc875be", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-192124-37150ece", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-192124-37150ece", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-192136-0f74394e", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-192148-a8d49484", "status": "succeeded", "turn_number": 1}
+{"case_id": "K01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 2141.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1531.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K03", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1437.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K04", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1328.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K05", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1360.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K06", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1469.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K07", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1500.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K08", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1375.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K09", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1219.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K10", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1296.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "S01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1422.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "S02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1328.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "S03", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1484.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "S04", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1329.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "S05", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1796.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "M01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1485.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "M01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1468.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 2}
+{"case_id": "M02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1422.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "M02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1125.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 2}
+{"case_id": "U01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1453.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "U02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1797.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "B01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1844.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "B02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1421.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 2109.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1938.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K03", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1515.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K04", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1266.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K05", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1797.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K06", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1532.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K07", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 2172.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K08", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1640.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K09", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1453.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K10", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1797.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "S01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1203.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "S02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1422.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "S03", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1437.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "S04", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1234.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "S05", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1125.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "M01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1219.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "M01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1281.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 2}
+{"case_id": "M02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1485.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "M02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1625.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 2}
+{"case_id": "U01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1969.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "U02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1906.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "B01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1219.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "B02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 969.0, "run_id": "frozen-eval-v1-20261006", "status": "completed", "turn_number": 1}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1563.0, "run_id": "principles-20261006-194536-9c9d3f61", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1453.0, "run_id": "principles-20261006-194555-0f9d33b6", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1328.0, "run_id": "principles-20261006-194610-1cfcaa57", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1735.0, "run_id": "principles-20261006-194623-46b4a16f", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 938.0, "run_id": "principles-20261006-194637-b7b43f94", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1484.0, "run_id": "principles-20261006-194653-8c9d320c", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1640.0, "run_id": "principles-20261006-194707-0cc78809", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1328.0, "run_id": "principles-20261006-194720-051dede2", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1766.0, "run_id": "principles-20261006-194731-1124864f", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1625.0, "run_id": "principles-20261006-194743-0946a74e", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1187.0, "run_id": "principles-20261006-194759-960a7eba", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 2, "latency_ms": 922.0, "run_id": "principles-20261006-194759-960a7eba", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1000.0, "run_id": "principles-20261006-194813-2443168e", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 2, "latency_ms": 828.0, "run_id": "principles-20261006-194813-2443168e", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1031.0, "run_id": "principles-20261006-194827-f725e6a8", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 2, "latency_ms": 1407.0, "run_id": "principles-20261006-194827-f725e6a8", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1219.0, "run_id": "principles-20261006-194840-7fd3833c", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 985.0, "run_id": "principles-20261006-194853-7c7c99bf", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 2, "latency_ms": 1297.0, "run_id": "principles-20261006-194853-7c7c99bf", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1500.0, "run_id": "principles-20261006-194911-036ff057", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1828.0, "run_id": "principles-20261006-194924-7698c0da", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1172.0, "run_id": "principles-20261006-194937-e16cdec9", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1172.0, "run_id": "principles-20261006-194949-3e14a8e5", "status": "succeeded"}
+{"error_type": null, "event": "principles_multiturn_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1437.0, "run_id": "principles-multiturn-20261006-195002-4f73e36b", "status": "succeeded", "turn_number": 1}
+{"error_type": null, "event": "principles_multiturn_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1094.0, "run_id": "principles-multiturn-20261006-195002-4f73e36b", "status": "succeeded", "turn_number": 2}
+{"error_type": null, "event": "principles_multiturn_request_finished", "http_status": null, "invocation": 2, "latency_ms": 1234.0, "run_id": "principles-multiturn-20261006-195002-4f73e36b", "status": "succeeded", "turn_number": 2}
+{"error_type": null, "event": "principles_multiturn_request_finished", "http_status": null, "invocation": 1, "latency_ms": 985.0, "run_id": "principles-multiturn-20261006-195021-040ca1f2", "status": "succeeded", "turn_number": 1}
+{"error_type": null, "event": "principles_multiturn_request_finished", "http_status": null, "invocation": 2, "latency_ms": 1187.0, "run_id": "principles-multiturn-20261006-195021-040ca1f2", "status": "succeeded", "turn_number": 1}
+{"error_type": null, "event": "principles_multiturn_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1110.0, "run_id": "principles-multiturn-20261006-195021-040ca1f2", "status": "succeeded", "turn_number": 2}
+{"error_type": null, "event": "principles_multiturn_request_finished", "http_status": null, "invocation": 2, "latency_ms": 1406.0, "run_id": "principles-multiturn-20261006-195021-040ca1f2", "status": "succeeded", "turn_number": 2}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-195101-09c7e8bb", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-195101-09c7e8bb", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-195119-82b1124e", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-195119-82b1124e", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-195138-86b8b618", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-195138-86b8b618", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-195155-d0f66a50", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-195155-d0f66a50", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-195213-e97622e1", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-195213-e97622e1", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-195232-2b26413f", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-195232-2b26413f", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-195249-1e9bf51a", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-195249-1e9bf51a", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-195307-3a0c1f27", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-195307-3a0c1f27", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-195320-dd7ecee0", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-195320-dd7ecee0", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-195334-577e12d7", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-195334-577e12d7", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-195350-118a89a9", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-195350-118a89a9", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-195403-214f8dc5", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-195403-214f8dc5", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-195416-7d9325b8", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-195416-7d9325b8", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-195429-05c1ce10", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-195441-c1b49827", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-195441-c1b49827", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-195457-8aec04be", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-195457-8aec04be", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-195511-31ab94ba", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-195511-31ab94ba", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-195527-c8e36f32", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-195538-f7ec8b3d", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-195550-34349b01", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-195550-34349b01", "status": "succeeded", "turn_number": 2}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-195550-34349b01", "status": "succeeded", "turn_number": 2}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-195608-8d6f42e0", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-195608-8d6f42e0", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261006-195608-8d6f42e0", "status": "succeeded", "turn_number": 2}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261006-195608-8d6f42e0", "status": "succeeded", "turn_number": 2}
+{"case_id": "K01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1704.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1938.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K03", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1640.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K04", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1875.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K05", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1391.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K06", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1844.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K07", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1641.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K08", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1500.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K09", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1844.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K10", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1328.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "S01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1969.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "S02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1469.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "S03", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1641.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "S04", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1843.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "S05", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1172.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "M01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1922.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "M01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1406.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 2}
+{"case_id": "M02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1828.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "M02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1422.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 2}
+{"case_id": "U01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1469.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "U02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1765.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "B01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1563.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "B02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1640.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1891.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1953.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K03", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1719.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K04", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 2140.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K05", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1437.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K06", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1656.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K07", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1406.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K08", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1719.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K09", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1781.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "K10", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 2141.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "S01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1640.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "S02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1313.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "S03", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1828.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "S04", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1125.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "S05", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1219.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "M01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1422.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "M01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1671.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 2}
+{"case_id": "M02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1610.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "M02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1937.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 2}
+{"case_id": "U01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1828.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "U02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 2062.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "B01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1672.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"case_id": "B02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1187.0, "run_id": "frozen-eval-optimized-v1-20261006", "status": "completed", "turn_number": 1}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 938.0, "run_id": "principles-20261008-073407-b3cf2c27", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 2, "latency_ms": 1985.0, "run_id": "principles-20261008-073407-b3cf2c27", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1312.0, "run_id": "principles-20261008-073931-6ded64a6", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 2, "latency_ms": 1125.0, "run_id": "principles-20261008-073931-6ded64a6", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1328.0, "run_id": "principles-20261008-074338-f655078a", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1281.0, "run_id": "principles-20261008-074349-ce9f06da", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1047.0, "run_id": "principles-20261008-074359-6cac4044", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1750.0, "run_id": "principles-20261008-074409-f1ee64ff", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1172.0, "run_id": "principles-20261008-074419-418552ae", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1860.0, "run_id": "principles-20261008-074432-57f8ae1a", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1578.0, "run_id": "principles-20261008-074443-77f5722e", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1656.0, "run_id": "principles-20261008-074453-ec84d476", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1281.0, "run_id": "principles-20261008-074504-cde21d2a", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 938.0, "run_id": "principles-20261008-074514-3f125d69", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 578.0, "run_id": "principles-20261008-074528-1d9f3c36", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 2, "latency_ms": 625.0, "run_id": "principles-20261008-074528-1d9f3c36", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1094.0, "run_id": "principles-20261008-074538-f7f9434f", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 2, "latency_ms": 797.0, "run_id": "principles-20261008-074538-f7f9434f", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 750.0, "run_id": "principles-20261008-074548-0f5e8b9c", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 2, "latency_ms": 969.0, "run_id": "principles-20261008-074548-0f5e8b9c", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1640.0, "run_id": "principles-20261008-074559-67af47a9", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 875.0, "run_id": "principles-20261008-074610-b6783121", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 2, "latency_ms": 828.0, "run_id": "principles-20261008-074610-b6783121", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1484.0, "run_id": "principles-20261008-074623-47a18b18", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1734.0, "run_id": "principles-20261008-074633-b940ef73", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1203.0, "run_id": "principles-20261008-074644-126d3425", "status": "succeeded"}
+{"error_type": null, "event": "principles_request_finished", "http_status": null, "invocation": 1, "latency_ms": 1391.0, "run_id": "principles-20261008-074654-f786ec20", "status": "succeeded"}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-074757-e5cbdbdc", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-074757-e5cbdbdc", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-074810-f702e26a", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-074810-f702e26a", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-074823-6f065fa3", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-074823-6f065fa3", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-074837-d5b83f15", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-074837-d5b83f15", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-074851-f951d23d", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-074851-f951d23d", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-074906-83d4aed9", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-074906-83d4aed9", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-074920-6279ce6b", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-074920-6279ce6b", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-074934-09740eaa", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-074934-09740eaa", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-074948-79c6d099", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-074948-79c6d099", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-075002-5b1b16e5", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-075002-5b1b16e5", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-075018-f606cfc7", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-075018-f606cfc7", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-075030-4e4afccb", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-075030-4e4afccb", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-075043-a8c388e8", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-075043-a8c388e8", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-075056-ba928483", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-075108-152f1ef9", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-075108-152f1ef9", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-075123-567cb6da", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-075123-567cb6da", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-075137-ad0f4beb", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-075137-ad0f4beb", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-075151-ea3b68c5", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-075203-a77669c8", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-075216-1192bdc7", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-075216-1192bdc7", "status": "succeeded", "turn_number": 2}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-075216-1192bdc7", "status": "succeeded", "turn_number": 2}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-075231-c53a566f", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-075231-c53a566f", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-075231-c53a566f", "status": "succeeded", "turn_number": 2}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-075231-c53a566f", "status": "succeeded", "turn_number": 2}
+{"case_id": "K01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 2046.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "K02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1531.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "K03", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1391.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "K04", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1531.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "K05", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1578.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "K06", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1687.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "K07", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1437.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "K08", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1187.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "K09", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1438.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "K10", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1344.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "S01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1125.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "S02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1219.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "S03", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1125.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "S04", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1250.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "S05", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1453.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "M01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1406.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "M01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1110.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 2}
+{"case_id": "M02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1281.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "M02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1578.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 2}
+{"case_id": "U01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1531.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "U02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1922.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "B01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1344.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "B02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1657.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "K01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1828.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "K02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1500.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "K03", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1235.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "K04", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1343.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "K05", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1313.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "K06", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1421.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "K07", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1750.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "K08", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1281.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "K09", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1437.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "K10", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1532.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "S01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1687.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "S02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1297.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "S03", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1234.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "S04", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1156.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "S05", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1094.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "M01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1187.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "M01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1281.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 2}
+{"case_id": "M02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1281.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "M02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1547.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 2}
+{"case_id": "U01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1438.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "U02", "error_type": "ValueError", "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": null, "run_id": "e2e-20261008-metrics", "status": "failed", "turn_number": 1}
+{"case_id": "B01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1406.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "B02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1219.0, "run_id": "e2e-20261008-metrics", "status": "completed", "turn_number": 1}
+{"case_id": "U02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1843.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "K01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1109.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "K02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1750.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "K03", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1469.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "K04", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1312.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "K05", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1235.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "K06", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1406.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "K07", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1329.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "K08", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1500.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "K09", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1156.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "K10", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1234.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "S01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1438.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "S02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1234.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "S03", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1156.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "S04", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1421.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "S05", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1109.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "M01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1141.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "M01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1203.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 2}
+{"case_id": "M02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1015.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "M02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1422.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 2}
+{"case_id": "U01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1391.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "U02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1375.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "B01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1313.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "B02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "principles", "latency_ms": 1328.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "K01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1141.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "K02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1312.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "K03", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1672.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "K04", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1296.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "K05", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1563.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "K06", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1218.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "K07", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1500.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "K08", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1500.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "K09", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1344.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "K10", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1453.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "S01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1078.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "S02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1328.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "S03", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1234.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "S04", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 922.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "S05", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1125.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "M01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1328.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "M01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1078.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 2}
+{"case_id": "M02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1235.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "M02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1250.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 2}
+{"case_id": "U01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1704.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "B01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1671.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"case_id": "B02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1500.0, "run_id": "e2e-20261008-metrics-v2", "status": "completed", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-080238-e864ceea", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-080238-e864ceea", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-080344-706720eb", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-080344-706720eb", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-080402-e490e340", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-080402-e490e340", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-080415-b4234c16", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-080415-b4234c16", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-080427-88dee49f", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-080427-88dee49f", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-080440-bdbdfc33", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-080440-bdbdfc33", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-080453-0fbe3f2e", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-080453-0fbe3f2e", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-080509-8222fcf0", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-080509-8222fcf0", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-080521-3aaee72b", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-080521-3aaee72b", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-080534-8619c6f8", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-080534-8619c6f8", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-080547-6d59f2ef", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-080547-6d59f2ef", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-080559-a9193dae", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-080559-a9193dae", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-080613-78e8cf0d", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-080613-78e8cf0d", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-080625-ce182d4a", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-080625-ce182d4a", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-080636-794322c9", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-080636-794322c9", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-080648-0d38a797", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-080658-94a5a117", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-080658-94a5a117", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-080712-8166cbb6", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-080712-8166cbb6", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-080724-1e2f0392", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-080734-42788404", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-080745-d5ee21d3", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-080745-d5ee21d3", "status": "succeeded", "turn_number": 2}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-080745-d5ee21d3", "status": "succeeded", "turn_number": 2}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-080757-642fb3fc", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-080757-642fb3fc", "status": "succeeded", "turn_number": 1}
+{"event": "engineering_case_request_finished", "invocation": 1, "run_id": "engineering-case-20261008-080757-642fb3fc", "status": "succeeded", "turn_number": 2}
+{"event": "engineering_case_request_finished", "invocation": 2, "run_id": "engineering-case-20261008-080757-642fb3fc", "status": "succeeded", "turn_number": 2}
+{"case_id": "K01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1594.0, "run_id": "e2e-20261008-metrics-v3", "status": "completed", "turn_number": 1}
+{"case_id": "K02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1438.0, "run_id": "e2e-20261008-metrics-v3", "status": "completed", "turn_number": 1}
+{"case_id": "K03", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1734.0, "run_id": "e2e-20261008-metrics-v3", "status": "completed", "turn_number": 1}
+{"case_id": "K04", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1687.0, "run_id": "e2e-20261008-metrics-v3", "status": "completed", "turn_number": 1}
+{"case_id": "K05", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1797.0, "run_id": "e2e-20261008-metrics-v3", "status": "completed", "turn_number": 1}
+{"case_id": "K06", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1531.0, "run_id": "e2e-20261008-metrics-v3", "status": "completed", "turn_number": 1}
+{"case_id": "K07", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1312.0, "run_id": "e2e-20261008-metrics-v3", "status": "completed", "turn_number": 1}
+{"case_id": "K08", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1766.0, "run_id": "e2e-20261008-metrics-v3", "status": "completed", "turn_number": 1}
+{"case_id": "K09", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1344.0, "run_id": "e2e-20261008-metrics-v3", "status": "completed", "turn_number": 1}
+{"case_id": "K10", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1906.0, "run_id": "e2e-20261008-metrics-v3", "status": "completed", "turn_number": 1}
+{"case_id": "S01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1234.0, "run_id": "e2e-20261008-metrics-v3", "status": "completed", "turn_number": 1}
+{"case_id": "S02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1406.0, "run_id": "e2e-20261008-metrics-v3", "status": "completed", "turn_number": 1}
+{"case_id": "S03", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1360.0, "run_id": "e2e-20261008-metrics-v3", "status": "completed", "turn_number": 1}
+{"case_id": "S04", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1000.0, "run_id": "e2e-20261008-metrics-v3", "status": "completed", "turn_number": 1}
+{"case_id": "S05", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1015.0, "run_id": "e2e-20261008-metrics-v3", "status": "completed", "turn_number": 1}
+{"case_id": "M01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1000.0, "run_id": "e2e-20261008-metrics-v3", "status": "completed", "turn_number": 1}
+{"case_id": "M01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1156.0, "run_id": "e2e-20261008-metrics-v3", "status": "completed", "turn_number": 2}
+{"case_id": "M02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1344.0, "run_id": "e2e-20261008-metrics-v3", "status": "completed", "turn_number": 1}
+{"case_id": "M02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1422.0, "run_id": "e2e-20261008-metrics-v3", "status": "completed", "turn_number": 2}
+{"case_id": "U01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1500.0, "run_id": "e2e-20261008-metrics-v3", "status": "completed", "turn_number": 1}
+{"case_id": "U02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 2062.0, "run_id": "e2e-20261008-metrics-v3", "status": "completed", "turn_number": 1}
+{"case_id": "B01", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1141.0, "run_id": "e2e-20261008-metrics-v3", "status": "completed", "turn_number": 1}
+{"case_id": "B02", "error_type": null, "event": "answer_judge_request_finished", "implementation": "engineering", "latency_ms": 1250.0, "run_id": "e2e-20261008-metrics-v3", "status": "completed", "turn_number": 1}

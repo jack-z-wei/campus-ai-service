@@ -1,0 +1,12 @@
+{
+  "platform": "win32",
+  "command": ".venv\\Scripts\\python.exe -m pytest -q",
+  "suite": "default Windows pytest suite; Docker-marked cases remain skipped without --run-docker",
+  "passed": 242,
+  "failed": 0,
+  "skipped": 4,
+  "warnings": 18,
+  "duration_seconds": 41.66,
+  "test_pass_rate": 1.0,
+  "recorded_at": "2026-10-06T20:13:51+08:00"
+}

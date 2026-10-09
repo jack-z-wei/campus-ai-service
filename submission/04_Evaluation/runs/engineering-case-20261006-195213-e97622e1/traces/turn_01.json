@@ -1,0 +1,168 @@
+{
+  "run_id": "engineering-case-20261006-195213-e97622e1",
+  "case_id": "K05",
+  "turn_number": 1,
+  "question": "学校信息公开的学生资助目录把本科生资助管理标注为哪天更新？",
+  "answer": "根据《学生资助信息公开目录》（https://xxgk.chd.edu.cn/xxgkml/c6/xszz.htm），其中「本科生资助管理」条目标注的更新日期为 **2025-09-05**。\n\n同一目录中「研究生资助管理」也标注为 2025-09-05。该目录页说明其只列出明确的项目与日期，如需了解条目具体内容，建议点击对应链接查看。",
+  "elapsed_seconds": 5.078,
+  "memory": {
+    "prior_stored_message_count": 0,
+    "model_context_turn_count": 0,
+    "max_model_context_turns": 4,
+    "thread_id": "engineering-case-20261006-195213-e97622e1"
+  },
+  "new_messages": [
+    {
+      "type": "human",
+      "content": "学校信息公开的学生资助目录把本科生资助管理标注为哪天更新？",
+      "tool_calls": []
+    },
+    {
+      "type": "ai",
+      "content": "我先检索一下相关信息。",
+      "tool_calls": [
+        {
+          "name": "search_campus_knowledge",
+          "args": {
+            "query": "学校信息公开 学生资助目录 本科生资助管理 更新日期"
+          },
+          "id": "call_00_RbdiGXYJOFLazOi9QYyg3192",
+          "type": "tool_call"
+        }
+      ]
+    },
+    {
+      "type": "tool",
+      "content": "{\"outcome\": \"ok\", \"backend\": \"chroma\", \"results\": [{\"rank\": 1, \"score\": 0.811392, \"source_id\": \"aid_portal_2025\", \"title\": \"学生资助信息公开目录\", \"category\": \"奖助\", \"url\": \"https://xxgk.chd.edu.cn/xxgkml/c6/xszz.htm\", \"published_on\": \"目录页；包含2025年更新条目\", \"scope\": \"学校资助政策入口；只回答目录中明确列出的项目与日期\", \"index_policy\": \"official_index\", \"text\": \"# 学生资助信息公开目录\\n\\n- 来源：https://xxgk.chd.edu.cn/xxgkml/c6/xszz.htm\\n- 官方发布/页面日期：目录页；包含2025年更新条目\\n- HTTP Last-Modified：Tue, 25 Aug 2026 02:53:59 GMT\\n- 适用范围：学校资助政策入口；只回答目录中明确列出的项目与日期\\n- 主题：奖助\\n- 检索策略：official_index\\n- 抓取时间（UTC）：2026-10-06T09:18:22+00:00\\n- 原始文件：`raw/aid_portal_2025.html`（SHA-256 `2b1c78419a8a25531e8e2bbf86ef5a969948d774400b3e4df1438b12db47f2d7`）\\n\\n## 原文文本快照\\n﻿\\n首页\\n信息公开制度\\n中华人民共和国政府信息公开条例\\n高等学校信息公开办法\\n教育部关于公布《高等学校信息公开事项清单》的通知\\n长安大学信息公开实施细则\\n信息公开指南\\n信息公开目录\\n基本信息\\n招生考试信息\\n财务资产及收费信息\\n人事师资信息\\n教学质量信息\\n学生管理服务信息\\n学\"}, {\"rank\": 2, \"score\": 0.784828, \"source_id\": \"aid_portal_2025\", \"title\": \"学生资助信息公开目录\", \"category\": \"奖助\", \"url\": \"https://xxgk.chd.edu.cn/xxgkml/c6/xszz.htm\", \"published_on\": \"目录页；包含2025年更新条目\", \"scope\": \"学校资助政策入口；只回答目录中明确列出的项目与日期\", \"index_policy\": \"official_index\", \"text\": \"学生申诉办法\\n七、\\n学风建设信息\\n学风建设机构\\n学术规范制度\\n学术不端行为查处\\n八、\\n学位、学科信息\\n学位授予要求\\n同等学力人员学位授予\\n九、\\n对外交流与合作信息\\n中外合作办学\\n留学生管理\\n十、\\n其他\\n巡视组反馈意见及整改\\n应急处理预案\\n当前位置：\\n首页\\n>\\n信息公开目录\\n>\\n学生管理服务信息\\n>\\n学生资助\\n学生资助\\n研究生资助管理\\n[2025-09-05]\\n本科生资助管理\\n[2025-09-05]\\n长安大学学生资助服务协会2025-2026学年春季学期第一次全体例会顺利召开\\n[2026-03-23]\\n关于印发《长安大学学生勤工助学管理办法》的通知\\n[2025-08-03]\\n关于印发《长安大学学生出国（境）学习交流资助办法（修订）》的通知\\n[2025-06-24]\\n关于印发《长安大学服兵役学生国家教育资助实施办法》的通知\\n[2022-03-25]\\n关于印发《长安大学基层就业学费补偿国家助学贷款代偿实施办法（修订）》的通知\\n[2022-03-25]\\n关于印发《长安大学大学生应征入伍管理办法（修订）》的通知\\n[2021-11-01]\\n关于印发《长安大学本科生国家助学金评审办法（修订）》的\"}, {\"rank\": 3, \"score\": 0.703125, \"source_id\": \"campus_fire_safety_2012\", \"title\": \"关于印发《长安大学消防安全管理规定》的通知\", \"category\": \"宿舍\", \"url\": \"https://xxgk.chd.edu.cn/info/1032/2271.htm\", \"published_on\": \"2012-06-30\", \"scope\": \"学校消防安全；历史规定，现行效力待保卫处核验\", \"index_policy\": \"historical_policy\", \"text\": \"于公布《高等学校信息公开事项清单》的通知\\n长安大学信息公开实施细则\\n信息公开指南\\n信息公开目录\\n基本信息\\n招生考试信息\\n财务资产及收费信息\\n人事师资信息\\n教学质量信息\\n学生管理服务信息\\n学风建设信息\\n学位、学科信息\\n对外交流与合作信息\\n其他\\n信息公开年报\\n信息公开申请\\n意见建议\\n首页\\n信息公开制度\\n信息公开指南\\n信息公开目录\\n信息公开年报\\n信息公开申请\\n意见建议\\nPrevious\\nNext\\n信息公开目录\\n一、\\n基本信息\\n学校概况\\n学校章程\\n规章制度\\n发展规划年度计划\\n教职工代表大会\\n学术委员会\\n二、\\n招生考试信息\\n本科生招生章程\\n本科生招生咨询\\n研究生招生简章\\n研究生招生咨询\\n三、\\n财务资产及收费信息\\n财务资产管理制度\\n招投标情况\\n收支预算\\n收支决算\\n收费管理\\n四、\\n人事师资信息\\n岗位设置管理与聘用办法\\n干部任免与人员招聘\\n教职工管理制度\\n五、\\n教学质量信息\\n专业设置\\n就业指导政策\\n本科教学质量报告\\n六、\\n学生管理服务信息\\n学籍管理\\n学生资助\\n学生奖励处罚\\n学生申诉办法\\n七、\\n学风建设信息\\n学风建设机构\\n学术规范制度\\n学术不端行为查处\\n八、\\n学位、学科信息\\n学位授予要求\\n同等学力人员学\"}, {\"rank\": 4, \"score\": 0.701543, \"source_id\": \"aid_portal_2025\", \"title\": \"学生资助信息公开目录\", \"category\": \"奖助\", \"url\": \"https://xxgk.chd.edu.cn/xxgkml/c6/xszz.htm\", \"published_on\": \"目录页；包含2025年更新条目\", \"scope\": \"学校资助政策入口；只回答目录中明确列出的项目与日期\", \"index_policy\": \"official_index\", \"text\": \"清单》的通知\\n长安大学信息公开实施细则\\n信息公开指南\\n信息公开目录\\n基本信息\\n招生考试信息\\n财务资产及收费信息\\n人事师资信息\\n教学质量信息\\n学生管理服务信息\\n学风建设信息\\n学位、学科信息\\n对外交流与合作信息\\n其他\\n信息公开年报\\n信息公开申请\\n意见建议\\n首页\\n信息公开制度\\n信息公开指南\\n信息公开目录\\n信息公开年报\\n信息公开申请\\n意见建议\\nPrevious\\nNext\\n信息公开目录\\n一、\\n基本信息\\n学校概况\\n学校章程\\n规章制度\\n发展规划年度计划\\n教职工代表大会\\n学术委员会\\n二、\\n招生考试信息\\n本科生招生章程\\n本科生招生咨询\\n研究生招生简章\\n研究生招生咨询\\n三、\\n财务资产及收费信息\\n财务资产管理制度\\n招投标情况\\n收支预算\\n收支决算\\n收费管理\\n四、\\n人事师资信息\\n岗位设置管理与聘用办法\\n干部任免与人员招聘\\n教职工管理制度\\n五、\\n教学质量信息\\n专业设置\\n就业指导政策\\n本科教学质量报告\\n六、\\n学生管理服务信息\\n学籍管理\\n学生资助\\n学生奖励处罚\\n学生申诉办法\\n七、\\n学风建设信息\\n学风建设机构\\n学术规范制度\\n学术不端行为查处\\n八、\\n学位、学科信息\\n学位授予要求\\n同等学力人员学位授予\\n九、\\n对外交流与合作\"}, {\"rank\": 5, \"score\": 0.680851, \"source_id\": \"academic_status_2022\", \"title\": \"长安大学本科生学籍管理规定（2022版）\", \"category\": \"教务\", \"url\": \"https://jwc.chd.edu.cn/_upload/article/files/32/cb/586327c446978b0484b8feaa6ef0/7bf1b966-028b-48f6-930d-48e350c6c60d.pdf\", \"published_on\": \"2022\", \"scope\": \"本科生；2022年文件，当前有效状态尚待教务处复核\", \"index_policy\": \"dated_policy\", \"text\": \"# 长安大学本科生学籍管理规定（2022版）\\n\\n- 来源：https://jwc.chd.edu.cn/_upload/article/files/32/cb/586327c446978b0484b8feaa6ef0/7bf1b966-028b-48f6-930d-48e350c6c60d.pdf\\n- 官方发布/页面日期：2022\\n- HTTP Last-Modified：Thu, 15 Sep 2022 07:27:13 GMT\\n- 适用范围：本科生；2022年文件，当前有效状态尚待教务处复核\\n- 主题：教务\\n- 检索策略：dated_policy\\n- 抓取时间（UTC）：2026-10-06T09:18:21+00:00\\n- 原始文件：`raw/academic_status_2022.pdf`（SHA-256 `297d6d4486fedc32d6b108b1e75d1c84fae8b3bc3c41333b1dd5612308432f39`）\\n\\n## 原文文本快照\\n## PDF 第 1 页\\n\\n- 1 -\\n关于印发《长安大学本科生学籍管理规定\\n（2022 版）》的通知\\n校属各单位:\"}]}",
+      "tool_calls": []
+    },
+    {
+      "type": "ai",
+      "content": "根据《学生资助信息公开目录》（https://xxgk.chd.edu.cn/xxgkml/c6/xszz.htm），其中「本科生资助管理」条目标注的更新日期为 **2025-09-05**。\n\n同一目录中「研究生资助管理」也标注为 2025-09-05。该目录页说明其只列出明确的项目与日期，如需了解条目具体内容，建议点击对应链接查看。",
+      "tool_calls": []
+    }
+  ],
+  "tool_calls": [
+    {
+      "name": "search_campus_knowledge",
+      "arguments": "{\"query\": \"学校信息公开 学生资助目录 本科生资助管理 更新日期\"}"
+    }
+  ],
+  "tool_results": [
+    {
+      "name": "search_campus_knowledge",
+      "tool_call_id": "call_00_RbdiGXYJOFLazOi9QYyg3192",
+      "result": {
+        "outcome": "ok",
+        "backend": "chroma",
+        "results": [
+          {
+            "rank": 1,
+            "score": 0.811392,
+            "source_id": "aid_portal_2025",
+            "title": "学生资助信息公开目录",
+            "category": "奖助",
+            "url": "https://xxgk.chd.edu.cn/xxgkml/c6/xszz.htm",
+            "published_on": "目录页；包含2025年更新条目",
+            "scope": "学校资助政策入口；只回答目录中明确列出的项目与日期",
+            "index_policy": "official_index",
+            "text": "# 学生资助信息公开目录\n\n- 来源：https://xxgk.chd.edu.cn/xxgkml/c6/xszz.htm\n- 官方发布/页面日期：目录页；包含2025年更新条目\n- HTTP Last-Modified：Tue, 25 Aug 2026 02:53:59 GMT\n- 适用范围：学校资助政策入口；只回答目录中明确列出的项目与日期\n- 主题：奖助\n- 检索策略：official_index\n- 抓取时间（UTC）：2026-10-06T09:18:22+00:00\n- 原始文件：`raw/aid_portal_2025.html`（SHA-256 `2b1c78419a8a25531e8e2bbf86ef5a969948d774400b3e4df1438b12db47f2d7`）\n\n## 原文文本快照\n﻿\n首页\n信息公开制度\n中华人民共和国政府信息公开条例\n高等学校信息公开办法\n教育部关于公布《高等学校信息公开事项清单》的通知\n长安大学信息公开实施细则\n信息公开指南\n信息公开目录\n基本信息\n招生考试信息\n财务资产及收费信息\n人事师资信息\n教学质量信息\n学生管理服务信息\n学"
+          },
+          {
+            "rank": 2,
+            "score": 0.784828,
+            "source_id": "aid_portal_2025",
+            "title": "学生资助信息公开目录",
+            "category": "奖助",
+            "url": "https://xxgk.chd.edu.cn/xxgkml/c6/xszz.htm",
+            "published_on": "目录页；包含2025年更新条目",
+            "scope": "学校资助政策入口；只回答目录中明确列出的项目与日期",
+            "index_policy": "official_index",
+            "text": "学生申诉办法\n七、\n学风建设信息\n学风建设机构\n学术规范制度\n学术不端行为查处\n八、\n学位、学科信息\n学位授予要求\n同等学力人员学位授予\n九、\n对外交流与合作信息\n中外合作办学\n留学生管理\n十、\n其他\n巡视组反馈意见及整改\n应急处理预案\n当前位置：\n首页\n>\n信息公开目录\n>\n学生管理服务信息\n>\n学生资助\n学生资助\n研究生资助管理\n[2025-09-05]\n本科生资助管理\n[2025-09-05]\n长安大学学生资助服务协会2025-2026学年春季学期第一次全体例会顺利召开\n[2026-03-23]\n关于印发《长安大学学生勤工助学管理办法》的通知\n[2025-08-03]\n关于印发《长安大学学生出国（境）学习交流资助办法（修订）》的通知\n[2025-06-24]\n关于印发《长安大学服兵役学生国家教育资助实施办法》的通知\n[2022-03-25]\n关于印发《长安大学基层就业学费补偿国家助学贷款代偿实施办法（修订）》的通知\n[2022-03-25]\n关于印发《长安大学大学生应征入伍管理办法（修订）》的通知\n[2021-11-01]\n关于印发《长安大学本科生国家助学金评审办法（修订）》的"
+          },
+          {
+            "rank": 3,
+            "score": 0.703125,
+            "source_id": "campus_fire_safety_2012",
+            "title": "关于印发《长安大学消防安全管理规定》的通知",
+            "category": "宿舍",
+            "url": "https://xxgk.chd.edu.cn/info/1032/2271.htm",
+            "published_on": "2012-06-30",
+            "scope": "学校消防安全；历史规定，现行效力待保卫处核验",
+            "index_policy": "historical_policy",
+            "text": "于公布《高等学校信息公开事项清单》的通知\n长安大学信息公开实施细则\n信息公开指南\n信息公开目录\n基本信息\n招生考试信息\n财务资产及收费信息\n人事师资信息\n教学质量信息\n学生管理服务信息\n学风建设信息\n学位、学科信息\n对外交流与合作信息\n其他\n信息公开年报\n信息公开申请\n意见建议\n首页\n信息公开制度\n信息公开指南\n信息公开目录\n信息公开年报\n信息公开申请\n意见建议\nPrevious\nNext\n信息公开目录\n一、\n基本信息\n学校概况\n学校章程\n规章制度\n发展规划年度计划\n教职工代表大会\n学术委员会\n二、\n招生考试信息\n本科生招生章程\n本科生招生咨询\n研究生招生简章\n研究生招生咨询\n三、\n财务资产及收费信息\n财务资产管理制度\n招投标情况\n收支预算\n收支决算\n收费管理\n四、\n人事师资信息\n岗位设置管理与聘用办法\n干部任免与人员招聘\n教职工管理制度\n五、\n教学质量信息\n专业设置\n就业指导政策\n本科教学质量报告\n六、\n学生管理服务信息\n学籍管理\n学生资助\n学生奖励处罚\n学生申诉办法\n七、\n学风建设信息\n学风建设机构\n学术规范制度\n学术不端行为查处\n八、\n学位、学科信息\n学位授予要求\n同等学力人员学"
+          },
+          {
+            "rank": 4,
+            "score": 0.701543,
+            "source_id": "aid_portal_2025",
+            "title": "学生资助信息公开目录",
+            "category": "奖助",
+            "url": "https://xxgk.chd.edu.cn/xxgkml/c6/xszz.htm",
+            "published_on": "目录页；包含2025年更新条目",
+            "scope": "学校资助政策入口；只回答目录中明确列出的项目与日期",
+            "index_policy": "official_index",
+            "text": "清单》的通知\n长安大学信息公开实施细则\n信息公开指南\n信息公开目录\n基本信息\n招生考试信息\n财务资产及收费信息\n人事师资信息\n教学质量信息\n学生管理服务信息\n学风建设信息\n学位、学科信息\n对外交流与合作信息\n其他\n信息公开年报\n信息公开申请\n意见建议\n首页\n信息公开制度\n信息公开指南\n信息公开目录\n信息公开年报\n信息公开申请\n意见建议\nPrevious\nNext\n信息公开目录\n一、\n基本信息\n学校概况\n学校章程\n规章制度\n发展规划年度计划\n教职工代表大会\n学术委员会\n二、\n招生考试信息\n本科生招生章程\n本科生招生咨询\n研究生招生简章\n研究生招生咨询\n三、\n财务资产及收费信息\n财务资产管理制度\n招投标情况\n收支预算\n收支决算\n收费管理\n四、\n人事师资信息\n岗位设置管理与聘用办法\n干部任免与人员招聘\n教职工管理制度\n五、\n教学质量信息\n专业设置\n就业指导政策\n本科教学质量报告\n六、\n学生管理服务信息\n学籍管理\n学生资助\n学生奖励处罚\n学生申诉办法\n七、\n学风建设信息\n学风建设机构\n学术规范制度\n学术不端行为查处\n八、\n学位、学科信息\n学位授予要求\n同等学力人员学位授予\n九、\n对外交流与合作"
+          },
+          {
+            "rank": 5,
+            "score": 0.680851,
+            "source_id": "academic_status_2022",
+            "title": "长安大学本科生学籍管理规定（2022版）",
+            "category": "教务",
+            "url": "https://jwc.chd.edu.cn/_upload/article/files/32/cb/586327c446978b0484b8feaa6ef0/7bf1b966-028b-48f6-930d-48e350c6c60d.pdf",
+            "published_on": "2022",
+            "scope": "本科生；2022年文件，当前有效状态尚待教务处复核",
+            "index_policy": "dated_policy",
+            "text": "# 长安大学本科生学籍管理规定（2022版）\n\n- 来源：https://jwc.chd.edu.cn/_upload/article/files/32/cb/586327c446978b0484b8feaa6ef0/7bf1b966-028b-48f6-930d-48e350c6c60d.pdf\n- 官方发布/页面日期：2022\n- HTTP Last-Modified：Thu, 15 Sep 2022 07:27:13 GMT\n- 适用范围：本科生；2022年文件，当前有效状态尚待教务处复核\n- 主题：教务\n- 检索策略：dated_policy\n- 抓取时间（UTC）：2026-10-06T09:18:21+00:00\n- 原始文件：`raw/academic_status_2022.pdf`（SHA-256 `297d6d4486fedc32d6b108b1e75d1c84fae8b3bc3c41333b1dd5612308432f39`）\n\n## 原文文本快照\n## PDF 第 1 页\n\n- 1 -\n关于印发《长安大学本科生学籍管理规定\n（2022 版）》的通知\n校属各单位:"
+          }
+        ]
+      }
+    }
+  ],
+  "model_usage": [
+    {
+      "run_id": "engineering-case-20261006-195213-e97622e1",
+      "case_id": "K05",
+      "turn_number": 1,
+      "implementation": "engineering",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "invocation": 1,
+      "request_status": "succeeded",
+      "request_attempted": true,
+      "usage_available": true,
+      "usage": {
+        "input_tokens": 726,
+        "output_tokens": 57,
+        "total_tokens": 783
+      },
+      "estimated_cost_usd": 0.0002862,
+      "cost_basis": "DeepSeek peak rate; cache miss assumed for all input tokens",
+      "pricing_source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/"
+    },
+    {
+      "run_id": "engineering-case-20261006-195213-e97622e1",
+      "case_id": "K05",
+      "turn_number": 1,
+      "implementation": "engineering",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "invocation": 2,
+      "request_status": "succeeded",
+      "request_attempted": true,
+      "usage_available": true,
+      "usage": {
+        "input_tokens": 2829,
+        "output_tokens": 91,
+        "total_tokens": 2920
+      },
+      "estimated_cost_usd": 0.0009579,
+      "cost_basis": "DeepSeek peak rate; cache miss assumed for all input tokens",
+      "pricing_source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/"
+    }
+  ],
+  "status_tool_verified": false,
+  "ticket_tool_verified": false,
+  "status": "completed"
+}

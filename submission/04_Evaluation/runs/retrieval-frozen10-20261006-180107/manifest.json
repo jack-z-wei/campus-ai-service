@@ -1,0 +1,39 @@
+{
+  "run_id": "retrieval-frozen10-20261006-180107",
+  "started_at": "2026-10-06T18:01:07+08:00",
+  "finished_at": "2026-10-06T18:01:10+08:00",
+  "platform": "win32",
+  "course_answer_evaluation": false,
+  "paid_api_request_performed": false,
+  "source_manifest_sha256": "05e297bcf2fc85151e7741c9a1fa33a995d3e3b122a49630f6318c7c499c0b4c",
+  "frozen_cases_sha256": "9407a364794143c553b34ffd933ea25d4ee71a7f6e643f9dd4d0d85e55d26d44",
+  "index_id": "campus-fixed500-bge-m3-v1",
+  "query_count": 10,
+  "completed_query_count": 10,
+  "elapsed_seconds": 2.687,
+  "source_rank_definition": "Deduplicate ranked chunks by source_id; relevant source IDs come from the frozen gold set.",
+  "variants": {
+    "raw_numpy": {
+      "recall_at_1": 0.9,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.933333
+    },
+    "policy_filtered_numpy": {
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 1.0
+    },
+    "policy_filtered_chroma": {
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 1.0
+    }
+  },
+  "failed_queries": [],
+  "answer_quality_or_abstention_measured": false,
+  "per_case_file": "per_case.jsonl",
+  "progress_file": "progress.jsonl"
+}

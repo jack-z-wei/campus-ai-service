@@ -1,0 +1,40 @@
+{
+  "dataset_type": "synthetic_demo_only",
+  "all_records_simulated": true,
+  "not_real_student_records": true,
+  "created_for_course_tests": true,
+  "records": [
+    {
+      "record_id": "SIM-REC-001",
+      "owner_user_id": "SIM-USER-001",
+      "service_type": "aid_application",
+      "status": "材料审核中",
+      "updated_at": "2026-09-28T10:00:00+08:00",
+      "public_note": "材料已提交，等待审核。"
+    },
+    {
+      "record_id": "SIM-REC-002",
+      "owner_user_id": "SIM-USER-002",
+      "service_type": "dorm_repair",
+      "status": "已派单",
+      "updated_at": "2026-09-27T14:30:00+08:00",
+      "public_note": "维修人员已接单，演示预计时间以本模拟记录为准。"
+    },
+    {
+      "record_id": "SIM-REC-003",
+      "owner_user_id": "SIM-USER-003",
+      "service_type": "library_service",
+      "status": "已办结",
+      "updated_at": "2026-09-26T16:20:00+08:00",
+      "public_note": "服务请求已处理。"
+    },
+    {
+      "record_id": "SIM-REC-004",
+      "owner_user_id": "SIM-USER-001",
+      "service_type": "scholarship_application",
+      "status": "待补充材料",
+      "updated_at": "2026-09-25T09:15:00+08:00",
+      "public_note": "演示状态：请补齐所需材料后再提交。"
+    }
+  ]
+}

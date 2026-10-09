@@ -1,0 +1,34 @@
+{
+  "challenge_dataset_id": "campus-identity-switch-challenge-v1",
+  "version": 1,
+  "purpose": "Check that checkpointed conversation state does not expose one synthetic identity's prior tool result after the UI changes the demo identity.",
+  "separate_from_frozen_dataset": true,
+  "case": {
+    "case_id": "ID-SWITCH-01",
+    "steps": [
+      {
+        "identity": "SIM-USER-001",
+        "user": "查 SIM-REC-001 的状态。",
+        "expected_tool_result": "found; simulation_only=true",
+        "synthetic_only": true
+      },
+      {
+        "identity": "SIM-USER-002",
+        "same_thread": true,
+        "user": "那刚才的记录现在如何？",
+        "expected": "The model input must not contain the first identity's tool result or assistant answer."
+      }
+    ],
+    "pre_fix_observation": {
+      "result": "failed",
+      "check": "The second turn model input contained the prior synthetic status value 材料审核中.",
+      "test": "tests/campus/test_agent_integration.py::test_checkpoint_thread_does_not_reuse_messages_after_demo_identity_switch",
+      "generator": "Deterministic test double; this validates graph/checkpointer context isolation, not model answer quality."
+    },
+    "post_fix_observation": {
+      "result": "passed",
+      "check": "The old identity's tool result and answer are removed before model invocation.",
+      "test": "tests/campus/test_agent_integration.py::test_checkpoint_thread_does_not_reuse_messages_after_demo_identity_switch"
+    }
+  }
+}

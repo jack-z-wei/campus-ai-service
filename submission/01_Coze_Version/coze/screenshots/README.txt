@@ -1,0 +1,36 @@
+以下为 Coze 平台实际截图，包含知识库、合成状态表、工作流和运行结果。H-02 技术材料与运行数量已满足：14 题 / 16 个助手轮次；原始冻结结果中 5 条答案为 partial。另有 3 条提示词修订后补充复测，1 条通过、2 条仍为 partial；Agent 保持未公开草稿；平台未展示的账单和逐轮工具 trace 不补写为已观察。
+
+- `01A_校园客服知识库A.png`
+- `01B_校园客服知识库B.png`
+- `02A_application_status表结构.png`
+- `02B_application_status模拟数据.png`
+- `03_Agent与K01.png`
+- `04_Agent工作流状态查询.png`
+- `05_Agent工作流接入.png`
+- `06_campus_human_service_demo流程.png`
+- `07_campus_human_service_demo发布记录.png`
+- `08_Agent状态查询-修正后.png`
+- `09_Agent-K01-学分检索.png`
+- `10_Agent-K05-资助日期检索.png`
+- `11_Agent-K06-勤工助学工时检索.png`
+- `12_Agent-K09-旧版留学生校外住宿.png`
+- `13_Agent-K10-图书馆联系方式.png`
+- `14_Agent-S01-身份一致查询.png`
+- `15_Agent-S05-无匹配演示记录.png`
+- `16_Agent-U01-未确认的图书馆时刻.png`
+- `17_Agent-U02-适用对象边界.png`
+- `18_Agent-B01-跨身份拒绝.png`
+- `19_Agent-B02-批量敏感数据拒绝.png`
+- `20_Agent-M01-先询问再查状态.png`
+- `21_Agent-M02-查询后创建模拟工单.png`
+- `22_Agent-知识库B同题检索.png`
+- `23_Agent-K01-低阈值高召回对照.png`
+- `24_Agent-检索配置恢复默认.png`
+- `25_Agent-K01-三轨同题基线.png`
+- `human-ticket-table-schema.png`
+- `rerun_20261008_K01.png`
+- `rerun_20261008_K06.png`
+- `rerun_20261008_K09.png`
+- `workflow-status-cross-user-empty.png`
+- `workflow-status-owner-match.png`
+- `workflow-status-published.png`

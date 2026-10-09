@@ -1,0 +1,6 @@
+{
+  "run_id": "ui-showcase-20261008-excluded-unverified-mode",
+  "date": "2026-10-08",
+  "status": "excluded_from_submission",
+  "reason": "The project .env had USE_FAKE_MODEL=true after capture, while the existing Windows service's effective process environment could not be independently verified. These draft screenshots and observations are retained for traceability but are not evidence of real-model behavior and are not included in the report or submission package."
+}

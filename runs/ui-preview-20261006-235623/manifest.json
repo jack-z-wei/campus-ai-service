@@ -1,0 +1,28 @@
+{
+  "task_id": "TASK-021",
+  "created_at": "2026-10-06T23:56:23+08:00",
+  "status": "completed_automatic_changes_manual_human_checks_pending",
+  "application_url": "http://127.0.0.1:8501",
+  "api_health_http_status": 200,
+  "streamlit_health_http_status": 200,
+  "windows_test_command": ".venv\\Scripts\\python.exe -m pytest -q tests\\app\\test_streamlit_app.py tests\\campus",
+  "windows_test_result": "59 passed, 0 failed",
+  "ruff": "passed",
+  "py_compile": "passed",
+  "project_lock_root": "campus-ai-service",
+  "ai_assisted_ratings": {
+    "rows": 10,
+    "v1_total": "30/30",
+    "v2_total": "30/30",
+    "human_rating_completed": false
+  },
+  "paid_api_request_performed": false,
+  "screenshot": {
+    "path": "reports/campus_ui_home.png",
+    "width": 1721,
+    "height": 845,
+    "sha256": "36c0d94e2a1a1dd28265f1ea886174acbcc55b78369d9a8ab2847e3e44b29551",
+    "capture": "Windows Chrome application window; browser chrome cropped; application pixels unaltered"
+  },
+  "upstream_license_and_source_disclosure_retained": true
+}

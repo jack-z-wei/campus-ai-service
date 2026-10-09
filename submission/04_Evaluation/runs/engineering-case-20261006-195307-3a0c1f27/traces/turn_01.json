@@ -1,0 +1,168 @@
+{
+  "run_id": "engineering-case-20261006-195307-3a0c1f27",
+  "case_id": "K08",
+  "turn_number": 1,
+  "question": "2026年暑期留校学生可以让同学在宿舍过夜吗？",
+  "answer": "根据《关于做好2026年暑期学生工作的通知》（发布日期：2026-07-03，仅适用于2026年暑假安排），其中明确规定：\n\n**暑期留校学生要服从学校、院（系）相关安排，严禁留宿他人。**\n\n因此，2026年暑期留校学生**不可以**让同学在宿舍过夜。\n\n来源：关于做好2026年暑期学生工作的通知\nhttps://webplus.chd.edu.cn/_s86/2026/0908/c4706a262541/page.psp\n\n补充说明：该规定为2026年暑期专项通知，适用范围仅限2026年暑假；其他时间段的规定请以对应时期的官方通知为准。",
+  "elapsed_seconds": 4.719,
+  "memory": {
+    "prior_stored_message_count": 0,
+    "model_context_turn_count": 0,
+    "max_model_context_turns": 4,
+    "thread_id": "engineering-case-20261006-195307-3a0c1f27"
+  },
+  "new_messages": [
+    {
+      "type": "human",
+      "content": "2026年暑期留校学生可以让同学在宿舍过夜吗？",
+      "tool_calls": []
+    },
+    {
+      "type": "ai",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "search_campus_knowledge",
+          "args": {
+            "query": "2026年暑期留校学生 宿舍 过夜 留宿 同学"
+          },
+          "id": "call_00_KgUl8RdUGDuJ6r3DF1n01181",
+          "type": "tool_call"
+        }
+      ]
+    },
+    {
+      "type": "tool",
+      "content": "{\"outcome\": \"ok\", \"backend\": \"chroma\", \"results\": [{\"rank\": 1, \"score\": 0.633595, \"source_id\": \"student_summer_notice_2026\", \"title\": \"关于做好2026年暑期学生工作的通知\", \"category\": \"宿舍\", \"url\": \"https://webplus.chd.edu.cn/_s86/2026/0908/c4706a262541/page.psp\", \"published_on\": \"2026-07-03\", \"scope\": \"仅适用于2026年暑假安排；宿舍安全、留校和离返校规定以原文为准\", \"index_policy\": \"time_limited_notice\", \"text\": \"# 关于做好2026年暑期学生工作的通知\\n\\n- 来源：https://webplus.chd.edu.cn/_s86/2026/0908/c4706a262541/page.psp\\n- 官方发布/页面日期：2026-07-03\\n- HTTP Last-Modified：未提供\\n- 适用范围：仅适用于2026年暑假安排；宿舍安全、留校和离返校规定以原文为准\\n- 主题：宿舍\\n- 检索策略：time_limited_notice\\n- 抓取时间（UTC）：2026-10-06T09:18:24+00:00\\n- 原始文件：`raw/student_summer_notice_2026.html`（SHA-256 `00da7d06cb47ccc22342b8782f63df22471b7d2b512c2ffb9c477506d0cc035c`）\\n\\n## 原文文本快照\\n﻿\\n学校官网 / 信息门户 / English\\n网站首页\\n机构概况\\n部门简介\\n领导班子\\n机构职能\\n部门分工\\n思政教育\\n思政品牌\\n网络思政\\n学风建设\\n民族学生工作\\n管理服务\\n日常教育管理\\n资助育人\\n心理育人\\n国防教育\\n队伍建设\\n“一站\"}, {\"rank\": 2, \"score\": 0.613127, \"source_id\": \"student_summer_notice_2026\", \"title\": \"关于做好2026年暑期学生工作的通知\", \"category\": \"宿舍\", \"url\": \"https://webplus.chd.edu.cn/_s86/2026/0908/c4706a262541/page.psp\", \"published_on\": \"2026-07-03\", \"scope\": \"仅适用于2026年暑假安排；宿舍安全、留校和离返校规定以原文为准\", \"index_policy\": \"time_limited_notice\", \"text\": \"单独居住。\\n2.院（系）领导和辅导员要深入社区、深入宿舍、深入学生，加强巡查走访，关心留校学生的学习和生活，关注他们的思想动态及心理状况，做到底数清、状况明。\\n3.暑期留校学生要服从学校、院（系）相关安排，严禁留宿他人，严禁在学生宿舍内从事任何商业活动及其他违法违规违纪活动；暑期校园各类施工项目陆续开展，学生出入时应尽量避开施工现场，避免意外发生。\\n（三）确保学生服务保障工作不断线\\n1.心理健康教育与咨询中心暑期正常开展相关工作。北校区工作地点位于图书馆西侧附属楼二层，心理咨询预约电话为：029-83135163，61105103；南校区工作地点位于东院雁博园四楼南侧，心理咨询预约电话为：029-82334145。\\n2.学生资助中心（学生事务中心）开通暑期学生资助热线：029-61105098，为学生提供资助政策咨询与服务，并提供本科生补办学生证咨询、本科生各类证明材料打印等事务服务。\\n3.学生社区管理中心所有公寓和示范性园区面向学生正常开放。\\n（四）做好暑期学生应征入伍服务保障工作\\n各学院（系）要紧抓秋季应征入伍窗口期，聚焦年度征兵任务抓好落实。严格落实《关于开展2026年秋季征兵报\"}, {\"rank\": 3, \"score\": 0.598146, \"source_id\": \"student_fall_notice_2026\", \"title\": \"关于做好2026年秋季学期开学本科生教育管理工作的通知\", \"category\": \"宿舍\", \"url\": \"https://xgb.chd.edu.cn/2026/0908/c4706a262542/page.htm\", \"published_on\": \"2026-08-28\", \"scope\": \"仅适用于2026年秋季开学工作；本科生教育管理和宿舍走访\", \"index_policy\": \"time_limited_notice\", \"text\": \"、各院（系）要高度重视值班值守工作，按照《长安大学学工系统值班管理规定》有关要求，严格落实学工系统24小时值班制度。要严格遵守值班纪律，并按时在“我在长大”智慧学工系统上签到打卡。要坚守岗位、尽职尽责，加强校园和宿舍安全巡查，深入学生、深入宿舍，认真排查安全风险隐患，按照相关工作要求和程序及时妥善处置突发事件。\\n附件：2026年暑期本科生思想动态调研报告（模版）.docx\\n学生工作部（学生处）\\n2026年8月28日\\nCopyright © 2019 长安大学学生工作部 All Rights Reserved. 陕ICP备ICP05001168号\\n邮箱 : dwxgb@chd.edu.cn 邮编 : 710064 地址 : 西安市南二环中段 技术支持：泽瑞通信\"}, {\"rank\": 4, \"score\": 0.592358, \"source_id\": \"international_off_campus_housing_2017\", \"title\": \"长安大学来华留学生校外住宿管理办法\", \"category\": \"宿舍\", \"url\": \"https://webplus.chd.edu.cn/_s21/2017/1026/c2596a37145/page.psp\", \"published_on\": \"2017-10-26\", \"scope\": \"仅限来华国际学生；不得外推到中国籍本科生或研究生\", \"index_policy\": \"narrow_scope_historical\", \"text\": \"# 长安大学来华留学生校外住宿管理办法\\n\\n- 来源：https://webplus.chd.edu.cn/_s21/2017/1026/c2596a37145/page.psp\\n- 官方发布/页面日期：2017-10-26\\n- HTTP Last-Modified：未提供\\n- 适用范围：仅限来华国际学生；不得外推到中国籍本科生或研究生\\n- 主题：宿舍\\n- 检索策略：narrow_scope_historical\\n- 抓取时间（UTC）：2026-10-06T09:18:26+00:00\\n- 原始文件：`raw/international_off_campus_housing_2017.html`（SHA-256 `2f614e7e91aeb91101723c5785a3ddab9a3f6329ea2c6e4a828a69da31b9f4e5`）\\n\\n## 原文文本快照\\n国际学生申请平台\\n官方微信\\n长安大学\\n数字图书馆\\n校图书馆\\nEnglish\\n首页\\n学院概况\\n学院简介\\n学院领导\\n组织架构\\n国际教育学院、国际学生工作处、中国-中亚五...\\n\\\"一带一路” 工程教育中心\\n中非交通大学筹建办公室\"}, {\"rank\": 5, \"score\": 0.587154, \"source_id\": \"student_summer_notice_2026\", \"title\": \"关于做好2026年暑期学生工作的通知\", \"category\": \"宿舍\", \"url\": \"https://webplus.chd.edu.cn/_s86/2026/0908/c4706a262541/page.psp\", \"published_on\": \"2026-07-03\", \"scope\": \"仅适用于2026年暑假安排；宿舍安全、留校和离返校规定以原文为准\", \"index_policy\": \"time_limited_notice\", \"text\": \"班值守有关要求\\n各院（系）要严格落实《长安大学学工系统值班管理规定》，根据学生留校情况合理做好本单位值班安排，及时向学生公开值班地点、值班人员及联系方式。值班人员要按照安排在相应校区内上岗，并在“我在长大”智慧学工系统签到。值班当晚，值班人员〔包括机关值班干部、各院（系）主管学生工作的领导，非长住辅导员〕均须入住学生宿舍，请入住前到相关宿舍楼值班室登记并领取钥匙。值班期间要坚守岗位，保持电话24小时畅通，杜绝联络不畅、无关人员顶岗值班等现象；要加强校园和宿舍安全巡查，深入学生、深入宿舍，认真排查安全风险隐患，及时掌握学生动态并回应解决学生合理需求，发现异常情况要第一时间妥善处置并及时上报学校有关部门。值班结束后，要做好工作交接，完整移交未办结事项、风险预警信息等，确保值班工作连续闭环、责任无缝衔接。\\n各院（系）于7月13日中午12点前将暑期值班表电子版发送至学工部邮箱dwxgb@chd.edu.cn和研工部邮箱xgbygb@chd.edu.cn。\\n附件1：暑期学生安全教育课件.pdf\\n学生工作部（学生处）\\n研究生工作部\\n2026年7月3日\\nCopyright © 2019 长安大学学生\"}]}",
+      "tool_calls": []
+    },
+    {
+      "type": "ai",
+      "content": "根据《关于做好2026年暑期学生工作的通知》（发布日期：2026-07-03，仅适用于2026年暑假安排），其中明确规定：\n\n**暑期留校学生要服从学校、院（系）相关安排，严禁留宿他人。**\n\n因此，2026年暑期留校学生**不可以**让同学在宿舍过夜。\n\n来源：关于做好2026年暑期学生工作的通知\nhttps://webplus.chd.edu.cn/_s86/2026/0908/c4706a262541/page.psp\n\n补充说明：该规定为2026年暑期专项通知，适用范围仅限2026年暑假；其他时间段的规定请以对应时期的官方通知为准。",
+      "tool_calls": []
+    }
+  ],
+  "tool_calls": [
+    {
+      "name": "search_campus_knowledge",
+      "arguments": "{\"query\": \"2026年暑期留校学生 宿舍 过夜 留宿 同学\"}"
+    }
+  ],
+  "tool_results": [
+    {
+      "name": "search_campus_knowledge",
+      "tool_call_id": "call_00_KgUl8RdUGDuJ6r3DF1n01181",
+      "result": {
+        "outcome": "ok",
+        "backend": "chroma",
+        "results": [
+          {
+            "rank": 1,
+            "score": 0.633595,
+            "source_id": "student_summer_notice_2026",
+            "title": "关于做好2026年暑期学生工作的通知",
+            "category": "宿舍",
+            "url": "https://webplus.chd.edu.cn/_s86/2026/0908/c4706a262541/page.psp",
+            "published_on": "2026-07-03",
+            "scope": "仅适用于2026年暑假安排；宿舍安全、留校和离返校规定以原文为准",
+            "index_policy": "time_limited_notice",
+            "text": "# 关于做好2026年暑期学生工作的通知\n\n- 来源：https://webplus.chd.edu.cn/_s86/2026/0908/c4706a262541/page.psp\n- 官方发布/页面日期：2026-07-03\n- HTTP Last-Modified：未提供\n- 适用范围：仅适用于2026年暑假安排；宿舍安全、留校和离返校规定以原文为准\n- 主题：宿舍\n- 检索策略：time_limited_notice\n- 抓取时间（UTC）：2026-10-06T09:18:24+00:00\n- 原始文件：`raw/student_summer_notice_2026.html`（SHA-256 `00da7d06cb47ccc22342b8782f63df22471b7d2b512c2ffb9c477506d0cc035c`）\n\n## 原文文本快照\n﻿\n学校官网 / 信息门户 / English\n网站首页\n机构概况\n部门简介\n领导班子\n机构职能\n部门分工\n思政教育\n思政品牌\n网络思政\n学风建设\n民族学生工作\n管理服务\n日常教育管理\n资助育人\n心理育人\n国防教育\n队伍建设\n“一站"
+          },
+          {
+            "rank": 2,
+            "score": 0.613127,
+            "source_id": "student_summer_notice_2026",
+            "title": "关于做好2026年暑期学生工作的通知",
+            "category": "宿舍",
+            "url": "https://webplus.chd.edu.cn/_s86/2026/0908/c4706a262541/page.psp",
+            "published_on": "2026-07-03",
+            "scope": "仅适用于2026年暑假安排；宿舍安全、留校和离返校规定以原文为准",
+            "index_policy": "time_limited_notice",
+            "text": "单独居住。\n2.院（系）领导和辅导员要深入社区、深入宿舍、深入学生，加强巡查走访，关心留校学生的学习和生活，关注他们的思想动态及心理状况，做到底数清、状况明。\n3.暑期留校学生要服从学校、院（系）相关安排，严禁留宿他人，严禁在学生宿舍内从事任何商业活动及其他违法违规违纪活动；暑期校园各类施工项目陆续开展，学生出入时应尽量避开施工现场，避免意外发生。\n（三）确保学生服务保障工作不断线\n1.心理健康教育与咨询中心暑期正常开展相关工作。北校区工作地点位于图书馆西侧附属楼二层，心理咨询预约电话为：029-83135163，61105103；南校区工作地点位于东院雁博园四楼南侧，心理咨询预约电话为：029-82334145。\n2.学生资助中心（学生事务中心）开通暑期学生资助热线：029-61105098，为学生提供资助政策咨询与服务，并提供本科生补办学生证咨询、本科生各类证明材料打印等事务服务。\n3.学生社区管理中心所有公寓和示范性园区面向学生正常开放。\n（四）做好暑期学生应征入伍服务保障工作\n各学院（系）要紧抓秋季应征入伍窗口期，聚焦年度征兵任务抓好落实。严格落实《关于开展2026年秋季征兵报"
+          },
+          {
+            "rank": 3,
+            "score": 0.598146,
+            "source_id": "student_fall_notice_2026",
+            "title": "关于做好2026年秋季学期开学本科生教育管理工作的通知",
+            "category": "宿舍",
+            "url": "https://xgb.chd.edu.cn/2026/0908/c4706a262542/page.htm",
+            "published_on": "2026-08-28",
+            "scope": "仅适用于2026年秋季开学工作；本科生教育管理和宿舍走访",
+            "index_policy": "time_limited_notice",
+            "text": "、各院（系）要高度重视值班值守工作，按照《长安大学学工系统值班管理规定》有关要求，严格落实学工系统24小时值班制度。要严格遵守值班纪律，并按时在“我在长大”智慧学工系统上签到打卡。要坚守岗位、尽职尽责，加强校园和宿舍安全巡查，深入学生、深入宿舍，认真排查安全风险隐患，按照相关工作要求和程序及时妥善处置突发事件。\n附件：2026年暑期本科生思想动态调研报告（模版）.docx\n学生工作部（学生处）\n2026年8月28日\nCopyright © 2019 长安大学学生工作部 All Rights Reserved. 陕ICP备ICP05001168号\n邮箱 : dwxgb@chd.edu.cn 邮编 : 710064 地址 : 西安市南二环中段 技术支持：泽瑞通信"
+          },
+          {
+            "rank": 4,
+            "score": 0.592358,
+            "source_id": "international_off_campus_housing_2017",
+            "title": "长安大学来华留学生校外住宿管理办法",
+            "category": "宿舍",
+            "url": "https://webplus.chd.edu.cn/_s21/2017/1026/c2596a37145/page.psp",
+            "published_on": "2017-10-26",
+            "scope": "仅限来华国际学生；不得外推到中国籍本科生或研究生",
+            "index_policy": "narrow_scope_historical",
+            "text": "# 长安大学来华留学生校外住宿管理办法\n\n- 来源：https://webplus.chd.edu.cn/_s21/2017/1026/c2596a37145/page.psp\n- 官方发布/页面日期：2017-10-26\n- HTTP Last-Modified：未提供\n- 适用范围：仅限来华国际学生；不得外推到中国籍本科生或研究生\n- 主题：宿舍\n- 检索策略：narrow_scope_historical\n- 抓取时间（UTC）：2026-10-06T09:18:26+00:00\n- 原始文件：`raw/international_off_campus_housing_2017.html`（SHA-256 `2f614e7e91aeb91101723c5785a3ddab9a3f6329ea2c6e4a828a69da31b9f4e5`）\n\n## 原文文本快照\n国际学生申请平台\n官方微信\n长安大学\n数字图书馆\n校图书馆\nEnglish\n首页\n学院概况\n学院简介\n学院领导\n组织架构\n国际教育学院、国际学生工作处、中国-中亚五...\n\"一带一路” 工程教育中心\n中非交通大学筹建办公室"
+          },
+          {
+            "rank": 5,
+            "score": 0.587154,
+            "source_id": "student_summer_notice_2026",
+            "title": "关于做好2026年暑期学生工作的通知",
+            "category": "宿舍",
+            "url": "https://webplus.chd.edu.cn/_s86/2026/0908/c4706a262541/page.psp",
+            "published_on": "2026-07-03",
+            "scope": "仅适用于2026年暑假安排；宿舍安全、留校和离返校规定以原文为准",
+            "index_policy": "time_limited_notice",
+            "text": "班值守有关要求\n各院（系）要严格落实《长安大学学工系统值班管理规定》，根据学生留校情况合理做好本单位值班安排，及时向学生公开值班地点、值班人员及联系方式。值班人员要按照安排在相应校区内上岗，并在“我在长大”智慧学工系统签到。值班当晚，值班人员〔包括机关值班干部、各院（系）主管学生工作的领导，非长住辅导员〕均须入住学生宿舍，请入住前到相关宿舍楼值班室登记并领取钥匙。值班期间要坚守岗位，保持电话24小时畅通，杜绝联络不畅、无关人员顶岗值班等现象；要加强校园和宿舍安全巡查，深入学生、深入宿舍，认真排查安全风险隐患，及时掌握学生动态并回应解决学生合理需求，发现异常情况要第一时间妥善处置并及时上报学校有关部门。值班结束后，要做好工作交接，完整移交未办结事项、风险预警信息等，确保值班工作连续闭环、责任无缝衔接。\n各院（系）于7月13日中午12点前将暑期值班表电子版发送至学工部邮箱dwxgb@chd.edu.cn和研工部邮箱xgbygb@chd.edu.cn。\n附件1：暑期学生安全教育课件.pdf\n学生工作部（学生处）\n研究生工作部\n2026年7月3日\nCopyright © 2019 长安大学学生"
+          }
+        ]
+      }
+    }
+  ],
+  "model_usage": [
+    {
+      "run_id": "engineering-case-20261006-195307-3a0c1f27",
+      "case_id": "K08",
+      "turn_number": 1,
+      "implementation": "engineering",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "invocation": 1,
+      "request_status": "succeeded",
+      "request_attempted": true,
+      "usage_available": true,
+      "usage": {
+        "input_tokens": 727,
+        "output_tokens": 57,
+        "total_tokens": 784
+      },
+      "estimated_cost_usd": 0.0002865,
+      "cost_basis": "DeepSeek peak rate; cache miss assumed for all input tokens",
+      "pricing_source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/"
+    },
+    {
+      "run_id": "engineering-case-20261006-195307-3a0c1f27",
+      "case_id": "K08",
+      "turn_number": 1,
+      "implementation": "engineering",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "invocation": 2,
+      "request_status": "succeeded",
+      "request_attempted": true,
+      "usage_available": true,
+      "usage": {
+        "input_tokens": 2791,
+        "output_tokens": 142,
+        "total_tokens": 2933
+      },
+      "estimated_cost_usd": 0.0010077,
+      "cost_basis": "DeepSeek peak rate; cache miss assumed for all input tokens",
+      "pricing_source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/"
+    }
+  ],
+  "status_tool_verified": false,
+  "ticket_tool_verified": false,
+  "status": "completed"
+}

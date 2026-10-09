@@ -1,0 +1,111 @@
+{
+  "run_id": "engineering-case-20261008-080613-78e8cf0d",
+  "case_id": "S01",
+  "turn_number": 1,
+  "question": "请查一下SIM-REC-001的进度。",
+  "answer": "已查到该模拟记录（**模拟数据，不对应真实学生**）：\n\n- **记录编号**：SIM-REC-001\n- **服务类型**：助学金申请（aid_application）\n- **当前状态**：材料审核中\n- **更新时间**：2026-09-28 10:00\n- **备注**：材料已提交，等待审核。\n\n如需进一步了解审核环节或提交补充材料，可告诉我，我可以帮你创建一条本地演示工单（不会真正联系工作人员）。",
+  "elapsed_seconds": 3.344,
+  "memory": {
+    "prior_stored_message_count": 0,
+    "model_context_turn_count": 0,
+    "max_model_context_turns": 4,
+    "thread_id": "engineering-case-20261008-080613-78e8cf0d"
+  },
+  "new_messages": [
+    {
+      "type": "human",
+      "content": "请查一下SIM-REC-001的进度。",
+      "tool_calls": []
+    },
+    {
+      "type": "ai",
+      "content": "I'll look up that record for you.",
+      "tool_calls": [
+        {
+          "name": "query_application_status",
+          "args": {
+            "record_id": "SIM-REC-001"
+          },
+          "id": "call_00_XL2BWeJOpuC5PzAmHZj16216",
+          "type": "tool_call"
+        }
+      ]
+    },
+    {
+      "type": "tool",
+      "content": "{\"outcome\": \"found\", \"record_id\": \"SIM-REC-001\", \"service_type\": \"aid_application\", \"status\": \"材料审核中\", \"updated_at\": \"2026-09-28T10:00:00+08:00\", \"public_note\": \"材料已提交，等待审核。\", \"simulation_only\": true}",
+      "tool_calls": []
+    },
+    {
+      "type": "ai",
+      "content": "已查到该模拟记录（**模拟数据，不对应真实学生**）：\n\n- **记录编号**：SIM-REC-001\n- **服务类型**：助学金申请（aid_application）\n- **当前状态**：材料审核中\n- **更新时间**：2026-09-28 10:00\n- **备注**：材料已提交，等待审核。\n\n如需进一步了解审核环节或提交补充材料，可告诉我，我可以帮你创建一条本地演示工单（不会真正联系工作人员）。",
+      "tool_calls": []
+    }
+  ],
+  "tool_calls": [
+    {
+      "name": "query_application_status",
+      "arguments": "{\"record_id\": \"SIM-REC-001\"}"
+    }
+  ],
+  "tool_results": [
+    {
+      "name": "query_application_status",
+      "tool_call_id": "call_00_XL2BWeJOpuC5PzAmHZj16216",
+      "result": {
+        "outcome": "found",
+        "record_id": "SIM-REC-001",
+        "service_type": "aid_application",
+        "status": "材料审核中",
+        "updated_at": "2026-09-28T10:00:00+08:00",
+        "public_note": "材料已提交，等待审核。",
+        "simulation_only": true
+      }
+    }
+  ],
+  "model_usage": [
+    {
+      "run_id": "engineering-case-20261008-080613-78e8cf0d",
+      "case_id": "S01",
+      "turn_number": 1,
+      "implementation": "engineering",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "invocation": 1,
+      "request_status": "succeeded",
+      "request_attempted": true,
+      "usage_available": true,
+      "usage": {
+        "input_tokens": 919,
+        "output_tokens": 52,
+        "total_tokens": 971
+      },
+      "estimated_cost_usd": 0.0003381,
+      "cost_basis": "DeepSeek peak rate; cache miss assumed for all input tokens",
+      "pricing_source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/"
+    },
+    {
+      "run_id": "engineering-case-20261008-080613-78e8cf0d",
+      "case_id": "S01",
+      "turn_number": 1,
+      "implementation": "engineering",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "invocation": 2,
+      "request_status": "succeeded",
+      "request_attempted": true,
+      "usage_available": true,
+      "usage": {
+        "input_tokens": 1060,
+        "output_tokens": 107,
+        "total_tokens": 1167
+      },
+      "estimated_cost_usd": 0.0004464,
+      "cost_basis": "DeepSeek peak rate; cache miss assumed for all input tokens",
+      "pricing_source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/"
+    }
+  ],
+  "status_tool_verified": true,
+  "ticket_tool_verified": false,
+  "status": "completed"
+}

@@ -1,0 +1,134 @@
+{
+  "question": "我的助学申请到哪一步了？",
+  "request_id": "principles-multiturn-20261006-195002-4f73e36b-turn-1",
+  "retrieval": {
+    "backend": "numpy",
+    "top_k": 5,
+    "latency_ms": 391.0,
+    "context_expansions": [
+      {
+        "source_id": "aid_national_grant_2021",
+        "anchor_chunk_id": "8d95eaeafbbbbb98710555b7",
+        "continuation_chunk_id": "6683c5a3bc460f848b27b51c",
+        "overlap_chars_removed": 80,
+        "continuation_chars_added": 419
+      }
+    ],
+    "evidence_context_sha256": "1a8446494f2a079571012c606020b7678827656d3072b22d2e94ca14b5b80442",
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "rank": 1,
+        "score": 0.645666,
+        "source_id": "aid_national_grant_2021",
+        "title": "长安大学本科生国家助学金评审办法（修订）",
+        "url": "https://xxgk.chd.edu.cn/__local/9/2A/68/D6E39D22EB17FD84D3176530A4E_ACF11E16_2CBC8.pdf",
+        "published_on": "2021-06-28",
+        "scope": "本科生；历史版本，不能据此断言当前金额或现行申请时间",
+        "index_policy": "historical_policy",
+        "text": "学生资助资金管理办法>的通知》（财科教[2019]19号），结合我\n校实际，制定本办法。\n第二条 国家助学金用于资助我校全日制本科（含预科）在\n校生中的家庭经济困难学生。国家助学金的资助名额由教育部下\n达，学校综合考虑各学院（系）的家庭经济困难学生人数等进行\n分配，并向国家规定的特殊学科专业适当倾斜（水利类、地矿类\n专业学生人数按120％核定）。\n第三条 学校本科生奖励与资助工作领导小组审议和决定\n有关国家助学金的重要事项和问题，制定评审办法，审批受助学\n生名单。学生资助中心负责组织本科生国家助学金（含预科）的\n评审工作。各学院（系）成立国家助学金评审小组，负责本单位\n国家助学金的申请和初评。\n第二章 资助标准与申请条件\n第四条 国家助学金主要资助家庭经济困难学生在校期间\n的生活费用开支，资助标准分为两档：家庭经济特别困难的学生\n每生每年3500元，一般困难的学生每生每年2500元。\n\n## PDF 第 3 页\n\n- 3 -\n第五条 国家助学金的基本申请条件：\n（一）具有中华人民共和国国籍；\n（二）热爱社会主义祖国，拥护中国共产党的领导；\n（三）遵守宪法和法律，遵守学校规章制度；\n（",
+        "context_expansion": null,
+        "expanded_from_chunk_id": null
+      },
+      {
+        "evidence_id": "E2",
+        "rank": null,
+        "score": null,
+        "source_id": "aid_national_grant_2021",
+        "title": "长安大学本科生国家助学金评审办法（修订）",
+        "url": "https://xxgk.chd.edu.cn/__local/9/2A/68/D6E39D22EB17FD84D3176530A4E_ACF11E16_2CBC8.pdf",
+        "published_on": "2021-06-28",
+        "scope": "本科生；历史版本，不能据此断言当前金额或现行申请时间",
+        "index_policy": "historical_policy",
+        "text": "四）诚实守信，道德品质优良；\n（五）勤奋学习，积极上进；\n（六）家庭经济困难，生活俭朴。\n第三章 助学金的申请与评审程序\n第六条 国家助学金按学年评审，每年 9-11 月集中进行申\n请和评审。国家助学金的评审工作坚持公开、公平、公正的原则。\n第七条 符合国家助学金申请条件的学生可向所在学院\n（系）提出申请，并填写《长安大学国家助学金申请表》，详细说\n明申请理由。\n在同一学年内，申请并获得国家助学金的学生，可同时申请\n并获得国家奖学金或国家励志奖学金。\n第八条 各学院（系）国家助学金评审小组结合家庭经济\n困难学生等级认定情况，负责组织对申请国家助学金的学生进行\n评审，提出获得国家助学金初选名单及及资助等级，公示无异议\n后，将材料汇总报学生工作部。\n第九条 学生工作部对各学院（系）初选学生进行审核，报\n学校本科生奖励与资助工作领导小组核定后，在全校范围内进行\n公示。无异议后，报教育部备案。\n\n## PDF 第 4 页\n\n- 4 -",
+        "context_expansion": "adjacent_continuation",
+        "expanded_from_chunk_id": "8d95eaeafbbbbb98710555b7"
+      },
+      {
+        "evidence_id": "E3",
+        "rank": 2,
+        "score": 0.635374,
+        "source_id": "aid_work_study_2025_listing_2016_text",
+        "title": "长安大学学生勤工助学管理办法",
+        "url": "https://xxgk.chd.edu.cn/images/17/10/27/2vpoyxiaxd/vloblolz.pdf",
+        "published_on": "信息公开目录标注2025-08-03；PDF正文落款2016-07-08，HTTP Last-Modified为2021-07-07",
+        "scope": "文件版本与目录发布日期不一致；当前效力必须另行核验",
+        "index_policy": "version_conflict_review_required",
+        "text": "有2 门以上 （含） 科目成绩不及格的，\n将适当限制参加下学期的勤工助学工作。 \n第五条  学生私自在校外打工的行为， 不在本办法规定之列。 \n第二章 组织机构 \n第六条 我校勤工助学工作由学工部全面负责，并协调学校\n相关部门，在资金落实、人员配备、岗位设置、学生管理、法律\n咨询及权益维护等方面予以配合。 \n第七条 学工部学生资助教育中心具体负责落实勤工助学日\n\n## PDF 第 3 页\n\n- 3 - \n \n常管理工作，负责勤工助学相关政策的制定、解读、宣传、宏观\n组织、协调和监督各项工作开展，维护参与勤工助学学生的合法\n权益。开发校外勤工助学资源，收集校外勤工助学信息，开拓校\n外勤工助学渠道，增加校外勤工助学岗位，并统一纳入学校的管\n理。计财处负责勤工助学经费管理与薪酬支付。 \n第三章 申请条件和程序 \n第八条  申请勤工助学的学生必须具备以下条件： \n1.遵纪守法，品德优良； \n2.学习认真，成绩合格； \n3.服从管理，工作负责； \n4.遵纪守法，生活简朴。 \n第九条 勤工助学实施线上申请、审核制度，程序如下： \n学校各用人部门拟定勤工助学年度用人计划，报送学工部资\n助教育中心。学",
+        "context_expansion": null,
+        "expanded_from_chunk_id": null
+      },
+      {
+        "evidence_id": "E4",
+        "rank": 3,
+        "score": 0.634228,
+        "source_id": "aid_national_grant_2021",
+        "title": "长安大学本科生国家助学金评审办法（修订）",
+        "url": "https://xxgk.chd.edu.cn/__local/9/2A/68/D6E39D22EB17FD84D3176530A4E_ACF11E16_2CBC8.pdf",
+        "published_on": "2021-06-28",
+        "scope": "本科生；历史版本，不能据此断言当前金额或现行申请时间",
+        "index_policy": "historical_policy",
+        "text": "第五条 国家助学金的基本申请条件：\n（一）具有中华人民共和国国籍；\n（二）热爱社会主义祖国，拥护中国共产党的领导；\n（三）遵守宪法和法律，遵守学校规章制度；\n（四）诚实守信，道德品质优良；\n（五）勤奋学习，积极上进；\n（六）家庭经济困难，生活俭朴。\n第三章 助学金的申请与评审程序\n第六条 国家助学金按学年评审，每年 9-11 月集中进行申\n请和评审。国家助学金的评审工作坚持公开、公平、公正的原则。\n第七条 符合国家助学金申请条件的学生可向所在学院\n（系）提出申请，并填写《长安大学国家助学金申请表》，详细说\n明申请理由。\n在同一学年内，申请并获得国家助学金的学生，可同时申请\n并获得国家奖学金或国家励志奖学金。\n第八条 各学院（系）国家助学金评审小组结合家庭经济\n困难学生等级认定情况，负责组织对申请国家助学金的学生进行\n评审，提出获得国家助学金初选名单及及资助等级，公示无异议\n后，将材料汇总报学生工作部。\n第九条 学生工作部对各学院（系）初选学生进行审核，报\n学校本科生奖励与资助工作领导小组核定后，在全校范围内进行\n公示。无异议后，报教育部备案。\n\n## PDF 第 4 页\n\n- 4 -",
+        "context_expansion": null,
+        "expanded_from_chunk_id": null
+      },
+      {
+        "evidence_id": "E5",
+        "rank": 4,
+        "score": 0.631925,
+        "source_id": "aid_national_grant_2021",
+        "title": "长安大学本科生国家助学金评审办法（修订）",
+        "url": "https://xxgk.chd.edu.cn/__local/9/2A/68/D6E39D22EB17FD84D3176530A4E_ACF11E16_2CBC8.pdf",
+        "published_on": "2021-06-28",
+        "scope": "本科生；历史版本，不能据此断言当前金额或现行申请时间",
+        "index_policy": "historical_policy",
+        "text": "条 本办法由学生工作部负责解释。\n第十四条 本办法自发布之日起施行，原《长安大学国家助\n学金评审办法》（长大就〔2007〕238号）同时废止。\n附件：《长安大学国家助学金申请表》\n\n## PDF 第 5 页\n\n- 5 -\n附件：\n长安大学国家助学金申请表\n本人\n情况\n姓 名 性别 出生年月\n照片\n民 族 政治\n面貌 入学时间\n学 号 所在年级\n身份证号码 联系电话\n学院（系） 专业 班\n家庭\n经济\n情况\n家庭人口总数\n家庭月总收入 人均月收入 收入来源\n家庭住址 邮政编码\n家庭\n成员\n情况\n姓 名 年龄 与本人关系 工作或学习单位\n申请理由\n申请人签名： 年 月 日\n院系意见\n同意申请 等助学金 元。\n（公章） 年 月 日\n学校审核意见：\n（公章） 年 月 日\n\n## PDF 第 6 页\n\n- 6 -\n长安大学校长办公室 2021年6月28日印发\n抄送：校党政领导。",
+        "context_expansion": null,
+        "expanded_from_chunk_id": null
+      },
+      {
+        "evidence_id": "E6",
+        "rank": 5,
+        "score": 0.605859,
+        "source_id": "aid_work_study_2025_listing_2016_text",
+        "title": "长安大学学生勤工助学管理办法",
+        "url": "https://xxgk.chd.edu.cn/images/17/10/27/2vpoyxiaxd/vloblolz.pdf",
+        "published_on": "信息公开目录标注2025-08-03；PDF正文落款2016-07-08，HTTP Last-Modified为2021-07-07",
+        "scope": "文件版本与目录发布日期不一致；当前效力必须另行核验",
+        "index_policy": "version_conflict_review_required",
+        "text": "负责； \n4.遵纪守法，生活简朴。 \n第九条 勤工助学实施线上申请、审核制度，程序如下： \n学校各用人部门拟定勤工助学年度用人计划，报送学工部资\n助教育中心。学工部资助教育中心审批后，在全校范围内公示岗\n位设置和用人计划。符合申报勤工助学的学生向用人部门提交申\n请，用人部门对学生进行考察后，提交录用名单至学工部资助教\n育中心。 \n申请、审核流程和录用过程公开、透明、公正，线上勤工助\n学系统向全校师生进行公示。 \n第四章 岗位设置 \n第十条 勤工助学岗位按照参与时间分为固定岗位和临时岗\n位。 \n1.固定岗位是指持续一个学期以上的长期性岗位或寒暑假期\n间的连续性岗位，例如，配合各部门开展的教学、科研、行政管\n\n## PDF 第 4 页\n\n- 4 - \n \n理等方面助理工作及后勤服务保障类工作。 \n2.临时岗位是指不具有长期性，通过一次或几次勤工助学活\n动即完成任务的工作岗位，以配合校内各部门开展临时劳动事务\n为主。 \n第十一条 固定岗位以学年为周期申报设置和调整，不得随\n意增撤；临时岗位按照工作需要提前申报备案。 \n第十二条  涉及有毒、有害、危险的生产作业以及超过学生\n身体承受能力、 有",
+        "context_expansion": null,
+        "expanded_from_chunk_id": null
+      }
+    ]
+  },
+  "model": "deepseek-flash",
+  "memory": {
+    "prior_turn_count": 0,
+    "history_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "max_turns": 4,
+    "stored": true,
+    "stored_turn_count": 1
+  },
+  "model_requests": [
+    {
+      "request_number": 1,
+      "request_attempted": true,
+      "status": "succeeded",
+      "latency_ms": 1437.0,
+      "finish_reason": "stop",
+      "usage": {
+        "input_tokens": 3625,
+        "output_tokens": 51,
+        "total_tokens": 3676
+      },
+      "tool_call_count": 0,
+      "answer_content": "我需要先确认你的申请记录编号才能查询进度。请提供记录编号（格式为 SIM-REC-XXX）。\n\n如果你没有记录编号，也可以告诉我具体是哪类申请（如国家助学金），我再尝试为你查询本人名下的模拟记录。"
+    }
+  ],
+  "tool_calls": [],
+  "total_tool_calls": 0,
+  "status": "completed",
+  "answer": "我需要先确认你的申请记录编号才能查询进度。请提供记录编号（格式为 SIM-REC-XXX）。\n\n如果你没有记录编号，也可以告诉我具体是哪类申请（如国家助学金），我再尝试为你查询本人名下的模拟记录。",
+  "finish_reason": "stop"
+}

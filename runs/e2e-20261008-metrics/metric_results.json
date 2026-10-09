@@ -1,0 +1,449 @@
+{
+  "evaluation_run_id": "e2e-20261008-metrics",
+  "created_at": "2026-10-08T07:53:07+08:00",
+  "dataset_id": "campus-customer-service-frozen-v1",
+  "metric_spec_id": "campus-customer-service-metrics-v1.1",
+  "answer_judge_pending": true,
+  "implementations": {
+    "principles": {
+      "implementation": "principles",
+      "planned_turn_count": 23,
+      "observed_turn_count": 23,
+      "untraced_failed_turn_count": 0,
+      "not_attempted_turn_count": 0,
+      "category_turn_unit_counts": {
+        "boundary": 2,
+        "knowledge": 10,
+        "multi_turn": 4,
+        "status": 5,
+        "unknown": 2
+      },
+      "retrieval": {
+        "applicable_turn_count": 12,
+        "not_applicable_turn_count": 11,
+        "metrics": {
+          "recall_at_1": {
+            "sum": 11.5,
+            "denominator": 12,
+            "mean": 0.9583333333333334
+          },
+          "recall_at_3": {
+            "sum": 11.5,
+            "denominator": 12,
+            "mean": 0.9583333333333334
+          },
+          "recall_at_5": {
+            "sum": 11.5,
+            "denominator": 12,
+            "mean": 0.9583333333333334
+          },
+          "mrr_at_5": {
+            "sum": 12.0,
+            "denominator": 12,
+            "mean": 1.0
+          }
+        }
+      },
+      "agent": {
+        "tool_selection_accuracy": {
+          "numerator": 10,
+          "denominator": 11,
+          "rate": 0.9090909090909091
+        },
+        "tool_argument_accuracy": {
+          "numerator": 5,
+          "denominator": 8,
+          "rate": 0.625,
+          "trusted_identity_match": {
+            "numerator": 1,
+            "denominator": 1,
+            "rate": 1.0
+          }
+        },
+        "task_completion_rate": {
+          "numerator": 22,
+          "denominator": 23,
+          "rate": 0.9565217391304348
+        },
+        "unknown_handling_rate": {
+          "numerator": 0,
+          "denominator_attempted_unknown_turns": 2,
+          "rate_over_attempted_unknown_turns": 0.0,
+          "pending_judgement_count": 2,
+          "status": "partial"
+        }
+      },
+      "engineering": {
+        "latency_scope": "See evaluation/metric_spec_v1.json; measurements are implementation-specific by design.",
+        "average_latency_ms": 1917.7391304347825,
+        "p95_latency_ms_nearest_rank": 2750.0,
+        "latency_sample_count": 23,
+        "latency_unavailable_count": 0,
+        "latency_samples_ms": [
+          1656.0,
+          1609.0,
+          1422.0,
+          2063.0,
+          1500.0,
+          2173.0,
+          1891.0,
+          1968.0,
+          1624.0,
+          1282.0,
+          1516.0,
+          2204.0,
+          2015.0,
+          1952.0,
+          2015.0,
+          1828.0,
+          2750.0,
+          2562.0,
+          2875.0,
+          1844.0,
+          2077.0,
+          1578.0,
+          1704.0
+        ],
+        "error_rate": {
+          "numerator": 0,
+          "denominator": 23,
+          "rate": 0.0
+        },
+        "test_pass_rate": {
+          "rate": 0.9957983193277311,
+          "source": "runs/windows-test-summary-baseline.json",
+          "skipped_reported_separately": 4
+        },
+        "current_windows_test_pass_rate": {
+          "rate": 1.0,
+          "source": "runs/windows-test-summary.json",
+          "skipped_reported_separately": 4
+        }
+      },
+      "answer": {
+        "correctness": {
+          "raw_score_sum": 0,
+          "normalized_numerator": 0.0,
+          "denominator_attempted_turns": 23,
+          "mean_over_scored_or_missing": 0.0,
+          "complete_mean": null,
+          "scored_turn_count_including_zero_missing": 0,
+          "missing_response_count_scored_zero": 0,
+          "pending_judgement_count": 23,
+          "not_applicable_turn_count": 0,
+          "status": "partial"
+        },
+        "faithfulness": {
+          "raw_score_sum": 0,
+          "normalized_numerator": 0.0,
+          "denominator_attempted_turns": 23,
+          "mean_over_scored_or_missing": 0.0,
+          "complete_mean": null,
+          "scored_turn_count_including_zero_missing": 0,
+          "missing_response_count_scored_zero": 0,
+          "pending_judgement_count": 23,
+          "not_applicable_turn_count": 0,
+          "status": "partial"
+        },
+        "citation_accuracy": {
+          "raw_score_sum": 0,
+          "normalized_numerator": 0.0,
+          "denominator_attempted_turns": 12,
+          "mean_over_scored_or_missing": 0.0,
+          "complete_mean": null,
+          "scored_turn_count_including_zero_missing": 0,
+          "missing_response_count_scored_zero": 0,
+          "pending_judgement_count": 12,
+          "not_applicable_turn_count": 11,
+          "status": "partial"
+        },
+        "unknown_handling_rate": {
+          "numerator": 0,
+          "denominator_attempted_unknown_turns": 2,
+          "rate_over_attempted_unknown_turns": 0.0,
+          "pending_judgement_count": 2,
+          "status": "partial"
+        },
+        "judge_model": "deepseek-flash",
+        "judge_limitations": "Same model family is used for generation and judging; scores are a model-assisted proxy, not independent human validation. H-03 manual V1/V2 ratings remain separate.",
+        "judge_attempt_count": 0,
+        "judge_success_count": 0,
+        "judge_failure_count": 0
+      }
+    },
+    "engineering": {
+      "implementation": "engineering",
+      "planned_turn_count": 23,
+      "observed_turn_count": 23,
+      "untraced_failed_turn_count": 0,
+      "not_attempted_turn_count": 0,
+      "category_turn_unit_counts": {
+        "boundary": 2,
+        "knowledge": 10,
+        "multi_turn": 4,
+        "status": 5,
+        "unknown": 2
+      },
+      "retrieval": {
+        "applicable_turn_count": 12,
+        "not_applicable_turn_count": 11,
+        "metrics": {
+          "recall_at_1": {
+            "sum": 10.0,
+            "denominator": 12,
+            "mean": 0.8333333333333334
+          },
+          "recall_at_3": {
+            "sum": 11.0,
+            "denominator": 12,
+            "mean": 0.9166666666666666
+          },
+          "recall_at_5": {
+            "sum": 11.0,
+            "denominator": 12,
+            "mean": 0.9166666666666666
+          },
+          "mrr_at_5": {
+            "sum": 10.5,
+            "denominator": 12,
+            "mean": 0.875
+          }
+        }
+      },
+      "agent": {
+        "tool_selection_accuracy": {
+          "numerator": 22,
+          "denominator": 23,
+          "rate": 0.9565217391304348
+        },
+        "tool_argument_accuracy": {
+          "numerator": 6,
+          "denominator": 8,
+          "rate": 0.75,
+          "trusted_identity_match": {
+            "numerator": 1,
+            "denominator": 1,
+            "rate": 1.0
+          }
+        },
+        "task_completion_rate": {
+          "numerator": 21,
+          "denominator": 23,
+          "rate": 0.9130434782608695
+        },
+        "unknown_handling_rate": {
+          "numerator": 0,
+          "denominator_attempted_unknown_turns": 2,
+          "rate_over_attempted_unknown_turns": 0.0,
+          "pending_judgement_count": 2,
+          "status": "partial"
+        }
+      },
+      "engineering": {
+        "latency_scope": "See evaluation/metric_spec_v1.json; measurements are implementation-specific by design.",
+        "average_latency_ms": 3822.7391304347825,
+        "p95_latency_ms_nearest_rank": 5000.0,
+        "latency_sample_count": 23,
+        "latency_unavailable_count": 0,
+        "latency_samples_ms": [
+          4375.0,
+          4344.0,
+          4266.0,
+          4609.0,
+          3453.0,
+          4860.0,
+          5188.0,
+          4922.0,
+          5000.0,
+          4594.0,
+          3063.0,
+          3687.0,
+          3375.0,
+          2704.0,
+          3343.0,
+          2453.0,
+          1672.0,
+          3391.0,
+          3093.0,
+          4609.0,
+          4485.0,
+          3094.0,
+          3343.0
+        ],
+        "error_rate": {
+          "numerator": 0,
+          "denominator": 23,
+          "rate": 0.0
+        },
+        "test_pass_rate": {
+          "rate": 0.9957983193277311,
+          "source": "runs/windows-test-summary-baseline.json",
+          "skipped_reported_separately": 4
+        },
+        "current_windows_test_pass_rate": {
+          "rate": 1.0,
+          "source": "runs/windows-test-summary.json",
+          "skipped_reported_separately": 4
+        }
+      },
+      "answer": {
+        "correctness": {
+          "raw_score_sum": 0,
+          "normalized_numerator": 0.0,
+          "denominator_attempted_turns": 23,
+          "mean_over_scored_or_missing": 0.0,
+          "complete_mean": null,
+          "scored_turn_count_including_zero_missing": 0,
+          "missing_response_count_scored_zero": 0,
+          "pending_judgement_count": 23,
+          "not_applicable_turn_count": 0,
+          "status": "partial"
+        },
+        "faithfulness": {
+          "raw_score_sum": 0,
+          "normalized_numerator": 0.0,
+          "denominator_attempted_turns": 23,
+          "mean_over_scored_or_missing": 0.0,
+          "complete_mean": null,
+          "scored_turn_count_including_zero_missing": 0,
+          "missing_response_count_scored_zero": 0,
+          "pending_judgement_count": 23,
+          "not_applicable_turn_count": 0,
+          "status": "partial"
+        },
+        "citation_accuracy": {
+          "raw_score_sum": 0,
+          "normalized_numerator": 0.0,
+          "denominator_attempted_turns": 12,
+          "mean_over_scored_or_missing": 0.0,
+          "complete_mean": null,
+          "scored_turn_count_including_zero_missing": 0,
+          "missing_response_count_scored_zero": 0,
+          "pending_judgement_count": 12,
+          "not_applicable_turn_count": 11,
+          "status": "partial"
+        },
+        "unknown_handling_rate": {
+          "numerator": 0,
+          "denominator_attempted_unknown_turns": 2,
+          "rate_over_attempted_unknown_turns": 0.0,
+          "pending_judgement_count": 2,
+          "status": "partial"
+        },
+        "judge_model": "deepseek-flash",
+        "judge_limitations": "Same model family is used for generation and judging; scores are a model-assisted proxy, not independent human validation. H-03 manual V1/V2 ratings remain separate.",
+        "judge_attempt_count": 0,
+        "judge_success_count": 0,
+        "judge_failure_count": 0
+      }
+    }
+  },
+  "judge_input_file": "runs/e2e-20261008-metrics/judge_input.jsonl",
+  "judge_input_count": 46,
+  "answer_metrics": {
+    "status": "pending_or_partial",
+    "per_implementation": {
+      "principles": {
+        "correctness": {
+          "raw_score_sum": 0,
+          "normalized_numerator": 0.0,
+          "denominator_attempted_turns": 23,
+          "mean_over_scored_or_missing": 0.0,
+          "complete_mean": null,
+          "scored_turn_count_including_zero_missing": 0,
+          "missing_response_count_scored_zero": 0,
+          "pending_judgement_count": 23,
+          "not_applicable_turn_count": 0,
+          "status": "partial"
+        },
+        "faithfulness": {
+          "raw_score_sum": 0,
+          "normalized_numerator": 0.0,
+          "denominator_attempted_turns": 23,
+          "mean_over_scored_or_missing": 0.0,
+          "complete_mean": null,
+          "scored_turn_count_including_zero_missing": 0,
+          "missing_response_count_scored_zero": 0,
+          "pending_judgement_count": 23,
+          "not_applicable_turn_count": 0,
+          "status": "partial"
+        },
+        "citation_accuracy": {
+          "raw_score_sum": 0,
+          "normalized_numerator": 0.0,
+          "denominator_attempted_turns": 12,
+          "mean_over_scored_or_missing": 0.0,
+          "complete_mean": null,
+          "scored_turn_count_including_zero_missing": 0,
+          "missing_response_count_scored_zero": 0,
+          "pending_judgement_count": 12,
+          "not_applicable_turn_count": 11,
+          "status": "partial"
+        },
+        "unknown_handling_rate": {
+          "numerator": 0,
+          "denominator_attempted_unknown_turns": 2,
+          "rate_over_attempted_unknown_turns": 0.0,
+          "pending_judgement_count": 2,
+          "status": "partial"
+        },
+        "judge_model": "deepseek-flash",
+        "judge_limitations": "Same model family is used for generation and judging; scores are a model-assisted proxy, not independent human validation. H-03 manual V1/V2 ratings remain separate.",
+        "judge_attempt_count": 0,
+        "judge_success_count": 0,
+        "judge_failure_count": 0
+      },
+      "engineering": {
+        "correctness": {
+          "raw_score_sum": 0,
+          "normalized_numerator": 0.0,
+          "denominator_attempted_turns": 23,
+          "mean_over_scored_or_missing": 0.0,
+          "complete_mean": null,
+          "scored_turn_count_including_zero_missing": 0,
+          "missing_response_count_scored_zero": 0,
+          "pending_judgement_count": 23,
+          "not_applicable_turn_count": 0,
+          "status": "partial"
+        },
+        "faithfulness": {
+          "raw_score_sum": 0,
+          "normalized_numerator": 0.0,
+          "denominator_attempted_turns": 23,
+          "mean_over_scored_or_missing": 0.0,
+          "complete_mean": null,
+          "scored_turn_count_including_zero_missing": 0,
+          "missing_response_count_scored_zero": 0,
+          "pending_judgement_count": 23,
+          "not_applicable_turn_count": 0,
+          "status": "partial"
+        },
+        "citation_accuracy": {
+          "raw_score_sum": 0,
+          "normalized_numerator": 0.0,
+          "denominator_attempted_turns": 12,
+          "mean_over_scored_or_missing": 0.0,
+          "complete_mean": null,
+          "scored_turn_count_including_zero_missing": 0,
+          "missing_response_count_scored_zero": 0,
+          "pending_judgement_count": 12,
+          "not_applicable_turn_count": 11,
+          "status": "partial"
+        },
+        "unknown_handling_rate": {
+          "numerator": 0,
+          "denominator_attempted_unknown_turns": 2,
+          "rate_over_attempted_unknown_turns": 0.0,
+          "pending_judgement_count": 2,
+          "status": "partial"
+        },
+        "judge_model": "deepseek-flash",
+        "judge_limitations": "Same model family is used for generation and judging; scores are a model-assisted proxy, not independent human validation. H-03 manual V1/V2 ratings remain separate.",
+        "judge_attempt_count": 0,
+        "judge_success_count": 0,
+        "judge_failure_count": 0
+      }
+    },
+    "judgement_file": null
+  }
+}

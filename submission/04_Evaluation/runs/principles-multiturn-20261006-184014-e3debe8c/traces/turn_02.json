@@ -1,0 +1,141 @@
+{
+  "question": "编号是SIM-REC-001。",
+  "request_id": "principles-multiturn-20261006-184014-e3debe8c-turn-2",
+  "retrieval": {
+    "backend": "numpy",
+    "top_k": 5,
+    "latency_ms": 203.0,
+    "context_expansions": [],
+    "evidence_context_sha256": "2b00a99604a63bd59a6ef2ece8741501a9a167d3d91a621698f80720295c1371",
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "rank": 1,
+        "score": 0.4822,
+        "source_id": "library_home_2026",
+        "title": "长安大学图书馆官网首页（动态主页快照）",
+        "url": "https://lib.chd.edu.cn/",
+        "published_on": "持续更新；抓取日期2026-10-06",
+        "scope": "官网服务导航、联系信息和公告标题；公告标题不能代替正文，当前开放时间以官方最新公告为准",
+        "index_policy": "current_homepage_snapshot",
+        "text": "地址为西安市南二环路中段，图书馆电话为 +86-029-82334372，邮箱为 tsgbgs@chd.edu.cn。首页导航列有开放时间、借阅规则、校外访问、读者荐购、研讨间预约、文献传递和讲座培训等入口。\n\n抓取时首页公告列表包含《关于2026年图书馆中秋节、国庆节开放的通知》（2026-09-24）、《关于2026年图书馆暑期工作安排的通知》（2026-07-10）、《关于2026年图书馆清明节开放的通知》（2026-04-03）和《关于2026年图书馆寒假工作安排的通知》（2026-01-19）。\n\n此首页快照只证明服务入口、联系信息和公告标题/日期；不含公告正文，不能据此回答当前开放时段。",
+        "context_expansion": null,
+        "expanded_from_chunk_id": null
+      },
+      {
+        "evidence_id": "E2",
+        "rank": 2,
+        "score": 0.460532,
+        "source_id": "international_off_campus_housing_2017",
+        "title": "长安大学来华留学生校外住宿管理办法",
+        "url": "https://webplus.chd.edu.cn/_s21/2017/1026/c2596a37145/page.psp",
+        "published_on": "2017-10-26",
+        "scope": "仅限来华国际学生；不得外推到中国籍本科生或研究生",
+        "index_policy": "narrow_scope_historical",
+        "text": ".edu.cn\n地址: 中国西安市南二环中段长安大学国际教育学院\n邮编: 710064\n留学长大\nCOPYRIGHT © 2016 CHANG'AN UNIVERSITY",
+        "context_expansion": null,
+        "expanded_from_chunk_id": null
+      },
+      {
+        "evidence_id": "E3",
+        "rank": 3,
+        "score": 0.448892,
+        "source_id": "student_summer_notice_2026",
+        "title": "关于做好2026年暑期学生工作的通知",
+        "url": "https://webplus.chd.edu.cn/_s86/2026/0908/c4706a262541/page.psp",
+        "published_on": "2026-07-03",
+        "scope": "仅适用于2026年暑假安排；宿舍安全、留校和离返校规定以原文为准",
+        "index_policy": "time_limited_notice",
+        "text": "d.edu.cn。\n附件1：暑期学生安全教育课件.pdf\n学生工作部（学生处）\n研究生工作部\n2026年7月3日\nCopyright © 2019 长安大学学生工作部 All Rights Reserved. 陕ICP备ICP05001168号\n邮箱 : dwxgb@chd.edu.cn 邮编 : 710064 地址 : 西安市南二环中段 技术支持：泽瑞通信",
+        "context_expansion": null,
+        "expanded_from_chunk_id": null
+      },
+      {
+        "evidence_id": "E4",
+        "rank": 4,
+        "score": 0.447491,
+        "source_id": "academic_status_2022",
+        "title": "长安大学本科生学籍管理规定（2022版）",
+        "url": "https://jwc.chd.edu.cn/_upload/article/files/32/cb/586327c446978b0484b8feaa6ef0/7bf1b966-028b-48f6-930d-48e350c6c60d.pdf",
+        "published_on": "2022",
+        "scope": "本科生；2022年文件，当前有效状态尚待教务处复核",
+        "index_policy": "dated_policy",
+        "text": "假、徇私舞弊等情形的，确定为\n复查不合格，取消学籍；情节严重的，学校移交有关部门调查处\n理。\n复查中发现学生身心状况不适宜在校学习，经学校指定的二\n\n## PDF 第 4 页\n\n- 4 -\n级甲等（含）以上医院诊断，需要在家休养的，可以申请保留入\n学资格。\n第七条 新生应于入学当年十月份在学信网进行新生学籍自\n查，核实本人学籍是否注册、信息是否准确等。\n第八条 每学期开学时，学生必须按时到校，按学校的有关规\n定到所在学院（系）办理注册手续，因故不能如期注册者，必须\n事先履行请假手续暂缓注册。未按学校规定缴纳学费等相关费用\n者以及其他不符合注册条件者不予注册。家庭经济困难的学生可\n以申请助学贷款或其他形式资助，办理有关手续后方可办理注册\n手续。未注册的学生不能参与相应的教学活动及考核。未经请假\n逾期两周不注册者按自动退学处理。\n第三章 学制与学习年限\n第九条 学校实行学分制管理和弹性学习年限，学生可以分阶\n段完成学业。普通本科四年制专业基本学制年限为 4 年，弹性学\n习年限为 3 至 6 年；普通本科五年制专业基本学制年限为 5 年，\n弹性学习年限为 4 至 7 年。学生应在学校规定的最",
+        "context_expansion": null,
+        "expanded_from_chunk_id": null
+      },
+      {
+        "evidence_id": "E5",
+        "rank": 5,
+        "score": 0.445905,
+        "source_id": "student_management_2017",
+        "title": "长安大学学生管理规定",
+        "url": "https://xxgk.chd.edu.cn/images/17/10/20/2cnigeztqs/i0197s8j.pdf",
+        "published_on": "2017-08-09",
+        "scope": "2017年学生管理规定；宿舍具体事项按学校另行规定执行，现行效力待核验",
+        "index_policy": "historical_policy",
+        "text": "校按规定对学生进行考核。考核\n成绩计入成绩册和学生档案。考核不及格需参加补考或重修。 \n第十一条 学生可按照国家和学校规定申请转专业或转学。 \n第十二条 学生可以分阶段完成学业，可以申请休学、停学、\n保留学籍和延长学制。本科生在校学习年限不得超过学制年限两\n年，研究生在校学习年限按照学校研究生学籍管理的相关规定执\n行。 \n第十三条 按照学校规定， 达到退学标准的应予退学， 本科生\n退学可以申请试读。 \n第十四条  本科生毕业时修完教育教学计划规定的全部课程\n和实践环节，取得规定学分，准予毕业，颁发本科毕业证书。 符\n合学士学位授予规定要求的授予学士学位或相应的专业学位。未\n达到毕业要求的予以结业，发放结业证书。对在校修读一年以上\n退学的学生发放肄业证书。 \n研究生按培养计划的规定，完成课程学习和必修环节，成绩\n合格，完成毕业（学位）论文并通过答辩的，准予毕业并发给毕\n业证书。按培养计划的规定，完成课程学习和必修环节，成绩合\n格，完成毕业（学位）论文但未通过答辩的，准予结业并发给结\n业证书。对退学、或在学习年限内未完成课程学习和必修环节的\n研究生，发给肄业证书。 \n第十五条 本科生可以参",
+        "context_expansion": null,
+        "expanded_from_chunk_id": null
+      }
+    ]
+  },
+  "model": "deepseek-flash",
+  "memory": {
+    "prior_turn_count": 1,
+    "history_sha256": "31ccd4f057001d394a734092d4f1c57294ba131e87ecca7a3c27f00a057e1a26",
+    "max_turns": 4,
+    "stored": true,
+    "stored_turn_count": 2
+  },
+  "model_requests": [
+    {
+      "request_number": 1,
+      "request_attempted": true,
+      "status": "succeeded",
+      "latency_ms": 656.0,
+      "finish_reason": "tool_calls",
+      "usage": {
+        "input_tokens": 2699,
+        "output_tokens": 63,
+        "total_tokens": 2762
+      },
+      "tool_call_count": 1,
+      "answer_content": null
+    },
+    {
+      "request_number": 2,
+      "request_attempted": true,
+      "status": "succeeded",
+      "latency_ms": 1313.0,
+      "finish_reason": "stop",
+      "usage": {
+        "input_tokens": 2851,
+        "output_tokens": 91,
+        "total_tokens": 2942
+      },
+      "tool_call_count": 0,
+      "answer_content": "你的助学申请（模拟记录 SIM-REC-001）当前状态如下：\n\n- **状态**：材料审核中\n- **更新时间**：2026-09-28 10:00\n- **说明**：材料已提交，等待审核。\n\n请注意：以上为课程演示系统中的模拟数据，不对应任何真实学生记录，也不代表真实审核进度。如需人工协助，可以告诉我，我可以为你创建一个本地模拟工单。"
+    }
+  ],
+  "tool_calls": [
+    {
+      "tool_call_id": "call_00_ZP77r0Nlqpvsx1GyjVyH9027",
+      "name": "query_application_status",
+      "arguments": "{\"record_id\": \"SIM-REC-001\", \"service_type\": \"aid_application\"}",
+      "result": {
+        "outcome": "found",
+        "record_id": "SIM-REC-001",
+        "service_type": "aid_application",
+        "status": "材料审核中",
+        "updated_at": "2026-09-28T10:00:00+08:00",
+        "public_note": "材料已提交，等待审核。",
+        "simulation_only": true
+      }
+    }
+  ],
+  "total_tool_calls": 1,
+  "status": "completed",
+  "answer": "你的助学申请（模拟记录 SIM-REC-001）当前状态如下：\n\n- **状态**：材料审核中\n- **更新时间**：2026-09-28 10:00\n- **说明**：材料已提交，等待审核。\n\n请注意：以上为课程演示系统中的模拟数据，不对应任何真实学生记录，也不代表真实审核进度。如需人工协助，可以告诉我，我可以为你创建一个本地模拟工单。",
+  "finish_reason": "stop"
+}

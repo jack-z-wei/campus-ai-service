@@ -1,0 +1,31 @@
+from unittest.mock import patch
+
+import pytest
+
+from schema import AgentInfo, ServiceMetadata
+from schema.models import OpenAIModelName
+
+
+@pytest.fixture
+def mock_agent_client(mock_env):
+    """Fixture for creating a mock AgentClient with a clean environment."""
+
+    mock_info = ServiceMetadata(
+        default_agent="campus-customer-service",
+        agents=[
+            AgentInfo(key="campus-customer-service", description="Campus customer service"),
+            AgentInfo(key="test-agent", description="Test agent"),
+        ],
+        default_model=OpenAIModelName.GPT_5_NANO,
+        models=[OpenAIModelName.GPT_5_NANO, OpenAIModelName.GPT_5_MINI],
+    )
+
+    with (
+        patch("client.AgentClient") as mock_agent_client,
+        patch("voice.VoiceManager.from_env", return_value=None),
+    ):
+        mock_agent_client_instance = mock_agent_client.return_value
+        mock_agent_client_instance.info = mock_info
+        # Give the mock a deterministic selected agent.
+        mock_agent_client_instance.agent = "campus-customer-service"
+        yield mock_agent_client_instance

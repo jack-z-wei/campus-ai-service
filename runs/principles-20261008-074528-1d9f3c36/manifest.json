@@ -1,0 +1,95 @@
+{
+  "run_id": "principles-20261008-074528-1d9f3c36",
+  "started_at": "2026-10-08T07:45:28+08:00",
+  "implementation": "principles_python_numpy_httpx_tool_registry",
+  "case_id": "S01",
+  "category": "status",
+  "question": "请查一下SIM-REC-001的进度。",
+  "simulation_user_id": "SIM-USER-001",
+  "request_id": "principles-4e85829e-8229-4898-8904-a0b95bfc4a8d",
+  "prompt_version": "v1",
+  "prompt_sha256": "39405b803feb23d38c1159a1b2260fff803d48969b3de0a39984a65be360776d",
+  "implementation_sha256": {
+    "principle_agent.py": "5512f60e2e3d9b201dfaece08dd5591a25a89244a5afb2c2c47eccc3cff4cb22",
+    "principle_tools.py": "6b0e5499b337b6b4edea282ad1579e4082b170e57787507502cc5c105493ac3a",
+    "runtime.py": "5eaef740665934502f1c5179864cd74c3e7c03910a9d9dc24f1eb02d3e7ba29d"
+  },
+  "source_manifest_sha256": "05e297bcf2fc85151e7741c9a1fa33a995d3e3b122a49630f6318c7c499c0b4c",
+  "frozen_cases_sha256": "9407a364794143c553b34ffd933ea25d4ee71a7f6e643f9dd4d0d85e55d26d44",
+  "index_id": "campus-fixed500-bge-m3-v1",
+  "embedding": {
+    "provider": "ollama",
+    "model": "bge-m3:latest",
+    "dimension": 1024
+  },
+  "vector_backend": "numpy_cosine",
+  "top_k": 5,
+  "chat_model": "deepseek-flash",
+  "configured_max_output_tokens": 768,
+  "paid_api_request_attempted": true,
+  "paid_api_request_performed": true,
+  "course_case_result": true,
+  "retrieval_case_result": false,
+  "synthetic_business_data_only": true,
+  "answer": "查询结果如下（**模拟数据**，不对应真实学生）：\n\n- **记录编号**：SIM-REC-001\n- **服务类型**：助学金申请（aid_application）\n- **当前状态**：材料审核中\n- **更新时间**：2026-09-28 10:00\n- **备注**：材料已提交，等待审核。\n\n如需人工跟进，请明确告诉我，我可以为你创建一个**本地模拟工单**（不会联系真实工作人员）。",
+  "trace_file": "trace.json",
+  "error_type": null,
+  "price_source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
+  "cost_estimate_basis": "DeepSeek peak rate; all prompt tokens assumed uncached.",
+  "conversation_memory_enabled": false,
+  "session_id": null,
+  "prior_memory_turns": 0,
+  "status": "completed",
+  "model_request_count": 2,
+  "api_usage_records": [
+    {
+      "run_id": "principles-20261008-074528-1d9f3c36",
+      "case_id": "S01",
+      "implementation": "principles",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "invocation": 1,
+      "request_status": "succeeded",
+      "request_attempted": true,
+      "usage_available": true,
+      "usage": {
+        "input_tokens": 3560,
+        "output_tokens": 52,
+        "total_tokens": 3612
+      },
+      "estimated_cost_usd": 0.0011304,
+      "cost_basis": "DeepSeek peak rate; cache miss assumed for all input tokens",
+      "pricing_source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/"
+    },
+    {
+      "run_id": "principles-20261008-074528-1d9f3c36",
+      "case_id": "S01",
+      "implementation": "principles",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "invocation": 2,
+      "request_status": "succeeded",
+      "request_attempted": true,
+      "usage_available": true,
+      "usage": {
+        "input_tokens": 3701,
+        "output_tokens": 101,
+        "total_tokens": 3802
+      },
+      "estimated_cost_usd": 0.0012315,
+      "cost_basis": "DeepSeek peak rate; cache miss assumed for all input tokens",
+      "pricing_source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/"
+    }
+  ],
+  "estimated_total_cost_usd": 0.0023619,
+  "tool_call_count": 1,
+  "tool_names": [
+    "query_application_status"
+  ],
+  "registered_tool_names": [
+    "search_campus_knowledge",
+    "query_application_status",
+    "create_human_service_request"
+  ],
+  "finished_at": "2026-10-08T07:45:37+08:00"
+}

@@ -1,0 +1,18 @@
+%% 逻辑设计图；Coze 平台实现及直接工作流测试见 workflow-status-* 截图。
+flowchart LR
+    Start["开始：受控合成输入<br/>record_id / service_type / owner_sim_user_id"]
+    Query["查询 application_status<br/>三个字段同时 AND 匹配<br/>查询上限 1；异常返回错误状态"]
+    Check{"查询成功且<br/>outputList 非空？"}
+    Match["结束：返回匹配记录<br/>record_id / service_type / status<br/>updated_at / public_note / simulation_only"]
+    Failure["结束：通用提示<br/>当前无法查询这条模拟记录<br/>请核对输入信息后重试"]
+    Start --> Query --> Check
+    Check -->|是| Match
+    Check -->|否或查询失败| Failure
+    classDef start fill:#eaf5f3,stroke:#2f9d91,color:#24324a;
+    classDef query fill:#f0ecfc,stroke:#7b61d6,color:#24324a;
+    classDef decision fill:#edf2fb,stroke:#5275c8,color:#24324a;
+    classDef failure fill:#fff2e7,stroke:#dc9750,color:#24324a;
+    class Start,Match start;
+    class Query query;
+    class Check decision;
+    class Failure failure;

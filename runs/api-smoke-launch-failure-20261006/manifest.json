@@ -1,0 +1,11 @@
+{
+  "run_id": "api-smoke-launch-failure-20261006",
+  "recorded_on": "2026-10-06",
+  "purpose": "Record the initial Windows script launch failure before the successful API connectivity smoke.",
+  "error_type": "ModuleNotFoundError",
+  "cause": "The script had not added the project's src directory to sys.path before importing local modules.",
+  "paid_api_request_performed": false,
+  "paid_api_request_count": 0,
+  "course_result": false,
+  "resolution": "Added the project src directory to the script module search path; the subsequent run succeeded."
+}

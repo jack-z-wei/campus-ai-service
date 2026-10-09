@@ -1,0 +1,168 @@
+{
+  "run_id": "engineering-case-20261008-080559-a9193dae",
+  "case_id": "K10",
+  "turn_number": 1,
+  "question": "长安大学图书馆官网公开的联系电话和邮箱是什么？",
+  "answer": "根据长安大学图书馆官网首页快照，公开联系方式如下：\n\n- **联系电话**：+86-029-82334372\n- **邮箱**：tsgbgs@chd.edu.cn\n- **地址**：西安市南二环路中段\n\n来源：长安大学图书馆官网首页（动态主页快照），https://lib.chd.edu.cn/ ，抓取日期 2026-10-06。\n\n说明：该快照仅证明官网展示的联系信息，未包含公告正文；如需确认开放时间等具体服务安排，请以官方最新公告为准。",
+  "elapsed_seconds": 3.485,
+  "memory": {
+    "prior_stored_message_count": 0,
+    "model_context_turn_count": 0,
+    "max_model_context_turns": 4,
+    "thread_id": "engineering-case-20261008-080559-a9193dae"
+  },
+  "new_messages": [
+    {
+      "type": "human",
+      "content": "长安大学图书馆官网公开的联系电话和邮箱是什么？",
+      "tool_calls": []
+    },
+    {
+      "type": "ai",
+      "content": "I'll search the official campus sources for the library's public contact information.",
+      "tool_calls": [
+        {
+          "name": "search_campus_knowledge",
+          "args": {
+            "query": "长安大学图书馆 联系电话 邮箱 联系方式"
+          },
+          "id": "call_00_85Tp3J3W65Tzd2RUUUM34123",
+          "type": "tool_call"
+        }
+      ]
+    },
+    {
+      "type": "tool",
+      "content": "{\"outcome\": \"ok\", \"backend\": \"chroma\", \"results\": [{\"rank\": 1, \"score\": 0.766187, \"source_id\": \"library_home_2026\", \"title\": \"长安大学图书馆官网首页（动态主页快照）\", \"category\": \"图书馆\", \"url\": \"https://lib.chd.edu.cn/\", \"published_on\": \"持续更新；抓取日期2026-10-06\", \"scope\": \"官网服务导航、联系信息和公告标题；公告标题不能代替正文，当前开放时间以官方最新公告为准\", \"index_policy\": \"current_homepage_snapshot\", \"text\": \"# 长安大学图书馆官网首页（动态主页快照）\\n\\n- 来源：https://lib.chd.edu.cn/\\n- 官方发布/页面日期：持续更新；抓取日期2026-10-06\\n- HTTP Last-Modified：未提供\\n- 适用范围：官网服务导航、联系信息和公告标题；公告标题不能代替正文，当前开放时间以官方最新公告为准\\n- 主题：图书馆\\n- 检索策略：current_homepage_snapshot\\n- 抓取时间（UTC）：2026-10-06T09:18:27+00:00\\n- 原始文件：`raw/library_home_2026.html`（SHA-256 `6aecde39c0eb1030385172820556d69665fbfc2e24a773978a189a2f78056c42`）\\n\\n## 原文文本快照\\n本地文件是官网首页动态页面的人工核对摘要；页面原始 HTML 与服务端渲染快照保存在 raw/。\\n\\n官网显示的联系地址为西安市南二环路中段，图书馆电话为 +86-029-82334372，邮箱为 tsgbgs@chd.edu.cn。首页导航列有开放时间、借阅规则、校外访问、\"}, {\"rank\": 2, \"score\": 0.714846, \"source_id\": \"student_summer_notice_2026\", \"title\": \"关于做好2026年暑期学生工作的通知\", \"category\": \"宿舍\", \"url\": \"https://webplus.chd.edu.cn/_s86/2026/0908/c4706a262541/page.psp\", \"published_on\": \"2026-07-03\", \"scope\": \"仅适用于2026年暑假安排；宿舍安全、留校和离返校规定以原文为准\", \"index_policy\": \"time_limited_notice\", \"text\": \"d.edu.cn。\\n附件1：暑期学生安全教育课件.pdf\\n学生工作部（学生处）\\n研究生工作部\\n2026年7月3日\\nCopyright © 2019 长安大学学生工作部 All Rights Reserved. 陕ICP备ICP05001168号\\n邮箱 : dwxgb@chd.edu.cn 邮编 : 710064 地址 : 西安市南二环中段 技术支持：泽瑞通信\"}, {\"rank\": 3, \"score\": 0.704939, \"source_id\": \"library_home_2026\", \"title\": \"长安大学图书馆官网首页（动态主页快照）\", \"category\": \"图书馆\", \"url\": \"https://lib.chd.edu.cn/\", \"published_on\": \"持续更新；抓取日期2026-10-06\", \"scope\": \"官网服务导航、联系信息和公告标题；公告标题不能代替正文，当前开放时间以官方最新公告为准\", \"index_policy\": \"current_homepage_snapshot\", \"text\": \"地址为西安市南二环路中段，图书馆电话为 +86-029-82334372，邮箱为 tsgbgs@chd.edu.cn。首页导航列有开放时间、借阅规则、校外访问、读者荐购、研讨间预约、文献传递和讲座培训等入口。\\n\\n抓取时首页公告列表包含《关于2026年图书馆中秋节、国庆节开放的通知》（2026-09-24）、《关于2026年图书馆暑期工作安排的通知》（2026-07-10）、《关于2026年图书馆清明节开放的通知》（2026-04-03）和《关于2026年图书馆寒假工作安排的通知》（2026-01-19）。\\n\\n此首页快照只证明服务入口、联系信息和公告标题/日期；不含公告正文，不能据此回答当前开放时段。\"}, {\"rank\": 4, \"score\": 0.665654, \"source_id\": \"international_off_campus_housing_2017\", \"title\": \"长安大学来华留学生校外住宿管理办法\", \"category\": \"宿舍\", \"url\": \"https://webplus.chd.edu.cn/_s21/2017/1026/c2596a37145/page.psp\", \"published_on\": \"2017-10-26\", \"scope\": \"仅限来华国际学生；不得外推到中国籍本科生或研究生\", \"index_policy\": \"narrow_scope_historical\", \"text\": \".edu.cn\\n地址: 中国西安市南二环中段长安大学国际教育学院\\n邮编: 710064\\n留学长大\\nCOPYRIGHT © 2016 CHANG'AN UNIVERSITY\"}, {\"rank\": 5, \"score\": 0.634319, \"source_id\": \"aid_portal_2025\", \"title\": \"学生资助信息公开目录\", \"category\": \"奖助\", \"url\": \"https://xxgk.chd.edu.cn/xxgkml/c6/xszz.htm\", \"published_on\": \"目录页；包含2025年更新条目\", \"scope\": \"学校资助政策入口；只回答目录中明确列出的项目与日期\", \"index_policy\": \"official_index\", \"text\": \"清单》的通知\\n长安大学信息公开实施细则\\n信息公开指南\\n信息公开目录\\n基本信息\\n招生考试信息\\n财务资产及收费信息\\n人事师资信息\\n教学质量信息\\n学生管理服务信息\\n学风建设信息\\n学位、学科信息\\n对外交流与合作信息\\n其他\\n信息公开年报\\n信息公开申请\\n意见建议\\n首页\\n信息公开制度\\n信息公开指南\\n信息公开目录\\n信息公开年报\\n信息公开申请\\n意见建议\\nPrevious\\nNext\\n信息公开目录\\n一、\\n基本信息\\n学校概况\\n学校章程\\n规章制度\\n发展规划年度计划\\n教职工代表大会\\n学术委员会\\n二、\\n招生考试信息\\n本科生招生章程\\n本科生招生咨询\\n研究生招生简章\\n研究生招生咨询\\n三、\\n财务资产及收费信息\\n财务资产管理制度\\n招投标情况\\n收支预算\\n收支决算\\n收费管理\\n四、\\n人事师资信息\\n岗位设置管理与聘用办法\\n干部任免与人员招聘\\n教职工管理制度\\n五、\\n教学质量信息\\n专业设置\\n就业指导政策\\n本科教学质量报告\\n六、\\n学生管理服务信息\\n学籍管理\\n学生资助\\n学生奖励处罚\\n学生申诉办法\\n七、\\n学风建设信息\\n学风建设机构\\n学术规范制度\\n学术不端行为查处\\n八、\\n学位、学科信息\\n学位授予要求\\n同等学力人员学位授予\\n九、\\n对外交流与合作\"}]}",
+      "tool_calls": []
+    },
+    {
+      "type": "ai",
+      "content": "根据长安大学图书馆官网首页快照，公开联系方式如下：\n\n- **联系电话**：+86-029-82334372\n- **邮箱**：tsgbgs@chd.edu.cn\n- **地址**：西安市南二环路中段\n\n来源：长安大学图书馆官网首页（动态主页快照），https://lib.chd.edu.cn/ ，抓取日期 2026-10-06。\n\n说明：该快照仅证明官网展示的联系信息，未包含公告正文；如需确认开放时间等具体服务安排，请以官方最新公告为准。",
+      "tool_calls": []
+    }
+  ],
+  "tool_calls": [
+    {
+      "name": "search_campus_knowledge",
+      "arguments": "{\"query\": \"长安大学图书馆 联系电话 邮箱 联系方式\"}"
+    }
+  ],
+  "tool_results": [
+    {
+      "name": "search_campus_knowledge",
+      "tool_call_id": "call_00_85Tp3J3W65Tzd2RUUUM34123",
+      "result": {
+        "outcome": "ok",
+        "backend": "chroma",
+        "results": [
+          {
+            "rank": 1,
+            "score": 0.766187,
+            "source_id": "library_home_2026",
+            "title": "长安大学图书馆官网首页（动态主页快照）",
+            "category": "图书馆",
+            "url": "https://lib.chd.edu.cn/",
+            "published_on": "持续更新；抓取日期2026-10-06",
+            "scope": "官网服务导航、联系信息和公告标题；公告标题不能代替正文，当前开放时间以官方最新公告为准",
+            "index_policy": "current_homepage_snapshot",
+            "text": "# 长安大学图书馆官网首页（动态主页快照）\n\n- 来源：https://lib.chd.edu.cn/\n- 官方发布/页面日期：持续更新；抓取日期2026-10-06\n- HTTP Last-Modified：未提供\n- 适用范围：官网服务导航、联系信息和公告标题；公告标题不能代替正文，当前开放时间以官方最新公告为准\n- 主题：图书馆\n- 检索策略：current_homepage_snapshot\n- 抓取时间（UTC）：2026-10-06T09:18:27+00:00\n- 原始文件：`raw/library_home_2026.html`（SHA-256 `6aecde39c0eb1030385172820556d69665fbfc2e24a773978a189a2f78056c42`）\n\n## 原文文本快照\n本地文件是官网首页动态页面的人工核对摘要；页面原始 HTML 与服务端渲染快照保存在 raw/。\n\n官网显示的联系地址为西安市南二环路中段，图书馆电话为 +86-029-82334372，邮箱为 tsgbgs@chd.edu.cn。首页导航列有开放时间、借阅规则、校外访问、"
+          },
+          {
+            "rank": 2,
+            "score": 0.714846,
+            "source_id": "student_summer_notice_2026",
+            "title": "关于做好2026年暑期学生工作的通知",
+            "category": "宿舍",
+            "url": "https://webplus.chd.edu.cn/_s86/2026/0908/c4706a262541/page.psp",
+            "published_on": "2026-07-03",
+            "scope": "仅适用于2026年暑假安排；宿舍安全、留校和离返校规定以原文为准",
+            "index_policy": "time_limited_notice",
+            "text": "d.edu.cn。\n附件1：暑期学生安全教育课件.pdf\n学生工作部（学生处）\n研究生工作部\n2026年7月3日\nCopyright © 2019 长安大学学生工作部 All Rights Reserved. 陕ICP备ICP05001168号\n邮箱 : dwxgb@chd.edu.cn 邮编 : 710064 地址 : 西安市南二环中段 技术支持：泽瑞通信"
+          },
+          {
+            "rank": 3,
+            "score": 0.704939,
+            "source_id": "library_home_2026",
+            "title": "长安大学图书馆官网首页（动态主页快照）",
+            "category": "图书馆",
+            "url": "https://lib.chd.edu.cn/",
+            "published_on": "持续更新；抓取日期2026-10-06",
+            "scope": "官网服务导航、联系信息和公告标题；公告标题不能代替正文，当前开放时间以官方最新公告为准",
+            "index_policy": "current_homepage_snapshot",
+            "text": "地址为西安市南二环路中段，图书馆电话为 +86-029-82334372，邮箱为 tsgbgs@chd.edu.cn。首页导航列有开放时间、借阅规则、校外访问、读者荐购、研讨间预约、文献传递和讲座培训等入口。\n\n抓取时首页公告列表包含《关于2026年图书馆中秋节、国庆节开放的通知》（2026-09-24）、《关于2026年图书馆暑期工作安排的通知》（2026-07-10）、《关于2026年图书馆清明节开放的通知》（2026-04-03）和《关于2026年图书馆寒假工作安排的通知》（2026-01-19）。\n\n此首页快照只证明服务入口、联系信息和公告标题/日期；不含公告正文，不能据此回答当前开放时段。"
+          },
+          {
+            "rank": 4,
+            "score": 0.665654,
+            "source_id": "international_off_campus_housing_2017",
+            "title": "长安大学来华留学生校外住宿管理办法",
+            "category": "宿舍",
+            "url": "https://webplus.chd.edu.cn/_s21/2017/1026/c2596a37145/page.psp",
+            "published_on": "2017-10-26",
+            "scope": "仅限来华国际学生；不得外推到中国籍本科生或研究生",
+            "index_policy": "narrow_scope_historical",
+            "text": ".edu.cn\n地址: 中国西安市南二环中段长安大学国际教育学院\n邮编: 710064\n留学长大\nCOPYRIGHT © 2016 CHANG'AN UNIVERSITY"
+          },
+          {
+            "rank": 5,
+            "score": 0.634319,
+            "source_id": "aid_portal_2025",
+            "title": "学生资助信息公开目录",
+            "category": "奖助",
+            "url": "https://xxgk.chd.edu.cn/xxgkml/c6/xszz.htm",
+            "published_on": "目录页；包含2025年更新条目",
+            "scope": "学校资助政策入口；只回答目录中明确列出的项目与日期",
+            "index_policy": "official_index",
+            "text": "清单》的通知\n长安大学信息公开实施细则\n信息公开指南\n信息公开目录\n基本信息\n招生考试信息\n财务资产及收费信息\n人事师资信息\n教学质量信息\n学生管理服务信息\n学风建设信息\n学位、学科信息\n对外交流与合作信息\n其他\n信息公开年报\n信息公开申请\n意见建议\n首页\n信息公开制度\n信息公开指南\n信息公开目录\n信息公开年报\n信息公开申请\n意见建议\nPrevious\nNext\n信息公开目录\n一、\n基本信息\n学校概况\n学校章程\n规章制度\n发展规划年度计划\n教职工代表大会\n学术委员会\n二、\n招生考试信息\n本科生招生章程\n本科生招生咨询\n研究生招生简章\n研究生招生咨询\n三、\n财务资产及收费信息\n财务资产管理制度\n招投标情况\n收支预算\n收支决算\n收费管理\n四、\n人事师资信息\n岗位设置管理与聘用办法\n干部任免与人员招聘\n教职工管理制度\n五、\n教学质量信息\n专业设置\n就业指导政策\n本科教学质量报告\n六、\n学生管理服务信息\n学籍管理\n学生资助\n学生奖励处罚\n学生申诉办法\n七、\n学风建设信息\n学风建设机构\n学术规范制度\n学术不端行为查处\n八、\n学位、学科信息\n学位授予要求\n同等学力人员学位授予\n九、\n对外交流与合作"
+          }
+        ]
+      }
+    }
+  ],
+  "model_usage": [
+    {
+      "run_id": "engineering-case-20261008-080559-a9193dae",
+      "case_id": "K10",
+      "turn_number": 1,
+      "implementation": "engineering",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "invocation": 1,
+      "request_status": "succeeded",
+      "request_attempted": true,
+      "usage_available": true,
+      "usage": {
+        "input_tokens": 723,
+        "output_tokens": 63,
+        "total_tokens": 786
+      },
+      "estimated_cost_usd": 0.0002925,
+      "cost_basis": "DeepSeek peak rate; cache miss assumed for all input tokens",
+      "pricing_source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/"
+    },
+    {
+      "run_id": "engineering-case-20261008-080559-a9193dae",
+      "case_id": "K10",
+      "turn_number": 1,
+      "implementation": "engineering",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "invocation": 2,
+      "request_status": "succeeded",
+      "request_attempted": true,
+      "usage_available": true,
+      "usage": {
+        "input_tokens": 2313,
+        "output_tokens": 119,
+        "total_tokens": 2432
+      },
+      "estimated_cost_usd": 0.0008367,
+      "cost_basis": "DeepSeek peak rate; cache miss assumed for all input tokens",
+      "pricing_source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/"
+    }
+  ],
+  "status_tool_verified": false,
+  "ticket_tool_verified": false,
+  "status": "completed"
+}

@@ -1,0 +1,40 @@
+{
+  "run_id": "baseline-principles-v1-20261006",
+  "implementation": "principles",
+  "started_at": "2026-10-06T19:06:16+08:00",
+  "dataset_id": "campus-customer-service-frozen-v1",
+  "planned_case_ids": [
+    "M01",
+    "M02",
+    "K01",
+    "K02",
+    "K03",
+    "K04",
+    "K05",
+    "K06",
+    "K07",
+    "K08",
+    "K09",
+    "K10",
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "U01",
+    "U02",
+    "B01",
+    "B02"
+  ],
+  "requested_case_ids": [
+    "K01"
+  ],
+  "status": "complete",
+  "batch_limit": 5,
+  "max_child_timeout_seconds": 120,
+  "per_case_file": "per_case.jsonl",
+  "progress_file": "progress.jsonl",
+  "finished_at": "2026-10-06T19:22:35+08:00",
+  "completed_case_count": 21,
+  "failed_case_count": 0
+}

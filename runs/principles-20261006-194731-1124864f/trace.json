@@ -1,0 +1,132 @@
+{
+  "question": "来华留学生想申请校外住宿，旧版学校办法要求什么时候提交申请？",
+  "request_id": "principles-7dc52464-fa07-46e7-ac8f-85b0db29e991",
+  "retrieval": {
+    "backend": "numpy",
+    "top_k": 5,
+    "latency_ms": 313.0,
+    "context_expansions": [
+      {
+        "source_id": "international_off_campus_housing_2017",
+        "anchor_chunk_id": "875c3c295ddc0d6420e5cee4",
+        "continuation_chunk_id": "1d2cd2cc873e6b050a1a31f0",
+        "overlap_chars_removed": 80,
+        "continuation_chars_added": 420
+      }
+    ],
+    "evidence_context_sha256": "425b5022672f440f78746a4a3111c5b95b24ef543341753d0c920c3d1aea16ef",
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "rank": 1,
+        "score": 0.7139,
+        "source_id": "international_off_campus_housing_2017",
+        "title": "长安大学来华留学生校外住宿管理办法",
+        "url": "https://webplus.chd.edu.cn/_s21/2017/1026/c2596a37145/page.psp",
+        "published_on": "2017-10-26",
+        "scope": "仅限来华国际学生；不得外推到中国籍本科生或研究生",
+        "index_policy": "narrow_scope_historical",
+        "text": "建设\n长安大学来华留学生校外住宿管理办法\n发布者：刘一楠发布时间：2017-10-26浏览次数：965\n为加强对我校来华留学生校外住宿的管理，保障外国留学生合法权益和人身财产的安全，根据《中华人民共和国外国人入境出境管理法》及其《实施细则》等有关法律法规，结合本校实际，特制定本规定。\n第一条来华留学生一般应住宿校内，属于以下情况的留学生可以申请校外住宿：\n1. 配偶或子女来校探亲陪读、留学的；\n2. 其他特殊情况必须在校外住宿的。\n申请校外住宿的留学生应到留学生工作办公室办理有关校外住宿申请手续。\n第二条留学生住宿居民家里，须于抵达后24小时内，由留宿人或者本人持住宿人的护照或者居留证件，向当地公安派出所申报，并填写住宿登记表。\n第三条办理校外住宿应事先按需准备：\n1．租赁私房的留学生应与房东签订租赁合同书，所租用房屋必须三证齐全（房主身份证、房产证、房屋租赁证）。\n2．住宿宾馆、饭店、租赁公寓房的留学生应提供物业部门有关住宿期限证明。\n第四条办理校外住宿程序：\n1. 于住宿费到期前1个月向国际教育学院留学生工作办公室递交校外住宿书面申请；\n2．经国际教育学院批准后，在校外租房并签订租",
+        "context_expansion": null,
+        "expanded_from_chunk_id": null
+      },
+      {
+        "evidence_id": "E2",
+        "rank": null,
+        "score": null,
+        "source_id": "international_off_campus_housing_2017",
+        "title": "长安大学来华留学生校外住宿管理办法",
+        "url": "https://webplus.chd.edu.cn/_s21/2017/1026/c2596a37145/page.psp",
+        "published_on": "2017-10-26",
+        "scope": "仅限来华国际学生；不得外推到中国籍本科生或研究生",
+        "index_policy": "narrow_scope_historical",
+        "text": "房合同；\n3. 持房屋租赁合同、护照和学生证到留学生工作办公室按要求如实填写《长安大学留学生校外住宿申请表》、签名，按照《长安大学留学生校外住宿申请表》流程进行审批和办理退宿，并于住宿费到期前搬离校内留学生公寓；\n4．持审核过的《长安大学留学生校外住宿申请表》、护照、学生证、房屋租赁合同及其复印件在留学生工作办公室登记备案；\n5．前往租赁房屋所在地派出所进行住宿登记。\n第五条中国政府奖学金留学生申请校外住宿者，应于每学期初按（即每年三月和九月）照本规定第四条要求申请和办理，经国际教育学院批准并备案后，按照中国政府奖学金住宿标准，次月起将住宿费和生活费一同发放至留学生交通银行账户。其他时间不予申请和办理。\n中国政府奖学金留学生申请校外住宿及申领住宿费发放应按照《中国政府奖学金留学生申请校外住宿及申领住宿费发放流程》办理。\n第六条校外住宿留学生，应遵守中国的法律和规定，尊重中国的风俗习惯和社会公德，同时增强自身安全防范意识。\n第七条",
+        "context_expansion": "adjacent_continuation",
+        "expanded_from_chunk_id": "875c3c295ddc0d6420e5cee4"
+      },
+      {
+        "evidence_id": "E3",
+        "rank": 2,
+        "score": 0.67643,
+        "source_id": "international_off_campus_housing_2017",
+        "title": "长安大学来华留学生校外住宿管理办法",
+        "url": "https://webplus.chd.edu.cn/_s21/2017/1026/c2596a37145/page.psp",
+        "published_on": "2017-10-26",
+        "scope": "仅限来华国际学生；不得外推到中国籍本科生或研究生",
+        "index_policy": "narrow_scope_historical",
+        "text": "# 长安大学来华留学生校外住宿管理办法\n\n- 来源：https://webplus.chd.edu.cn/_s21/2017/1026/c2596a37145/page.psp\n- 官方发布/页面日期：2017-10-26\n- HTTP Last-Modified：未提供\n- 适用范围：仅限来华国际学生；不得外推到中国籍本科生或研究生\n- 主题：宿舍\n- 检索策略：narrow_scope_historical\n- 抓取时间（UTC）：2026-10-06T09:18:26+00:00\n- 原始文件：`raw/international_off_campus_housing_2017.html`（SHA-256 `2f614e7e91aeb91101723c5785a3ddab9a3f6329ea2c6e4a828a69da31b9f4e5`）\n\n## 原文文本快照\n国际学生申请平台\n官方微信\n长安大学\n数字图书馆\n校图书馆\nEnglish\n首页\n学院概况\n学院简介\n学院领导\n组织架构\n国际教育学院、国际学生工作处、中国-中亚五...\n\"一带一路” 工程教育中心\n中非交通大学筹建办公室",
+        "context_expansion": null,
+        "expanded_from_chunk_id": null
+      },
+      {
+        "evidence_id": "E4",
+        "rank": 3,
+        "score": 0.662647,
+        "source_id": "international_off_campus_housing_2017",
+        "title": "长安大学来华留学生校外住宿管理办法",
+        "url": "https://webplus.chd.edu.cn/_s21/2017/1026/c2596a37145/page.psp",
+        "published_on": "2017-10-26",
+        "scope": "仅限来华国际学生；不得外推到中国籍本科生或研究生",
+        "index_policy": "narrow_scope_historical",
+        "text": "限证明。\n第四条办理校外住宿程序：\n1. 于住宿费到期前1个月向国际教育学院留学生工作办公室递交校外住宿书面申请；\n2．经国际教育学院批准后，在校外租房并签订租房合同；\n3. 持房屋租赁合同、护照和学生证到留学生工作办公室按要求如实填写《长安大学留学生校外住宿申请表》、签名，按照《长安大学留学生校外住宿申请表》流程进行审批和办理退宿，并于住宿费到期前搬离校内留学生公寓；\n4．持审核过的《长安大学留学生校外住宿申请表》、护照、学生证、房屋租赁合同及其复印件在留学生工作办公室登记备案；\n5．前往租赁房屋所在地派出所进行住宿登记。\n第五条中国政府奖学金留学生申请校外住宿者，应于每学期初按（即每年三月和九月）照本规定第四条要求申请和办理，经国际教育学院批准并备案后，按照中国政府奖学金住宿标准，次月起将住宿费和生活费一同发放至留学生交通银行账户。其他时间不予申请和办理。\n中国政府奖学金留学生申请校外住宿及申领住宿费发放应按照《中国政府奖学金留学生申请校外住宿及申领住宿费发放流程》办理。\n第六条校外住宿留学生，应遵守中国的法律和规定，尊重中国的风俗习惯和社会公德，同时增强自身安全防范意识。\n第七条",
+        "context_expansion": null,
+        "expanded_from_chunk_id": null
+      },
+      {
+        "evidence_id": "E5",
+        "rank": 4,
+        "score": 0.654306,
+        "source_id": "international_off_campus_housing_2017",
+        "title": "长安大学来华留学生校外住宿管理办法",
+        "url": "https://webplus.chd.edu.cn/_s21/2017/1026/c2596a37145/page.psp",
+        "published_on": "2017-10-26",
+        "scope": "仅限来华国际学生；不得外推到中国籍本科生或研究生",
+        "index_policy": "narrow_scope_historical",
+        "text": "金留学生申请校外住宿及申领住宿费发放流程》办理。\n第六条校外住宿留学生，应遵守中国的法律和规定，尊重中国的风俗习惯和社会公德，同时增强自身安全防范意识。\n第七条对不办理住宿登记的留学生及有关责任者，公安机关将依法予以处罚。\n第八条本规定自颁发之日起执行。\nRegulations on Living off-campus of CAU International Student\nBased on Foreigner Exit-Entry Administration Laws of the People’s Republic of China and the Implementation Rules as well as the actual situation of the university, hereby the regulations are formulated to reinforce off-campus lodging management among international students in the university and safeguard thei",
+        "context_expansion": null,
+        "expanded_from_chunk_id": null
+      },
+      {
+        "evidence_id": "E6",
+        "rank": 5,
+        "score": 0.640531,
+        "source_id": "international_off_campus_housing_2017",
+        "title": "长安大学来华留学生校外住宿管理办法",
+        "url": "https://webplus.chd.edu.cn/_s21/2017/1026/c2596a37145/page.psp",
+        "published_on": "2017-10-26",
+        "scope": "仅限来华国际学生；不得外推到中国籍本科生或研究生",
+        "index_policy": "narrow_scope_historical",
+        "text": "res on going through off-campus lodging\n1. International students in the university should submit living off-campus applications, in written forms, to the International students’ affairs office 1 month prior to expiration of their accommodation fees.\n2. After approvals from the International students’ affairs office (within 3 working days), international students in the university are allowed to rent houses off the campus and should sign tenancy contracts with the landlords.\n3. The international",
+        "context_expansion": null,
+        "expanded_from_chunk_id": null
+      }
+    ]
+  },
+  "model": "deepseek-flash",
+  "memory": {
+    "prior_turn_count": 0,
+    "history_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "max_turns": 4
+  },
+  "model_requests": [
+    {
+      "request_number": 1,
+      "request_attempted": true,
+      "status": "succeeded",
+      "latency_ms": 1766.0,
+      "finish_reason": "stop",
+      "usage": {
+        "input_tokens": 2718,
+        "output_tokens": 218,
+        "total_tokens": 2936
+      },
+      "tool_call_count": 0,
+      "answer_content": "根据 2017 年发布的《长安大学来华留学生校外住宿管理办法》（发布日期 2017-10-26），申请校外住宿的提交时间要求如下：\n\n**一般来华留学生：** 应于**住宿费到期前 1 个月**向国际教育学院留学生工作办公室递交校外住宿书面申请。（E1、E4）\n\n**中国政府奖学金留学生：** 应于**每学期初（即每年三月和九月）**按照该办法第四条要求申请和办理；**其他时间不予申请和办理**。（E2、E4）\n\n需要注意：\n- 该办法适用范围**仅限来华国际学生**，不得外推到中国籍本科生或研究生。\n- 该页面属于旧版/历史来源（2017-10-26），当前是否仍按此执行，本次资料无法确认。\n\n来源：《长安大学来华留学生校外住宿管理办法》，2017-10-26\nhttps://webplus.chd.edu.cn/_s21/2017/1026/c2596a37145/page.psp"
+    }
+  ],
+  "tool_calls": [],
+  "total_tool_calls": 0,
+  "status": "completed",
+  "answer": "根据 2017 年发布的《长安大学来华留学生校外住宿管理办法》（发布日期 2017-10-26），申请校外住宿的提交时间要求如下：\n\n**一般来华留学生：** 应于**住宿费到期前 1 个月**向国际教育学院留学生工作办公室递交校外住宿书面申请。（E1、E4）\n\n**中国政府奖学金留学生：** 应于**每学期初（即每年三月和九月）**按照该办法第四条要求申请和办理；**其他时间不予申请和办理**。（E2、E4）\n\n需要注意：\n- 该办法适用范围**仅限来华国际学生**，不得外推到中国籍本科生或研究生。\n- 该页面属于旧版/历史来源（2017-10-26），当前是否仍按此执行，本次资料无法确认。\n\n来源：《长安大学来华留学生校外住宿管理办法》，2017-10-26\nhttps://webplus.chd.edu.cn/_s21/2017/1026/c2596a37145/page.psp",
+  "finish_reason": "stop"
+}

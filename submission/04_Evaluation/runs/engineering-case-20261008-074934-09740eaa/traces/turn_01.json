@@ -1,0 +1,168 @@
+{
+  "run_id": "engineering-case-20261008-074934-09740eaa",
+  "case_id": "K08",
+  "turn_number": 1,
+  "question": "2026年暑期留校学生可以让同学在宿舍过夜吗？",
+  "answer": "根据《关于做好2026年暑期学生工作的通知》（发布日期：2026-07-03，仅适用于2026年暑假安排）：\n\n**不可以。** 该通知明确要求：暑期留校学生要服从学校、院（系）相关安排，**严禁留宿他人**，严禁在学生宿舍内从事任何商业活动及其他违法违规违纪活动。\n\n来源：关于做好2026年暑期学生工作的通知\nhttps://webplus.chd.edu.cn/_s86/2026/0908/c4706a262541/page.psp\n\n如需了解具体执行细则，建议咨询所在院（系）辅导员或学生社区管理中心。",
+  "elapsed_seconds": 4.922,
+  "memory": {
+    "prior_stored_message_count": 0,
+    "model_context_turn_count": 0,
+    "max_model_context_turns": 4,
+    "thread_id": "engineering-case-20261008-074934-09740eaa"
+  },
+  "new_messages": [
+    {
+      "type": "human",
+      "content": "2026年暑期留校学生可以让同学在宿舍过夜吗？",
+      "tool_calls": []
+    },
+    {
+      "type": "ai",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "search_campus_knowledge",
+          "args": {
+            "query": "2026年暑期留校学生 宿舍 留宿他人 过夜"
+          },
+          "id": "call_00_U7gmvLKbbmUp8fDzWtGY6266",
+          "type": "tool_call"
+        }
+      ]
+    },
+    {
+      "type": "tool",
+      "content": "{\"outcome\": \"ok\", \"backend\": \"chroma\", \"results\": [{\"rank\": 1, \"score\": 0.632664, \"source_id\": \"international_off_campus_housing_2017\", \"title\": \"长安大学来华留学生校外住宿管理办法\", \"category\": \"宿舍\", \"url\": \"https://webplus.chd.edu.cn/_s21/2017/1026/c2596a37145/page.psp\", \"published_on\": \"2017-10-26\", \"scope\": \"仅限来华国际学生；不得外推到中国籍本科生或研究生\", \"index_policy\": \"narrow_scope_historical\", \"text\": \"金留学生申请校外住宿及申领住宿费发放流程》办理。\\n第六条校外住宿留学生，应遵守中国的法律和规定，尊重中国的风俗习惯和社会公德，同时增强自身安全防范意识。\\n第七条对不办理住宿登记的留学生及有关责任者，公安机关将依法予以处罚。\\n第八条本规定自颁发之日起执行。\\nRegulations on Living off-campus of CAU International Student\\nBased on Foreigner Exit-Entry Administration Laws of the People’s Republic of China and the Implementation Rules as well as the actual situation of the university, hereby the regulations are formulated to reinforce off-campus lodging management among international students in the university and safeguard thei\"}, {\"rank\": 2, \"score\": 0.631635, \"source_id\": \"student_summer_notice_2026\", \"title\": \"关于做好2026年暑期学生工作的通知\", \"category\": \"宿舍\", \"url\": \"https://webplus.chd.edu.cn/_s86/2026/0908/c4706a262541/page.psp\", \"published_on\": \"2026-07-03\", \"scope\": \"仅适用于2026年暑假安排；宿舍安全、留校和离返校规定以原文为准\", \"index_policy\": \"time_limited_notice\", \"text\": \"# 关于做好2026年暑期学生工作的通知\\n\\n- 来源：https://webplus.chd.edu.cn/_s86/2026/0908/c4706a262541/page.psp\\n- 官方发布/页面日期：2026-07-03\\n- HTTP Last-Modified：未提供\\n- 适用范围：仅适用于2026年暑假安排；宿舍安全、留校和离返校规定以原文为准\\n- 主题：宿舍\\n- 检索策略：time_limited_notice\\n- 抓取时间（UTC）：2026-10-06T09:18:24+00:00\\n- 原始文件：`raw/student_summer_notice_2026.html`（SHA-256 `00da7d06cb47ccc22342b8782f63df22471b7d2b512c2ffb9c477506d0cc035c`）\\n\\n## 原文文本快照\\n﻿\\n学校官网 / 信息门户 / English\\n网站首页\\n机构概况\\n部门简介\\n领导班子\\n机构职能\\n部门分工\\n思政教育\\n思政品牌\\n网络思政\\n学风建设\\n民族学生工作\\n管理服务\\n日常教育管理\\n资助育人\\n心理育人\\n国防教育\\n队伍建设\\n“一站\"}, {\"rank\": 3, \"score\": 0.624798, \"source_id\": \"student_summer_notice_2026\", \"title\": \"关于做好2026年暑期学生工作的通知\", \"category\": \"宿舍\", \"url\": \"https://webplus.chd.edu.cn/_s86/2026/0908/c4706a262541/page.psp\", \"published_on\": \"2026-07-03\", \"scope\": \"仅适用于2026年暑假安排；宿舍安全、留校和离返校规定以原文为准\", \"index_policy\": \"time_limited_notice\", \"text\": \"单独居住。\\n2.院（系）领导和辅导员要深入社区、深入宿舍、深入学生，加强巡查走访，关心留校学生的学习和生活，关注他们的思想动态及心理状况，做到底数清、状况明。\\n3.暑期留校学生要服从学校、院（系）相关安排，严禁留宿他人，严禁在学生宿舍内从事任何商业活动及其他违法违规违纪活动；暑期校园各类施工项目陆续开展，学生出入时应尽量避开施工现场，避免意外发生。\\n（三）确保学生服务保障工作不断线\\n1.心理健康教育与咨询中心暑期正常开展相关工作。北校区工作地点位于图书馆西侧附属楼二层，心理咨询预约电话为：029-83135163，61105103；南校区工作地点位于东院雁博园四楼南侧，心理咨询预约电话为：029-82334145。\\n2.学生资助中心（学生事务中心）开通暑期学生资助热线：029-61105098，为学生提供资助政策咨询与服务，并提供本科生补办学生证咨询、本科生各类证明材料打印等事务服务。\\n3.学生社区管理中心所有公寓和示范性园区面向学生正常开放。\\n（四）做好暑期学生应征入伍服务保障工作\\n各学院（系）要紧抓秋季应征入伍窗口期，聚焦年度征兵任务抓好落实。严格落实《关于开展2026年秋季征兵报\"}, {\"rank\": 4, \"score\": 0.622186, \"source_id\": \"international_off_campus_housing_2017\", \"title\": \"长安大学来华留学生校外住宿管理办法\", \"category\": \"宿舍\", \"url\": \"https://webplus.chd.edu.cn/_s21/2017/1026/c2596a37145/page.psp\", \"published_on\": \"2017-10-26\", \"scope\": \"仅限来华国际学生；不得外推到中国籍本科生或研究生\", \"index_policy\": \"narrow_scope_historical\", \"text\": \"建设\\n长安大学来华留学生校外住宿管理办法\\n发布者：刘一楠发布时间：2017-10-26浏览次数：965\\n为加强对我校来华留学生校外住宿的管理，保障外国留学生合法权益和人身财产的安全，根据《中华人民共和国外国人入境出境管理法》及其《实施细则》等有关法律法规，结合本校实际，特制定本规定。\\n第一条来华留学生一般应住宿校内，属于以下情况的留学生可以申请校外住宿：\\n1. 配偶或子女来校探亲陪读、留学的；\\n2. 其他特殊情况必须在校外住宿的。\\n申请校外住宿的留学生应到留学生工作办公室办理有关校外住宿申请手续。\\n第二条留学生住宿居民家里，须于抵达后24小时内，由留宿人或者本人持住宿人的护照或者居留证件，向当地公安派出所申报，并填写住宿登记表。\\n第三条办理校外住宿应事先按需准备：\\n1．租赁私房的留学生应与房东签订租赁合同书，所租用房屋必须三证齐全（房主身份证、房产证、房屋租赁证）。\\n2．住宿宾馆、饭店、租赁公寓房的留学生应提供物业部门有关住宿期限证明。\\n第四条办理校外住宿程序：\\n1. 于住宿费到期前1个月向国际教育学院留学生工作办公室递交校外住宿书面申请；\\n2．经国际教育学院批准后，在校外租房并签订租\"}, {\"rank\": 5, \"score\": 0.618468, \"source_id\": \"international_off_campus_housing_2017\", \"title\": \"长安大学来华留学生校外住宿管理办法\", \"category\": \"宿舍\", \"url\": \"https://webplus.chd.edu.cn/_s21/2017/1026/c2596a37145/page.psp\", \"published_on\": \"2017-10-26\", \"scope\": \"仅限来华国际学生；不得外推到中国籍本科生或研究生\", \"index_policy\": \"narrow_scope_historical\", \"text\": \"# 长安大学来华留学生校外住宿管理办法\\n\\n- 来源：https://webplus.chd.edu.cn/_s21/2017/1026/c2596a37145/page.psp\\n- 官方发布/页面日期：2017-10-26\\n- HTTP Last-Modified：未提供\\n- 适用范围：仅限来华国际学生；不得外推到中国籍本科生或研究生\\n- 主题：宿舍\\n- 检索策略：narrow_scope_historical\\n- 抓取时间（UTC）：2026-10-06T09:18:26+00:00\\n- 原始文件：`raw/international_off_campus_housing_2017.html`（SHA-256 `2f614e7e91aeb91101723c5785a3ddab9a3f6329ea2c6e4a828a69da31b9f4e5`）\\n\\n## 原文文本快照\\n国际学生申请平台\\n官方微信\\n长安大学\\n数字图书馆\\n校图书馆\\nEnglish\\n首页\\n学院概况\\n学院简介\\n学院领导\\n组织架构\\n国际教育学院、国际学生工作处、中国-中亚五...\\n\\\"一带一路” 工程教育中心\\n中非交通大学筹建办公室\"}]}",
+      "tool_calls": []
+    },
+    {
+      "type": "ai",
+      "content": "根据《关于做好2026年暑期学生工作的通知》（发布日期：2026-07-03，仅适用于2026年暑假安排）：\n\n**不可以。** 该通知明确要求：暑期留校学生要服从学校、院（系）相关安排，**严禁留宿他人**，严禁在学生宿舍内从事任何商业活动及其他违法违规违纪活动。\n\n来源：关于做好2026年暑期学生工作的通知\nhttps://webplus.chd.edu.cn/_s86/2026/0908/c4706a262541/page.psp\n\n如需了解具体执行细则，建议咨询所在院（系）辅导员或学生社区管理中心。",
+      "tool_calls": []
+    }
+  ],
+  "tool_calls": [
+    {
+      "name": "search_campus_knowledge",
+      "arguments": "{\"query\": \"2026年暑期留校学生 宿舍 留宿他人 过夜\"}"
+    }
+  ],
+  "tool_results": [
+    {
+      "name": "search_campus_knowledge",
+      "tool_call_id": "call_00_U7gmvLKbbmUp8fDzWtGY6266",
+      "result": {
+        "outcome": "ok",
+        "backend": "chroma",
+        "results": [
+          {
+            "rank": 1,
+            "score": 0.632664,
+            "source_id": "international_off_campus_housing_2017",
+            "title": "长安大学来华留学生校外住宿管理办法",
+            "category": "宿舍",
+            "url": "https://webplus.chd.edu.cn/_s21/2017/1026/c2596a37145/page.psp",
+            "published_on": "2017-10-26",
+            "scope": "仅限来华国际学生；不得外推到中国籍本科生或研究生",
+            "index_policy": "narrow_scope_historical",
+            "text": "金留学生申请校外住宿及申领住宿费发放流程》办理。\n第六条校外住宿留学生，应遵守中国的法律和规定，尊重中国的风俗习惯和社会公德，同时增强自身安全防范意识。\n第七条对不办理住宿登记的留学生及有关责任者，公安机关将依法予以处罚。\n第八条本规定自颁发之日起执行。\nRegulations on Living off-campus of CAU International Student\nBased on Foreigner Exit-Entry Administration Laws of the People’s Republic of China and the Implementation Rules as well as the actual situation of the university, hereby the regulations are formulated to reinforce off-campus lodging management among international students in the university and safeguard thei"
+          },
+          {
+            "rank": 2,
+            "score": 0.631635,
+            "source_id": "student_summer_notice_2026",
+            "title": "关于做好2026年暑期学生工作的通知",
+            "category": "宿舍",
+            "url": "https://webplus.chd.edu.cn/_s86/2026/0908/c4706a262541/page.psp",
+            "published_on": "2026-07-03",
+            "scope": "仅适用于2026年暑假安排；宿舍安全、留校和离返校规定以原文为准",
+            "index_policy": "time_limited_notice",
+            "text": "# 关于做好2026年暑期学生工作的通知\n\n- 来源：https://webplus.chd.edu.cn/_s86/2026/0908/c4706a262541/page.psp\n- 官方发布/页面日期：2026-07-03\n- HTTP Last-Modified：未提供\n- 适用范围：仅适用于2026年暑假安排；宿舍安全、留校和离返校规定以原文为准\n- 主题：宿舍\n- 检索策略：time_limited_notice\n- 抓取时间（UTC）：2026-10-06T09:18:24+00:00\n- 原始文件：`raw/student_summer_notice_2026.html`（SHA-256 `00da7d06cb47ccc22342b8782f63df22471b7d2b512c2ffb9c477506d0cc035c`）\n\n## 原文文本快照\n﻿\n学校官网 / 信息门户 / English\n网站首页\n机构概况\n部门简介\n领导班子\n机构职能\n部门分工\n思政教育\n思政品牌\n网络思政\n学风建设\n民族学生工作\n管理服务\n日常教育管理\n资助育人\n心理育人\n国防教育\n队伍建设\n“一站"
+          },
+          {
+            "rank": 3,
+            "score": 0.624798,
+            "source_id": "student_summer_notice_2026",
+            "title": "关于做好2026年暑期学生工作的通知",
+            "category": "宿舍",
+            "url": "https://webplus.chd.edu.cn/_s86/2026/0908/c4706a262541/page.psp",
+            "published_on": "2026-07-03",
+            "scope": "仅适用于2026年暑假安排；宿舍安全、留校和离返校规定以原文为准",
+            "index_policy": "time_limited_notice",
+            "text": "单独居住。\n2.院（系）领导和辅导员要深入社区、深入宿舍、深入学生，加强巡查走访，关心留校学生的学习和生活，关注他们的思想动态及心理状况，做到底数清、状况明。\n3.暑期留校学生要服从学校、院（系）相关安排，严禁留宿他人，严禁在学生宿舍内从事任何商业活动及其他违法违规违纪活动；暑期校园各类施工项目陆续开展，学生出入时应尽量避开施工现场，避免意外发生。\n（三）确保学生服务保障工作不断线\n1.心理健康教育与咨询中心暑期正常开展相关工作。北校区工作地点位于图书馆西侧附属楼二层，心理咨询预约电话为：029-83135163，61105103；南校区工作地点位于东院雁博园四楼南侧，心理咨询预约电话为：029-82334145。\n2.学生资助中心（学生事务中心）开通暑期学生资助热线：029-61105098，为学生提供资助政策咨询与服务，并提供本科生补办学生证咨询、本科生各类证明材料打印等事务服务。\n3.学生社区管理中心所有公寓和示范性园区面向学生正常开放。\n（四）做好暑期学生应征入伍服务保障工作\n各学院（系）要紧抓秋季应征入伍窗口期，聚焦年度征兵任务抓好落实。严格落实《关于开展2026年秋季征兵报"
+          },
+          {
+            "rank": 4,
+            "score": 0.622186,
+            "source_id": "international_off_campus_housing_2017",
+            "title": "长安大学来华留学生校外住宿管理办法",
+            "category": "宿舍",
+            "url": "https://webplus.chd.edu.cn/_s21/2017/1026/c2596a37145/page.psp",
+            "published_on": "2017-10-26",
+            "scope": "仅限来华国际学生；不得外推到中国籍本科生或研究生",
+            "index_policy": "narrow_scope_historical",
+            "text": "建设\n长安大学来华留学生校外住宿管理办法\n发布者：刘一楠发布时间：2017-10-26浏览次数：965\n为加强对我校来华留学生校外住宿的管理，保障外国留学生合法权益和人身财产的安全，根据《中华人民共和国外国人入境出境管理法》及其《实施细则》等有关法律法规，结合本校实际，特制定本规定。\n第一条来华留学生一般应住宿校内，属于以下情况的留学生可以申请校外住宿：\n1. 配偶或子女来校探亲陪读、留学的；\n2. 其他特殊情况必须在校外住宿的。\n申请校外住宿的留学生应到留学生工作办公室办理有关校外住宿申请手续。\n第二条留学生住宿居民家里，须于抵达后24小时内，由留宿人或者本人持住宿人的护照或者居留证件，向当地公安派出所申报，并填写住宿登记表。\n第三条办理校外住宿应事先按需准备：\n1．租赁私房的留学生应与房东签订租赁合同书，所租用房屋必须三证齐全（房主身份证、房产证、房屋租赁证）。\n2．住宿宾馆、饭店、租赁公寓房的留学生应提供物业部门有关住宿期限证明。\n第四条办理校外住宿程序：\n1. 于住宿费到期前1个月向国际教育学院留学生工作办公室递交校外住宿书面申请；\n2．经国际教育学院批准后，在校外租房并签订租"
+          },
+          {
+            "rank": 5,
+            "score": 0.618468,
+            "source_id": "international_off_campus_housing_2017",
+            "title": "长安大学来华留学生校外住宿管理办法",
+            "category": "宿舍",
+            "url": "https://webplus.chd.edu.cn/_s21/2017/1026/c2596a37145/page.psp",
+            "published_on": "2017-10-26",
+            "scope": "仅限来华国际学生；不得外推到中国籍本科生或研究生",
+            "index_policy": "narrow_scope_historical",
+            "text": "# 长安大学来华留学生校外住宿管理办法\n\n- 来源：https://webplus.chd.edu.cn/_s21/2017/1026/c2596a37145/page.psp\n- 官方发布/页面日期：2017-10-26\n- HTTP Last-Modified：未提供\n- 适用范围：仅限来华国际学生；不得外推到中国籍本科生或研究生\n- 主题：宿舍\n- 检索策略：narrow_scope_historical\n- 抓取时间（UTC）：2026-10-06T09:18:26+00:00\n- 原始文件：`raw/international_off_campus_housing_2017.html`（SHA-256 `2f614e7e91aeb91101723c5785a3ddab9a3f6329ea2c6e4a828a69da31b9f4e5`）\n\n## 原文文本快照\n国际学生申请平台\n官方微信\n长安大学\n数字图书馆\n校图书馆\nEnglish\n首页\n学院概况\n学院简介\n学院领导\n组织架构\n国际教育学院、国际学生工作处、中国-中亚五...\n\"一带一路” 工程教育中心\n中非交通大学筹建办公室"
+          }
+        ]
+      }
+    }
+  ],
+  "model_usage": [
+    {
+      "run_id": "engineering-case-20261008-074934-09740eaa",
+      "case_id": "K08",
+      "turn_number": 1,
+      "implementation": "engineering",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "invocation": 1,
+      "request_status": "succeeded",
+      "request_attempted": true,
+      "usage_available": true,
+      "usage": {
+        "input_tokens": 727,
+        "output_tokens": 56,
+        "total_tokens": 783
+      },
+      "estimated_cost_usd": 0.0002853,
+      "cost_basis": "DeepSeek peak rate; cache miss assumed for all input tokens",
+      "pricing_source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/"
+    },
+    {
+      "run_id": "engineering-case-20261008-074934-09740eaa",
+      "case_id": "K08",
+      "turn_number": 1,
+      "implementation": "engineering",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "invocation": 2,
+      "request_status": "succeeded",
+      "request_attempted": true,
+      "usage_available": true,
+      "usage": {
+        "input_tokens": 2758,
+        "output_tokens": 131,
+        "total_tokens": 2889
+      },
+      "estimated_cost_usd": 0.0009846,
+      "cost_basis": "DeepSeek peak rate; cache miss assumed for all input tokens",
+      "pricing_source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/"
+    }
+  ],
+  "status_tool_verified": false,
+  "ticket_tool_verified": false,
+  "status": "completed"
+}

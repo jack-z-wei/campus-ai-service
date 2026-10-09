@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="620" viewBox="0 0 1160 620">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#17212b}.small{font-size:13px}.label{font-size:14px}.title{font-size:24px;font-weight:700}.subtitle{font-size:14px;fill:#52616b}</style>
+<text x="36" y="40" class="title">优化前后固定集质量指标</text>
+<text x="36" y="66" class="subtitle">同一冻结集；分母和 N/A 口径见 reports/Agent_Evaluation.md</text>
+<text x="46" y="104" class="label" font-weight="700">Python 原理版</text>
+<line x1="84" y1="472.0" x2="556" y2="472.0" stroke="#dfe5e8"/>
+<text x="76" y="477.0" text-anchor="end" class="small">0%</text>
+<line x1="84" y1="387.0" x2="556" y2="387.0" stroke="#dfe5e8"/>
+<text x="76" y="392.0" text-anchor="end" class="small">25%</text>
+<line x1="84" y1="302.0" x2="556" y2="302.0" stroke="#dfe5e8"/>
+<text x="76" y="307.0" text-anchor="end" class="small">50%</text>
+<line x1="84" y1="217.0" x2="556" y2="217.0" stroke="#dfe5e8"/>
+<text x="76" y="222.0" text-anchor="end" class="small">75%</text>
+<line x1="84" y1="132.0" x2="556" y2="132.0" stroke="#dfe5e8"/>
+<text x="76" y="137.0" text-anchor="end" class="small">100%</text>
+<rect x="111.5" y="146.2" width="28" height="325.8" rx="3" fill="#4d78a8"/>
+<text x="125.5" y="139.2" text-anchor="middle" class="small">95.8%</text>
+<rect x="146.5" y="146.2" width="28" height="325.8" rx="3" fill="#f28e2b"/>
+<text x="160.5" y="139.2" text-anchor="middle" class="small">95.8%</text>
+<text x="143.0" y="497" text-anchor="middle" class="label">Recall@5</text>
+<rect x="229.5" y="193.8" width="28" height="278.2" rx="3" fill="#4d78a8"/>
+<text x="243.5" y="186.8" text-anchor="middle" class="small">81.8%</text>
+<rect x="264.5" y="162.9" width="28" height="309.1" rx="3" fill="#f28e2b"/>
+<text x="278.5" y="155.9" text-anchor="middle" class="small">90.9%</text>
+<text x="261.0" y="497" text-anchor="middle" class="label">工具选择</text>
+<rect x="347.5" y="161.6" width="28" height="310.4" rx="3" fill="#4d78a8"/>
+<text x="361.5" y="154.6" text-anchor="middle" class="small">91.3%</text>
+<rect x="382.5" y="146.8" width="28" height="325.2" rx="3" fill="#f28e2b"/>
+<text x="396.5" y="139.8" text-anchor="middle" class="small">95.7%</text>
+<text x="379.0" y="497" text-anchor="middle" class="label">任务完成</text>
+<rect x="465.5" y="132.0" width="28" height="340.0" rx="3" fill="#4d78a8"/>
+<text x="479.5" y="125.0" text-anchor="middle" class="small">100.0%</text>
+<rect x="500.5" y="132.0" width="28" height="340.0" rx="3" fill="#f28e2b"/>
+<text x="514.5" y="125.0" text-anchor="middle" class="small">100.0%</text>
+<text x="497.0" y="497" text-anchor="middle" class="label">答案正确性†</text>
+<text x="600" y="104" class="label" font-weight="700">LangGraph 工程版</text>
+<line x1="638" y1="472.0" x2="1110" y2="472.0" stroke="#dfe5e8"/>
+<text x="630" y="477.0" text-anchor="end" class="small">0%</text>
+<line x1="638" y1="387.0" x2="1110" y2="387.0" stroke="#dfe5e8"/>
+<text x="630" y="392.0" text-anchor="end" class="small">25%</text>
+<line x1="638" y1="302.0" x2="1110" y2="302.0" stroke="#dfe5e8"/>
+<text x="630" y="307.0" text-anchor="end" class="small">50%</text>
+<line x1="638" y1="217.0" x2="1110" y2="217.0" stroke="#dfe5e8"/>
+<text x="630" y="222.0" text-anchor="end" class="small">75%</text>
+<line x1="638" y1="132.0" x2="1110" y2="132.0" stroke="#dfe5e8"/>
+<text x="630" y="137.0" text-anchor="end" class="small">100%</text>
+<rect x="665.5" y="146.2" width="28" height="325.8" rx="3" fill="#4d78a8"/>
+<text x="679.5" y="139.2" text-anchor="middle" class="small">95.8%</text>
+<rect x="700.5" y="146.2" width="28" height="325.8" rx="3" fill="#f28e2b"/>
+<text x="714.5" y="139.2" text-anchor="middle" class="small">95.8%</text>
+<text x="697.0" y="497" text-anchor="middle" class="label">Recall@5</text>
+<rect x="783.5" y="161.6" width="28" height="310.4" rx="3" fill="#4d78a8"/>
+<text x="797.5" y="154.6" text-anchor="middle" class="small">91.3%</text>
+<rect x="818.5" y="146.8" width="28" height="325.2" rx="3" fill="#f28e2b"/>
+<text x="832.5" y="139.8" text-anchor="middle" class="small">95.7%</text>
+<text x="815.0" y="497" text-anchor="middle" class="label">工具选择</text>
+<rect x="901.5" y="161.6" width="28" height="310.4" rx="3" fill="#4d78a8"/>
+<text x="915.5" y="154.6" text-anchor="middle" class="small">91.3%</text>
+<rect x="936.5" y="146.8" width="28" height="325.2" rx="3" fill="#f28e2b"/>
+<text x="950.5" y="139.8" text-anchor="middle" class="small">95.7%</text>
+<text x="933.0" y="497" text-anchor="middle" class="label">任务完成</text>
+<rect x="1019.5" y="132.0" width="28" height="340.0" rx="3" fill="#4d78a8"/>
+<text x="1033.5" y="125.0" text-anchor="middle" class="small">100.0%</text>
+<rect x="1054.5" y="132.0" width="28" height="340.0" rx="3" fill="#f28e2b"/>
+<text x="1068.5" y="125.0" text-anchor="middle" class="small">100.0%</text>
+<text x="1051.0" y="497" text-anchor="middle" class="label">答案正确性†</text>
+<rect x="404" y="525" width="16" height="16" fill="#4d78a8"/><text x="428" y="538" class="label">基线</text>
+<rect x="500" y="525" width="16" height="16" fill="#f28e2b"/><text x="524" y="538" class="label">优化版</text>
+<text x="36" y="575" class="small">† Judge 与生成模型同系列；V1/V2 专项 Rubric 评分各 30/30，见评分表。</text>
+</svg>

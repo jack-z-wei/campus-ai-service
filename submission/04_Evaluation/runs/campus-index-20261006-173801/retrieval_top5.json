@@ -1,0 +1,137 @@
+[
+  {
+    "query_id": "K01",
+    "expected_unknown": false,
+    "expected_source_ids": [
+      "academic_course_selection_2022"
+    ],
+    "reciprocal_rank": 1.0,
+    "hits": [
+      {
+        "rank": 1,
+        "score": 0.72037775,
+        "source_id": "academic_course_selection_2022",
+        "chunk_id": "a416144f69206dd9436bf5aa",
+        "index_policy": "dated_policy"
+      },
+      {
+        "rank": 2,
+        "score": 0.68405341,
+        "source_id": "academic_status_2022",
+        "chunk_id": "64ae02ebcfef2808b3b9911b",
+        "index_policy": "dated_policy"
+      },
+      {
+        "rank": 3,
+        "score": 0.67979935,
+        "source_id": "academic_status_2022",
+        "chunk_id": "b59ec0745f574ed2ace3fbc3",
+        "index_policy": "dated_policy"
+      },
+      {
+        "rank": 4,
+        "score": 0.64440718,
+        "source_id": "academic_status_2022",
+        "chunk_id": "bacf6582dc85219816b9ce33",
+        "index_policy": "dated_policy"
+      },
+      {
+        "rank": 5,
+        "score": 0.64414768,
+        "source_id": "academic_status_2022",
+        "chunk_id": "f0ef5da3db51ea3932e4e72f",
+        "index_policy": "dated_policy"
+      }
+    ]
+  },
+  {
+    "query_id": "K10",
+    "expected_unknown": false,
+    "expected_source_ids": [
+      "library_home_2026"
+    ],
+    "reciprocal_rank": 0.333333,
+    "hits": [
+      {
+        "rank": 1,
+        "score": 0.79856841,
+        "source_id": "library_archive_reader_rules",
+        "chunk_id": "6bb5d600fc35c31199d0c4b2",
+        "index_policy": "archive_not_for_current_answers"
+      },
+      {
+        "rank": 2,
+        "score": 0.79832591,
+        "source_id": "library_archive_hours",
+        "chunk_id": "90a70bdf9c1fe76788d36bd7",
+        "index_policy": "archive_not_for_current_answers"
+      },
+      {
+        "rank": 3,
+        "score": 0.79198349,
+        "source_id": "library_home_2026",
+        "chunk_id": "1ebca36c7cfb273e33eefcba",
+        "index_policy": "current_homepage_snapshot"
+      },
+      {
+        "rank": 4,
+        "score": 0.77989554,
+        "source_id": "library_archive_remote_access",
+        "chunk_id": "544733c0b9bf12f49313414d",
+        "index_policy": "archive_not_for_current_answers"
+      },
+      {
+        "rank": 5,
+        "score": 0.76574565,
+        "source_id": "library_archive_reader_rules",
+        "chunk_id": "9fe8d142b87c4246879fa55a",
+        "index_policy": "archive_not_for_current_answers"
+      }
+    ]
+  },
+  {
+    "query_id": "U01",
+    "expected_unknown": true,
+    "expected_source_ids": [
+      "library_home_2026"
+    ],
+    "reciprocal_rank": 0.2,
+    "hits": [
+      {
+        "rank": 1,
+        "score": 0.75363637,
+        "source_id": "library_archive_hours",
+        "chunk_id": "e0bddfb4a3796d6969a361e8",
+        "index_policy": "archive_not_for_current_answers"
+      },
+      {
+        "rank": 2,
+        "score": 0.69878774,
+        "source_id": "library_archive_reader_rules",
+        "chunk_id": "031f72d4b281751cf28f7c6a",
+        "index_policy": "archive_not_for_current_answers"
+      },
+      {
+        "rank": 3,
+        "score": 0.69166046,
+        "source_id": "library_archive_hours",
+        "chunk_id": "e15c342b4cd158e4a699cb2e",
+        "index_policy": "archive_not_for_current_answers"
+      },
+      {
+        "rank": 4,
+        "score": 0.68847556,
+        "source_id": "library_archive_remote_access",
+        "chunk_id": "ea0e9b7ad63308188ba1d05f",
+        "index_policy": "archive_not_for_current_answers"
+      },
+      {
+        "rank": 5,
+        "score": 0.68301615,
+        "source_id": "library_home_2026",
+        "chunk_id": "1ebca36c7cfb273e33eefcba",
+        "index_policy": "current_homepage_snapshot"
+      }
+    ]
+  }
+]

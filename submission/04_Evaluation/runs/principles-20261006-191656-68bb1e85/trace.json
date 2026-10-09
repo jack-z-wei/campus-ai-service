@@ -1,0 +1,157 @@
+{
+  "question": "查询我的助学申请记录SIM-REC-999。",
+  "request_id": "principles-15c1bb10-a453-4e3a-a875-3f185a01288e",
+  "retrieval": {
+    "backend": "numpy",
+    "top_k": 5,
+    "latency_ms": 250.0,
+    "context_expansions": [
+      {
+        "source_id": "aid_portal_2025",
+        "anchor_chunk_id": "109b795a4b1b6498c12d3356",
+        "continuation_chunk_id": "7f4bc91d5e3a823e19afa70b",
+        "overlap_chars_removed": 80,
+        "continuation_chars_added": 420
+      }
+    ],
+    "evidence_context_sha256": "12b17aec200ed8f1d73257de2e8b23fb2d7bbdc404edaf9a600a5ccdce4df820",
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "rank": 1,
+        "score": 0.576533,
+        "source_id": "aid_portal_2025",
+        "title": "学生资助信息公开目录",
+        "url": "https://xxgk.chd.edu.cn/xxgkml/c6/xszz.htm",
+        "published_on": "目录页；包含2025年更新条目",
+        "scope": "学校资助政策入口；只回答目录中明确列出的项目与日期",
+        "index_policy": "official_index",
+        "text": "# 学生资助信息公开目录\n\n- 来源：https://xxgk.chd.edu.cn/xxgkml/c6/xszz.htm\n- 官方发布/页面日期：目录页；包含2025年更新条目\n- HTTP Last-Modified：Tue, 25 Aug 2026 02:53:59 GMT\n- 适用范围：学校资助政策入口；只回答目录中明确列出的项目与日期\n- 主题：奖助\n- 检索策略：official_index\n- 抓取时间（UTC）：2026-10-06T09:18:22+00:00\n- 原始文件：`raw/aid_portal_2025.html`（SHA-256 `2b1c78419a8a25531e8e2bbf86ef5a969948d774400b3e4df1438b12db47f2d7`）\n\n## 原文文本快照\n﻿\n首页\n信息公开制度\n中华人民共和国政府信息公开条例\n高等学校信息公开办法\n教育部关于公布《高等学校信息公开事项清单》的通知\n长安大学信息公开实施细则\n信息公开指南\n信息公开目录\n基本信息\n招生考试信息\n财务资产及收费信息\n人事师资信息\n教学质量信息\n学生管理服务信息\n学",
+        "context_expansion": null,
+        "expanded_from_chunk_id": null
+      },
+      {
+        "evidence_id": "E2",
+        "rank": null,
+        "score": null,
+        "source_id": "aid_portal_2025",
+        "title": "学生资助信息公开目录",
+        "url": "https://xxgk.chd.edu.cn/xxgkml/c6/xszz.htm",
+        "published_on": "目录页；包含2025年更新条目",
+        "scope": "学校资助政策入口；只回答目录中明确列出的项目与日期",
+        "index_policy": "official_index",
+        "text": "风建设信息\n学位、学科信息\n对外交流与合作信息\n其他\n信息公开年报\n信息公开申请\n意见建议\n首页\n信息公开制度\n信息公开指南\n信息公开目录\n信息公开年报\n信息公开申请\n意见建议\nPrevious\nNext\n信息公开目录\n一、\n基本信息\n学校概况\n学校章程\n规章制度\n发展规划年度计划\n教职工代表大会\n学术委员会\n二、\n招生考试信息\n本科生招生章程\n本科生招生咨询\n研究生招生简章\n研究生招生咨询\n三、\n财务资产及收费信息\n财务资产管理制度\n招投标情况\n收支预算\n收支决算\n收费管理\n四、\n人事师资信息\n岗位设置管理与聘用办法\n干部任免与人员招聘\n教职工管理制度\n五、\n教学质量信息\n专业设置\n就业指导政策\n本科教学质量报告\n六、\n学生管理服务信息\n学籍管理\n学生资助\n学生奖励处罚\n学生申诉办法\n七、\n学风建设信息\n学风建设机构\n学术规范制度\n学术不端行为查处\n八、\n学位、学科信息\n学位授予要求\n同等学力人员学位授予\n九、\n对外交流与合作",
+        "context_expansion": "adjacent_continuation",
+        "expanded_from_chunk_id": "109b795a4b1b6498c12d3356"
+      },
+      {
+        "evidence_id": "E3",
+        "rank": 2,
+        "score": 0.556543,
+        "source_id": "aid_work_study_2025_listing_2016_text",
+        "title": "长安大学学生勤工助学管理办法",
+        "url": "https://xxgk.chd.edu.cn/images/17/10/27/2vpoyxiaxd/vloblolz.pdf",
+        "published_on": "信息公开目录标注2025-08-03；PDF正文落款2016-07-08，HTTP Last-Modified为2021-07-07",
+        "scope": "文件版本与目录发布日期不一致；当前效力必须另行核验",
+        "index_policy": "version_conflict_review_required",
+        "text": "有2 门以上 （含） 科目成绩不及格的，\n将适当限制参加下学期的勤工助学工作。 \n第五条  学生私自在校外打工的行为， 不在本办法规定之列。 \n第二章 组织机构 \n第六条 我校勤工助学工作由学工部全面负责，并协调学校\n相关部门，在资金落实、人员配备、岗位设置、学生管理、法律\n咨询及权益维护等方面予以配合。 \n第七条 学工部学生资助教育中心具体负责落实勤工助学日\n\n## PDF 第 3 页\n\n- 3 - \n \n常管理工作，负责勤工助学相关政策的制定、解读、宣传、宏观\n组织、协调和监督各项工作开展，维护参与勤工助学学生的合法\n权益。开发校外勤工助学资源，收集校外勤工助学信息，开拓校\n外勤工助学渠道，增加校外勤工助学岗位，并统一纳入学校的管\n理。计财处负责勤工助学经费管理与薪酬支付。 \n第三章 申请条件和程序 \n第八条  申请勤工助学的学生必须具备以下条件： \n1.遵纪守法，品德优良； \n2.学习认真，成绩合格； \n3.服从管理，工作负责； \n4.遵纪守法，生活简朴。 \n第九条 勤工助学实施线上申请、审核制度，程序如下： \n学校各用人部门拟定勤工助学年度用人计划，报送学工部资\n助教育中心。学",
+        "context_expansion": null,
+        "expanded_from_chunk_id": null
+      },
+      {
+        "evidence_id": "E4",
+        "rank": 3,
+        "score": 0.555459,
+        "source_id": "aid_work_study_2025_listing_2016_text",
+        "title": "长安大学学生勤工助学管理办法",
+        "url": "https://xxgk.chd.edu.cn/images/17/10/27/2vpoyxiaxd/vloblolz.pdf",
+        "published_on": "信息公开目录标注2025-08-03；PDF正文落款2016-07-08，HTTP Last-Modified为2021-07-07",
+        "scope": "文件版本与目录发布日期不一致；当前效力必须另行核验",
+        "index_policy": "version_conflict_review_required",
+        "text": "负责； \n4.遵纪守法，生活简朴。 \n第九条 勤工助学实施线上申请、审核制度，程序如下： \n学校各用人部门拟定勤工助学年度用人计划，报送学工部资\n助教育中心。学工部资助教育中心审批后，在全校范围内公示岗\n位设置和用人计划。符合申报勤工助学的学生向用人部门提交申\n请，用人部门对学生进行考察后，提交录用名单至学工部资助教\n育中心。 \n申请、审核流程和录用过程公开、透明、公正，线上勤工助\n学系统向全校师生进行公示。 \n第四章 岗位设置 \n第十条 勤工助学岗位按照参与时间分为固定岗位和临时岗\n位。 \n1.固定岗位是指持续一个学期以上的长期性岗位或寒暑假期\n间的连续性岗位，例如，配合各部门开展的教学、科研、行政管\n\n## PDF 第 4 页\n\n- 4 - \n \n理等方面助理工作及后勤服务保障类工作。 \n2.临时岗位是指不具有长期性，通过一次或几次勤工助学活\n动即完成任务的工作岗位，以配合校内各部门开展临时劳动事务\n为主。 \n第十一条 固定岗位以学年为周期申报设置和调整，不得随\n意增撤；临时岗位按照工作需要提前申报备案。 \n第十二条  涉及有毒、有害、危险的生产作业以及超过学生\n身体承受能力、 有",
+        "context_expansion": null,
+        "expanded_from_chunk_id": null
+      },
+      {
+        "evidence_id": "E5",
+        "rank": 4,
+        "score": 0.55184,
+        "source_id": "aid_national_grant_2021",
+        "title": "长安大学本科生国家助学金评审办法（修订）",
+        "url": "https://xxgk.chd.edu.cn/__local/9/2A/68/D6E39D22EB17FD84D3176530A4E_ACF11E16_2CBC8.pdf",
+        "published_on": "2021-06-28",
+        "scope": "本科生；历史版本，不能据此断言当前金额或现行申请时间",
+        "index_policy": "historical_policy",
+        "text": "条 本办法由学生工作部负责解释。\n第十四条 本办法自发布之日起施行，原《长安大学国家助\n学金评审办法》（长大就〔2007〕238号）同时废止。\n附件：《长安大学国家助学金申请表》\n\n## PDF 第 5 页\n\n- 5 -\n附件：\n长安大学国家助学金申请表\n本人\n情况\n姓 名 性别 出生年月\n照片\n民 族 政治\n面貌 入学时间\n学 号 所在年级\n身份证号码 联系电话\n学院（系） 专业 班\n家庭\n经济\n情况\n家庭人口总数\n家庭月总收入 人均月收入 收入来源\n家庭住址 邮政编码\n家庭\n成员\n情况\n姓 名 年龄 与本人关系 工作或学习单位\n申请理由\n申请人签名： 年 月 日\n院系意见\n同意申请 等助学金 元。\n（公章） 年 月 日\n学校审核意见：\n（公章） 年 月 日\n\n## PDF 第 6 页\n\n- 6 -\n长安大学校长办公室 2021年6月28日印发\n抄送：校党政领导。",
+        "context_expansion": null,
+        "expanded_from_chunk_id": null
+      },
+      {
+        "evidence_id": "E6",
+        "rank": 5,
+        "score": 0.54813,
+        "source_id": "aid_national_grant_2021",
+        "title": "长安大学本科生国家助学金评审办法（修订）",
+        "url": "https://xxgk.chd.edu.cn/__local/9/2A/68/D6E39D22EB17FD84D3176530A4E_ACF11E16_2CBC8.pdf",
+        "published_on": "2021-06-28",
+        "scope": "本科生；历史版本，不能据此断言当前金额或现行申请时间",
+        "index_policy": "historical_policy",
+        "text": "学生资助资金管理办法>的通知》（财科教[2019]19号），结合我\n校实际，制定本办法。\n第二条 国家助学金用于资助我校全日制本科（含预科）在\n校生中的家庭经济困难学生。国家助学金的资助名额由教育部下\n达，学校综合考虑各学院（系）的家庭经济困难学生人数等进行\n分配，并向国家规定的特殊学科专业适当倾斜（水利类、地矿类\n专业学生人数按120％核定）。\n第三条 学校本科生奖励与资助工作领导小组审议和决定\n有关国家助学金的重要事项和问题，制定评审办法，审批受助学\n生名单。学生资助中心负责组织本科生国家助学金（含预科）的\n评审工作。各学院（系）成立国家助学金评审小组，负责本单位\n国家助学金的申请和初评。\n第二章 资助标准与申请条件\n第四条 国家助学金主要资助家庭经济困难学生在校期间\n的生活费用开支，资助标准分为两档：家庭经济特别困难的学生\n每生每年3500元，一般困难的学生每生每年2500元。\n\n## PDF 第 3 页\n\n- 3 -\n第五条 国家助学金的基本申请条件：\n（一）具有中华人民共和国国籍；\n（二）热爱社会主义祖国，拥护中国共产党的领导；\n（三）遵守宪法和法律，遵守学校规章制度；\n（",
+        "context_expansion": null,
+        "expanded_from_chunk_id": null
+      }
+    ]
+  },
+  "model": "deepseek-flash",
+  "memory": {
+    "prior_turn_count": 0,
+    "history_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "max_turns": 4
+  },
+  "model_requests": [
+    {
+      "request_number": 1,
+      "request_attempted": true,
+      "status": "succeeded",
+      "latency_ms": 891.0,
+      "finish_reason": "tool_calls",
+      "usage": {
+        "input_tokens": 3501,
+        "output_tokens": 63,
+        "total_tokens": 3564
+      },
+      "tool_call_count": 1,
+      "answer_content": null
+    },
+    {
+      "request_number": 2,
+      "request_attempted": true,
+      "status": "succeeded",
+      "latency_ms": 1312.0,
+      "finish_reason": "stop",
+      "usage": {
+        "input_tokens": 3603,
+        "output_tokens": 67,
+        "total_tokens": 3670
+      },
+      "tool_call_count": 0,
+      "answer_content": "未找到编号为 SIM-REC-999 的模拟助学申请记录。\n\n说明：该查询仅针对当前演示身份本人名下的模拟数据，结果不代表真实学生信息。请核对记录编号是否正确（格式应为 SIM-REC-XXX），或确认是否属于本人记录。如需进一步协助，可告诉我具体需求。"
+    }
+  ],
+  "tool_calls": [
+    {
+      "tool_call_id": "call_00_WjaAsVzRq4oiRKLvX9pB4391",
+      "name": "query_application_status",
+      "arguments": "{\"record_id\": \"SIM-REC-999\", \"service_type\": \"aid_application\"}",
+      "result": {
+        "outcome": "not_found",
+        "message": "未找到匹配的模拟记录。",
+        "simulation_only": true
+      }
+    }
+  ],
+  "total_tool_calls": 1,
+  "status": "completed",
+  "answer": "未找到编号为 SIM-REC-999 的模拟助学申请记录。\n\n说明：该查询仅针对当前演示身份本人名下的模拟数据，结果不代表真实学生信息。请核对记录编号是否正确（格式应为 SIM-REC-XXX），或确认是否属于本人记录。如需进一步协助，可告诉我具体需求。",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,60 @@
+{
+  "date_range_actual": {
+    "start": "2026-10-06",
+    "end": "2026-10-08",
+    "timezone": "Asia/Shanghai"
+  },
+  "course_day_labels": "Day 1-21 are syllabus topic indices, not claimed calendar work dates",
+  "principles_run": {
+    "run_id": "e2e-20261008-principles-v2",
+    "cases_complete": 21,
+    "answer_units_complete": 23,
+    "execution_errors": 0,
+    "multiturn_provenance": "Existing Windows traces reused only when source, prompt, code, and frozen dataset fingerprints matched"
+  },
+  "engineering_run": {
+    "run_id": "e2e-20261008-engineering-v3",
+    "cases_complete": 21,
+    "answer_units_complete": 23,
+    "execution_errors": 0,
+    "fix": "Lock-protected singleton construction for concurrent first Chroma access"
+  },
+  "engineering_known_retrieval_gap": "U02 parallel calls execute successfully, but only one of two gold sources is retrieved",
+  "windows_project_tests": {
+    "python": "3.12.7",
+    "passed": 244,
+    "failed": 0,
+    "skipped": 4,
+    "warnings": 18,
+    "duration_seconds": 28.16
+  },
+  "standalone_package_tests": {
+    "python": "3.13.14",
+    "locked_packages_per_route": 248,
+    "principles_campus_passed": 35,
+    "engineering_full_suite_passed": 244,
+    "engineering_full_suite_skipped": 4,
+    "engineering_full_suite_warnings": 18,
+    "engineering_full_suite_duration_seconds": 83.37
+  },
+  "metrics_run_id": "e2e-20261008-metrics-v3",
+  "model_assisted_judgement_rows": 46,
+  "independent_human_judgement": false,
+  "browser_screenshots": [
+    "submission/06_Demo/screenshots/engineering_ui_home_20261008.png",
+    "submission/06_Demo/screenshots/engineering_ui_status_20261008.png"
+  ],
+  "api_cost_estimate_usd": 0.199506,
+  "api_cost_estimate_basis": "Logged token usage, peak public prices, all input tokens assumed uncached; estimate is not a provider bill",
+  "unpriced_usage": [
+    "One Judge response and two browser /stream responses did not expose complete token usage",
+    "Coze actual billing was not visible in the platform UI"
+  ],
+  "handoff": {
+    "six_directory_package": true,
+    "sha256_manifest": "submission/package_manifest.json",
+    "full_audit": "reports/FINAL_AUDIT.md",
+    "task_record": "TASK/TASK-026.md",
+    "course_day_mapping": "reports/21_day_alignment.md"
+  }
+}

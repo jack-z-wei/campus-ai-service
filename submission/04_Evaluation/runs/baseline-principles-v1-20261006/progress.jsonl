@@ -1,0 +1,21 @@
+{"case_id": "M01", "run_id": "principles-multiturn-20261006-184014-e3debe8c", "status": "reused_existing_evidence"}
+{"case_id": "M02", "run_id": "principles-multiturn-20261006-184055-dedf150d", "status": "reused_existing_evidence"}
+{"case_id": "K01", "duration_seconds": 12.531, "error_type": null, "run_id": "principles-20261006-191428-eb9c8767", "status": "completed"}
+{"case_id": "K02", "duration_seconds": 9.188, "error_type": null, "run_id": "principles-20261006-191440-74e8e23f", "status": "completed"}
+{"case_id": "K03", "duration_seconds": 9.172, "error_type": null, "run_id": "principles-20261006-191450-faceace1", "status": "completed"}
+{"case_id": "K04", "duration_seconds": 9.75, "error_type": null, "run_id": "principles-20261006-191459-68f1000a", "status": "completed"}
+{"case_id": "K05", "duration_seconds": 9.859, "error_type": null, "run_id": "principles-20261006-191509-004666d9", "status": "completed"}
+{"case_id": "K06", "duration_seconds": 9.719, "error_type": null, "run_id": "principles-20261006-191523-8859c182", "status": "completed"}
+{"case_id": "K07", "duration_seconds": 10.062, "error_type": null, "run_id": "principles-20261006-191532-c135b2b4", "status": "completed"}
+{"case_id": "K08", "duration_seconds": 9.516, "error_type": null, "run_id": "principles-20261006-191542-86d678ab", "status": "completed"}
+{"case_id": "K09", "duration_seconds": 9.391, "error_type": null, "run_id": "principles-20261006-191552-10b37067", "status": "completed"}
+{"case_id": "K10", "duration_seconds": 9.218, "error_type": null, "run_id": "principles-20261006-191601-7de41385", "status": "completed"}
+{"case_id": "S01", "duration_seconds": 10.297, "error_type": null, "run_id": "principles-20261006-191615-d64493ad", "status": "completed"}
+{"case_id": "S02", "duration_seconds": 10.235, "error_type": null, "run_id": "principles-20261006-191625-70df3db6", "status": "completed"}
+{"case_id": "S03", "duration_seconds": 10.312, "error_type": null, "run_id": "principles-20261006-191635-84684784", "status": "completed"}
+{"case_id": "S04", "duration_seconds": 10.094, "error_type": null, "run_id": "principles-20261006-191646-895b16dd", "status": "completed"}
+{"case_id": "S05", "duration_seconds": 10.656, "error_type": null, "run_id": "principles-20261006-191656-68bb1e85", "status": "completed"}
+{"case_id": "U01", "duration_seconds": 10.562, "error_type": null, "run_id": "principles-20261006-191710-d38e04ad", "status": "completed"}
+{"case_id": "U02", "duration_seconds": 9.469, "error_type": null, "run_id": "principles-20261006-191720-b88c0b34", "status": "completed"}
+{"case_id": "B01", "duration_seconds": 8.969, "error_type": null, "run_id": "principles-20261006-191730-75384ac0", "status": "completed"}
+{"case_id": "B02", "duration_seconds": 9.437, "error_type": null, "run_id": "principles-20261006-191739-41348dc2", "status": "completed"}

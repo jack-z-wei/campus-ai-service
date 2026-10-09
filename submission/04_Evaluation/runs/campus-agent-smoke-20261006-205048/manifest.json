@@ -1,0 +1,76 @@
+{
+  "run_id": "campus-agent-smoke-20261006-205048",
+  "started_at": "2026-10-06T20:50:48+08:00",
+  "mode": "deepseek_live_synthetic_tool_call",
+  "agent": "campus-customer-service",
+  "model": "deepseek-flash",
+  "question": "请查询我的模拟助学申请记录 SIM-REC-001，告诉我状态和更新时间。",
+  "simulation_user_id": "SIM-USER-001",
+  "thread_id": "cb199995-2ec3-4a9a-acab-cd2c1c8bebdd",
+  "course_answer_evaluation": false,
+  "synthetic_data_only": true,
+  "paid_api_request_performed": true,
+  "api_request_attempted": true,
+  "configured_model_max_tokens": 768,
+  "deepseek_thinking_disabled": true,
+  "model_invocation_count": 2,
+  "usage_entries": [
+    {
+      "run_id": "campus-agent-smoke-20261006-205048",
+      "model": "deepseek-flash",
+      "invocation": 1,
+      "usage_available": true,
+      "usage": {
+        "input_tokens": 926,
+        "output_tokens": 71,
+        "total_tokens": 997
+      },
+      "estimated_cost_usd": 0.000363,
+      "cost_basis": "DeepSeek peak rate; cache miss assumed for all input tokens"
+    },
+    {
+      "run_id": "campus-agent-smoke-20261006-205048",
+      "model": "deepseek-flash",
+      "invocation": 2,
+      "usage_available": true,
+      "usage": {
+        "input_tokens": 1086,
+        "output_tokens": 102,
+        "total_tokens": 1188
+      },
+      "estimated_cost_usd": 0.0004482,
+      "cost_basis": "DeepSeek peak rate; cache miss assumed for all input tokens"
+    }
+  ],
+  "tool_calls": [
+    {
+      "name": "query_application_status",
+      "args": {
+        "record_id": "SIM-REC-001",
+        "service_type": "aid_application"
+      }
+    }
+  ],
+  "tool_results": [
+    {
+      "outcome": "found",
+      "record_id": "SIM-REC-001",
+      "service_type": "aid_application",
+      "status": "材料审核中",
+      "updated_at": "2026-09-28T10:00:00+08:00",
+      "public_note": "材料已提交，等待审核。",
+      "simulation_only": true
+    }
+  ],
+  "synthetic_status_tool_verified": true,
+  "assistant_answer": "查询结果如下（**模拟数据，不对应真实学生**）：\n\n- **记录编号**：SIM-REC-001\n- **服务类型**：助学申请（aid_application）\n- **状态**：材料审核中\n- **更新时间**：2026-09-28 10:00（+08:00）\n- **备注**：材料已提交，等待审核。\n\n如需进一步了解审核流程或提交补充材料，可以告诉我，我再帮你查询相关校务信息。",
+  "assistant_answer_output_tokens": [
+    71,
+    102
+  ],
+  "api_usage_recorded": true,
+  "all_usage_values_available": true,
+  "result": "Verified synthetic status-tool call and response.",
+  "elapsed_seconds": 4.016,
+  "finished_at": "2026-10-06T20:50:52+08:00"
+}

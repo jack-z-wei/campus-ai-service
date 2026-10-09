@@ -1,0 +1,132 @@
+{
+  "question": "这份勤工助学办法 PDF 写的每月工时上限是多少？",
+  "request_id": "principles-d3ada2d0-ff04-4b39-bafc-822b9ce8f97e",
+  "retrieval": {
+    "backend": "numpy",
+    "top_k": 5,
+    "latency_ms": 250.0,
+    "context_expansions": [
+      {
+        "source_id": "aid_work_study_2025_listing_2016_text",
+        "anchor_chunk_id": "2e489093cc489ec50549355c",
+        "continuation_chunk_id": "0d28bcac7242830b8a2dbd9b",
+        "overlap_chars_removed": 0,
+        "continuation_chars_added": 500
+      }
+    ],
+    "evidence_context_sha256": "12513736ba495e39be02bf741ca928c526aa4a628feefc95de8b8089514a15bc",
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "rank": 1,
+        "score": 0.724091,
+        "source_id": "aid_work_study_2025_listing_2016_text",
+        "title": "长安大学学生勤工助学管理办法",
+        "url": "https://xxgk.chd.edu.cn/images/17/10/27/2vpoyxiaxd/vloblolz.pdf",
+        "published_on": "信息公开目录标注2025-08-03；PDF正文落款2016-07-08，HTTP Last-Modified为2021-07-07",
+        "scope": "文件版本与目录发布日期不一致；当前效力必须另行核验",
+        "index_policy": "version_conflict_review_required",
+        "text": "岗位以学年为周期申报设置和调整，不得随\n意增撤；临时岗位按照工作需要提前申报备案。 \n第十二条  涉及有毒、有害、危险的生产作业以及超过学生\n身体承受能力、 有碍学生健康的岗位和劳动， 不得组织学生参加。 \n第十三条 勤工助学固定岗位按月计酬，每月 400 元。每个\n岗位原则上每学期只聘用一名学生，如果学生课程多，工作时间\n少，校内用人单位可以聘用两名或多名学生，但学校按照岗位支\n付报酬。 \n第十四条  勤工助学临时岗位按小时计酬，每小时 10 元。 \n第十五条 对于固定岗位，用人部门可在岗位定编、薪酬定\n额的总量控制下，根据实际参与学生数量和开展工作质量状况对\n薪酬标准、发放人数做出调整，以体现按劳计酬、公正公平；对\n于临时岗位，不可对定编岗位和定额薪酬进行改变，以维护学生\n基本权益。 \n第五章 岗位管理 \n第十六条 不论固定岗位还是临时岗位用人计划，用人部门\n与学生之间都须签订具有法律效力的协议书后，方可开展勤工助\n学活动。学工部制定全校统一制式协议书，用人单位可以根据岗\n位要求进行补充，勤工助学协议书及相关聘用手续须保留到用人\n单位备案。 \n\n## PDF 第 5 页\n\n- 5",
+        "context_expansion": null,
+        "expanded_from_chunk_id": null
+      },
+      {
+        "evidence_id": "E2",
+        "rank": null,
+        "score": null,
+        "source_id": "aid_work_study_2025_listing_2016_text",
+        "title": "长安大学学生勤工助学管理办法",
+        "url": "https://xxgk.chd.edu.cn/images/17/10/27/2vpoyxiaxd/vloblolz.pdf",
+        "published_on": "信息公开目录标注2025-08-03；PDF正文落款2016-07-08，HTTP Last-Modified为2021-07-07",
+        "scope": "文件版本与目录发布日期不一致；当前效力必须另行核验",
+        "index_policy": "version_conflict_review_required",
+        "text": "学工部制定全校统一制式协议书，用人单位可以根据岗\n位要求进行补充，勤工助学协议书及相关聘用手续须保留到用人\n单位备案。 \n\n## PDF 第 5 页\n\n- 5 - \n \n第十七条 用人单位在开展岗前培训、安全教育后安排学生\n上岗工作。用人单位对受聘学生定期开展考核，并报学工部资助\n教育中心备案，学校定期对在勤工助学活动中表现突出的学生予\n以表彰和奖励。 \n第十八条 在勤工助学活动中若出现纠纷或学生意外伤害事\n故，各方应按照协议协商解决。如不能达成一致意见，按照有关\n法律法规办理。 \n第十九条  对违反勤工助学协议的用人部门或学 生，由双方\n分别向学工部提交情况说明，由学工部负责协调相关部门进行处\n理。在勤工助学活动中违反校纪校规的学生，由学工部按照学校\n管理规定进行教育和处理。 \n第二十条  学工部资助教育中心根据实际情况设定并审核全\n校勤工助学岗位，所有岗位优先聘用家庭经济困难学生，特别是\n要满足每一位建档立卡户学生勤工助学的需求。 \n第六章 附则 \n第二十一条 本办法由长安大学学生工作部 （处） 负责解释。 \n第二十二条 本办法自公布之日起施行。 \n \n \n \n \n \n \n抄送：校",
+        "context_expansion": "adjacent_continuation",
+        "expanded_from_chunk_id": "2e489093cc489ec50549355c"
+      },
+      {
+        "evidence_id": "E3",
+        "rank": 2,
+        "score": 0.675999,
+        "source_id": "aid_work_study_2025_listing_2016_text",
+        "title": "长安大学学生勤工助学管理办法",
+        "url": "https://xxgk.chd.edu.cn/images/17/10/27/2vpoyxiaxd/vloblolz.pdf",
+        "published_on": "信息公开目录标注2025-08-03；PDF正文落款2016-07-08，HTTP Last-Modified为2021-07-07",
+        "scope": "文件版本与目录发布日期不一致；当前效力必须另行核验",
+        "index_policy": "version_conflict_review_required",
+        "text": "## PDF 第 2 页\n\n- 2 - \n \n长安大学学生勤工助学管理办法 \n \n第一章 总则 \n第一条 为进一步规范我校的勤工助学工作，促进勤工助学\n工作健康、有序开展，保障学生的合法权益，帮助家庭经济困难\n学生顺利完成学业，根据共青团中央、教育部《关于进一步做好\n大学生勤工助学工作的意见》 （中青联发〔2005〕14 号）和教育\n部、财政部《高等学校学生勤工助学管理办法》 （教财〔2007〕7\n号） ，结合我校实际，制定本办法。 \n第二条 本办法所称学生是指我校招收的全日制本科生。 \n第三条 本办法所称勤工助学是指学生在学校的组织下，利\n用课余时间，通过劳动取得合法报酬， 用于改善学习和生活条件\n的社会实践活动。 \n第四条 勤工助学须按照学有余力、自愿申请、信息公开、\n扶困优先、 竞争上岗、 遵纪守法的原则， 由学校统一组织和管理。\n工作过程中要求学生完成的工作量不能影响学生的正常学习，不\n能超过 40 工时/月。 每学期有2 门以上 （含） 科目成绩不及格的，\n将适当限制参加下学期的勤工助学工作。 \n第五条  学生私自在校外打工的行为， 不在本办法规定之列。 \n第二章 组织机构",
+        "context_expansion": null,
+        "expanded_from_chunk_id": null
+      },
+      {
+        "evidence_id": "E4",
+        "rank": 3,
+        "score": 0.667188,
+        "source_id": "aid_work_study_2025_listing_2016_text",
+        "title": "长安大学学生勤工助学管理办法",
+        "url": "https://xxgk.chd.edu.cn/images/17/10/27/2vpoyxiaxd/vloblolz.pdf",
+        "published_on": "信息公开目录标注2025-08-03；PDF正文落款2016-07-08，HTTP Last-Modified为2021-07-07",
+        "scope": "文件版本与目录发布日期不一致；当前效力必须另行核验",
+        "index_policy": "version_conflict_review_required",
+        "text": "有2 门以上 （含） 科目成绩不及格的，\n将适当限制参加下学期的勤工助学工作。 \n第五条  学生私自在校外打工的行为， 不在本办法规定之列。 \n第二章 组织机构 \n第六条 我校勤工助学工作由学工部全面负责，并协调学校\n相关部门，在资金落实、人员配备、岗位设置、学生管理、法律\n咨询及权益维护等方面予以配合。 \n第七条 学工部学生资助教育中心具体负责落实勤工助学日\n\n## PDF 第 3 页\n\n- 3 - \n \n常管理工作，负责勤工助学相关政策的制定、解读、宣传、宏观\n组织、协调和监督各项工作开展，维护参与勤工助学学生的合法\n权益。开发校外勤工助学资源，收集校外勤工助学信息，开拓校\n外勤工助学渠道，增加校外勤工助学岗位，并统一纳入学校的管\n理。计财处负责勤工助学经费管理与薪酬支付。 \n第三章 申请条件和程序 \n第八条  申请勤工助学的学生必须具备以下条件： \n1.遵纪守法，品德优良； \n2.学习认真，成绩合格； \n3.服从管理，工作负责； \n4.遵纪守法，生活简朴。 \n第九条 勤工助学实施线上申请、审核制度，程序如下： \n学校各用人部门拟定勤工助学年度用人计划，报送学工部资\n助教育中心。学",
+        "context_expansion": null,
+        "expanded_from_chunk_id": null
+      },
+      {
+        "evidence_id": "E5",
+        "rank": 4,
+        "score": 0.662778,
+        "source_id": "aid_work_study_2025_listing_2016_text",
+        "title": "长安大学学生勤工助学管理办法",
+        "url": "https://xxgk.chd.edu.cn/images/17/10/27/2vpoyxiaxd/vloblolz.pdf",
+        "published_on": "信息公开目录标注2025-08-03；PDF正文落款2016-07-08，HTTP Last-Modified为2021-07-07",
+        "scope": "文件版本与目录发布日期不一致；当前效力必须另行核验",
+        "index_policy": "version_conflict_review_required",
+        "text": "负责； \n4.遵纪守法，生活简朴。 \n第九条 勤工助学实施线上申请、审核制度，程序如下： \n学校各用人部门拟定勤工助学年度用人计划，报送学工部资\n助教育中心。学工部资助教育中心审批后，在全校范围内公示岗\n位设置和用人计划。符合申报勤工助学的学生向用人部门提交申\n请，用人部门对学生进行考察后，提交录用名单至学工部资助教\n育中心。 \n申请、审核流程和录用过程公开、透明、公正，线上勤工助\n学系统向全校师生进行公示。 \n第四章 岗位设置 \n第十条 勤工助学岗位按照参与时间分为固定岗位和临时岗\n位。 \n1.固定岗位是指持续一个学期以上的长期性岗位或寒暑假期\n间的连续性岗位，例如，配合各部门开展的教学、科研、行政管\n\n## PDF 第 4 页\n\n- 4 - \n \n理等方面助理工作及后勤服务保障类工作。 \n2.临时岗位是指不具有长期性，通过一次或几次勤工助学活\n动即完成任务的工作岗位，以配合校内各部门开展临时劳动事务\n为主。 \n第十一条 固定岗位以学年为周期申报设置和调整，不得随\n意增撤；临时岗位按照工作需要提前申报备案。 \n第十二条  涉及有毒、有害、危险的生产作业以及超过学生\n身体承受能力、 有",
+        "context_expansion": null,
+        "expanded_from_chunk_id": null
+      },
+      {
+        "evidence_id": "E6",
+        "rank": 5,
+        "score": 0.64533,
+        "source_id": "aid_work_study_2025_listing_2016_text",
+        "title": "长安大学学生勤工助学管理办法",
+        "url": "https://xxgk.chd.edu.cn/images/17/10/27/2vpoyxiaxd/vloblolz.pdf",
+        "published_on": "信息公开目录标注2025-08-03；PDF正文落款2016-07-08，HTTP Last-Modified为2021-07-07",
+        "scope": "文件版本与目录发布日期不一致；当前效力必须另行核验",
+        "index_policy": "version_conflict_review_required",
+        "text": "# 长安大学学生勤工助学管理办法\n\n- 来源：https://xxgk.chd.edu.cn/images/17/10/27/2vpoyxiaxd/vloblolz.pdf\n- 官方发布/页面日期：信息公开目录标注2025-08-03；PDF正文落款2016-07-08，HTTP Last-Modified为2021-07-07\n- HTTP Last-Modified：Wed, 07 Jul 2021 17:05:35 GMT\n- 适用范围：文件版本与目录发布日期不一致；当前效力必须另行核验\n- 主题：奖助\n- 检索策略：version_conflict_review_required\n- 抓取时间（UTC）：2026-10-06T09:18:23+00:00\n- 原始文件：`raw/aid_work_study_2025_listing_2016_text.pdf`（SHA-256 `f3ea3383c5c6eae686955b9b5cf053f80a8ad2257507b393b06efeac88dd43c4`）\n\n## 原文文本快照\n## PDF 第 1 页\n\n- 1 -",
+        "context_expansion": null,
+        "expanded_from_chunk_id": null
+      }
+    ]
+  },
+  "model": "deepseek-flash",
+  "memory": {
+    "prior_turn_count": 0,
+    "history_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "max_turns": 4
+  },
+  "model_requests": [
+    {
+      "request_number": 1,
+      "request_attempted": true,
+      "status": "succeeded",
+      "latency_ms": 1469.0,
+      "finish_reason": "stop",
+      "usage": {
+        "input_tokens": 3742,
+        "output_tokens": 189,
+        "total_tokens": 3931
+      },
+      "tool_call_count": 0,
+      "answer_content": "根据检索到的《长安大学学生勤工助学管理办法》PDF 正文片段（E3），其中第四条写明：工作过程中要求学生完成的工作量不能影响正常学习，**不能超过 40 工时/月**。\n\n来源：《长安大学学生勤工助学管理办法》\n链接：https://xxgk.chd.edu.cn/images/17/10/27/2vpoyxiaxd/vloblolz.pdf\n\n需要提醒的是：该文件存在版本信息冲突——信息公开目录标注日期为 2025-08-03，而 PDF 正文落款为 2016-07-08，HTTP Last-Modified 为 2021-07-07，适用范围注明\"当前效力必须另行核验\"。因此上述 40 工时/月为**该 PDF 快照正文所载内容**，是否仍为现行有效规定，建议另行向学工部资助教育中心核实。"
+    }
+  ],
+  "tool_calls": [],
+  "total_tool_calls": 0,
+  "status": "completed",
+  "answer": "根据检索到的《长安大学学生勤工助学管理办法》PDF 正文片段（E3），其中第四条写明：工作过程中要求学生完成的工作量不能影响正常学习，**不能超过 40 工时/月**。\n\n来源：《长安大学学生勤工助学管理办法》\n链接：https://xxgk.chd.edu.cn/images/17/10/27/2vpoyxiaxd/vloblolz.pdf\n\n需要提醒的是：该文件存在版本信息冲突——信息公开目录标注日期为 2025-08-03，而 PDF 正文落款为 2016-07-08，HTTP Last-Modified 为 2021-07-07，适用范围注明\"当前效力必须另行核验\"。因此上述 40 工时/月为**该 PDF 快照正文所载内容**，是否仍为现行有效规定，建议另行向学工部资助教育中心核实。",
+  "finish_reason": "stop"
+}

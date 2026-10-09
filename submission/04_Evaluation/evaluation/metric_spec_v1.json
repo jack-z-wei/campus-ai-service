@@ -1,0 +1,45 @@
+{
+  "metric_spec_id": "campus-customer-service-metrics-v1.1",
+  "version": 1.1,
+  "frozen_dataset_id": "campus-customer-service-frozen-v1",
+  "evaluation_unit": "one assistant response for one frozen turn",
+  "routes": {
+    "principles": "Python/NumPy retrieval outside model Function Calling; applies model-tool metrics only to frozen status, multi_turn, and boundary turns.",
+    "engineering": "LangGraph model-selected tools; knowledge and unknown turns are expected to call search_campus_knowledge."
+  },
+  "retrieval": {
+    "applicable_categories": ["knowledge", "unknown"],
+    "rank_unit": "Deduplicate ranked chunks by source_id, preserving the first occurrence; one source can contribute at most one hit per k.",
+    "recall_at_k": "|unique retrieved source IDs in first k intersect gold source IDs| / |gold source IDs|; k is 1, 3, and 5.",
+    "mrr_at_5": "Reciprocal rank of the first relevant unique source among ranks 1..5, otherwise 0.",
+    "not_applicable": "A frozen case with no gold source IDs. Missing retrieval is a zero-hit result, not N/A."
+  },
+  "answer": {
+    "score_scale": {"0": "incorrect, unsupported, unsafe, or materially incomplete", "1": "partly correct or partly supported; material omission or uncertainty remains", "2": "all material expected points and caveats are correct and supported"},
+    "dimensions": {
+      "correctness": "Check answer_points and expected_assistant_criteria, including required safety/boundary behavior.",
+      "faithfulness": "Check every material factual claim against the supplied retrieved evidence or frozen synthetic tool result; unsupported material claims score 0, mixed grounding scores 1.",
+      "citation_accuracy": "Check whether citations identify supplied evidence and support the claims they accompany. Presence alone never earns a positive score. N/A when the case has no source IDs."
+    },
+    "aggregate": "Keep raw ordinal scores; report mean(score/2), numerator as sum of normalized scores, denominator as count of attempted applicable turns, plus N/A, missing-response, and pending-judge counts. An attempted turn with no assistant answer receives 0 for correctness/faithfulness and for citation when citation applies. A turn never attempted after an earlier multi-turn failure is reported separately and excluded from answer denominators.",
+    "judge": "DeepSeek judge is a model-assisted proxy and shares the generator model family; it is not independent human validation. Preserve prompt, request/response, raw scores, and rationales."
+  },
+  "agent": {
+    "tool_selection": "Per applicable turn, all actual call names must be the expected read-only tool; repeated search/status reads count as one selected tool and do not fail selection. A simulated write tool must be called exactly once. Expected no-tool means the actual call list is empty.",
+    "tool_arguments": "For expected status/ticket tools, every frozen gold argument except requester_user_id must exactly match an actual call of the expected tool. The trusted identity match is reported separately and is not model-generated argument accuracy. Extra model arguments without frozen gold are not scored.",
+    "task_completion": "One turn succeeds only if it has a non-empty final answer and the expected retrieval/tool process completes; the expected tool name must be called and its expected result outcome must be observed. Exact call count/order is scored separately by Tool Selection Accuracy, and exact gold argument matching separately by Tool Argument Accuracy. This is operational completion, not semantic answer correctness.",
+    "unknown_handling": "Only U01/U02; judge marks a case handled when it states the limits of evidence and does not invent a definitive answer. Report count and fraction."
+  },
+  "engineering": {
+    "latency_scope": {
+      "principles": "Per-turn retrieval latency plus provider request round-trip latency from trace; local tool/rendering overhead is excluded.",
+      "engineering": "Per-turn wall-clock duration around LangGraph ainvoke, including model/tool execution."
+    },
+    "average_latency": "Arithmetic mean over attempted turns with valid non-negative timing; report n and unavailable count.",
+    "p95_latency": "Nearest-rank percentile: sorted[ceil(0.95*n)-1]; report n and raw sample list.",
+    "error_rate": "Failed / (completed + failed attempted turns); following turns not attempted after a prior turn failure are reported separately.",
+    "test_pass_rate": "Windows suite passed / (passed + failed); report skipped separately and do not include skips in the denominator.",
+    "failure_policy": "Retain failed attempts and attempted denominator. Never drop a failure because its response or usage is missing."
+  },
+  "threshold_policy": "No course acceptance threshold is asserted unless supplied by the course. This file defines measurement only."
+}

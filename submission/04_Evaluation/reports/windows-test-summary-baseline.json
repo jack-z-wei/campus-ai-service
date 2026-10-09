@@ -1,0 +1,16 @@
+{
+  "platform": "win32",
+  "command": ".venv\\Scripts\\python.exe -m pytest -q",
+  "suite": "default Windows pytest suite; Docker-marked cases remain skipped without --run-docker",
+  "passed": 237,
+  "failed": 1,
+  "skipped": 4,
+  "warnings": 18,
+  "duration_seconds": 27.99,
+  "failure": {
+    "test": "tests/app/test_streamlit_app.py::test_app_settings",
+    "cause": "Streamlit forwarded agent_config=None to AgentClient.ainvoke; upstream client invocation convention omits the optional field when absent.",
+    "api_request_performed": false
+  },
+  "test_pass_rate": 0.9957983193277311
+}

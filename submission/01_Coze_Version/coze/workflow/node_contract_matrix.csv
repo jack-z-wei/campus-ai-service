@@ -1,0 +1,4 @@
+tool_or_node,node_mapping,inputs,filter_and_checks,expected_outputs,failure_handling
+search_campus_knowledge,知识库检索节点,query: string,检索最多 5 个切片并保留来源标题网址日期范围和来源 ID,"results[]: source_id, title, url, published_on, scope, content",无结果时说明资料不足；不得使用归档规则回答当前政策
+query_application_status,查询数据节点；单用户演示表,"record_id, service_type, owner_sim_user_id（受控测试输入）",三个字段同时 AND 且查询上限 1；身份不得由模型生成,"record_id, service_type, status, updated_at, public_note, simulation_only",无匹配或跨用户返回通用错误；节点失败时不声称查询成功
+create_human_service_request,查询数据节点 + 条件校验 + 新增数据节点,"requester_sim_user_id, service_type, reason, record_id?, request_key",仅明确转接时调用；reason 不超过 500 字；先查幂等键并校验记录归属,"平台自动 ID（如可见）, reason, status, created_at（如可见）, simulation_only",逐节点检查成功/错误输出；失败不得返回成功工单；不联系真实人员或插件

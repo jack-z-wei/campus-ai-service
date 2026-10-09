@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="1040" viewBox="0 0 1680 1040" role="img" aria-labelledby="title desc">
+  <title id="title">校园智能客服办事状态查询工作流设计图</title>
+  <desc id="desc">从受控合成输入开始，按记录编号、服务类型和用户编号同时查询 application_status 表，检查查询是否成功且存在记录，再返回匹配记录或通用提示。本图为流程设计，不是 Coze 实测截图。</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#dbe3ee"/></pattern>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="125%"><feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#24334d" flood-opacity=".07"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#8796ad"/></marker>
+    <style>
+      text { font-family: 'Microsoft YaHei','Segoe UI','Noto Sans CJK SC',sans-serif; fill:#24324a; }
+      .title { font-size:32px; font-weight:700; }
+      .subtitle { font-size:18px; fill:#66758c; }
+      .node-title { font-size:23px; font-weight:700; }
+      .label { font-size:17px; fill:#60708a; }
+      .body { font-size:18px; }
+      .code { font-family:'Consolas','Microsoft YaHei',monospace; font-size:17px; }
+      .tiny { font-size:15px; fill:#78869b; }
+      .wire { fill:none; stroke:#8796ad; stroke-width:3; marker-end:url(#arrow); }
+    </style>
+  </defs>
+  <rect width="1680" height="1040" fill="#f6f8fc"/>
+  <rect y="145" width="1680" height="665" fill="url(#grid)"/>
+  <rect width="1680" height="145" fill="white"/>
+  <rect x="48" y="40" width="52" height="52" rx="15" fill="#e6f4f3"/>
+  <path d="M62 67 h24 M74 55 v24" fill="none" stroke="#218b85" stroke-width="4" stroke-linecap="round"/>
+  <text x="118" y="70" class="title">校园智能客服 · 办事状态查询</text>
+  <text x="119" y="105" class="subtitle">受控合成输入 → 数据库查询 → 结果判断 → 结构化返回</text>
+  <rect x="1300" y="46" width="330" height="48" rx="24" fill="#fff5df"/>
+  <text x="1465" y="77" text-anchor="middle" font-size="18" fill="#997126">流程设计图 · 平台待实测</text>
+
+  <path class="wire" d="M356 360 H400"/>
+  <path class="wire" d="M810 360 H858"/>
+  <path class="wire" d="M1168 324 H1210"/>
+  <path class="wire" d="M1013 470 V655 H1210"/>
+  <text x="1182" y="302" class="tiny">是</text>
+  <text x="1030" y="580" class="tiny">否 / 查询失败</text>
+
+  <g filter="url(#shadow)">
+    <rect x="56" y="210" width="300" height="360" rx="18" fill="white" stroke="#dce4ee"/>
+    <rect x="56" y="210" width="300" height="68" rx="18" fill="#eaf5f3"/>
+    <rect x="56" y="253" width="300" height="25" fill="#eaf5f3"/>
+    <circle cx="92" cy="244" r="15" fill="#2f9d91"/>
+    <path d="M88 236 L99 244 L88 252 Z" fill="white"/>
+    <text x="120" y="252" class="node-title">开始</text>
+    <text x="80" y="315" class="label">输入参数 · 全部 String</text>
+    <text x="80" y="359" class="code">record_id</text>
+    <text x="80" y="387" class="tiny">合成记录编号</text>
+    <text x="80" y="428" class="code">service_type</text>
+    <text x="80" y="456" class="tiny">服务类型</text>
+    <text x="80" y="497" class="code">owner_sim_user_id</text>
+    <text x="80" y="525" class="tiny">测试人员选定的合成身份</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="400" y="210" width="410" height="360" rx="18" fill="white" stroke="#dce4ee"/>
+    <rect x="400" y="210" width="410" height="68" rx="18" fill="#f0ecfc"/>
+    <rect x="400" y="253" width="410" height="25" fill="#f0ecfc"/>
+    <rect x="423" y="230" width="29" height="28" rx="7" fill="#7b61d6"/>
+    <path d="M429 237 H446 M429 244 H446 M429 251 H446" stroke="white" stroke-width="2"/>
+    <text x="470" y="252" class="node-title">查询数据</text>
+    <text x="425" y="316" class="code">application_status</text>
+    <text x="425" y="354" class="label">筛选条件 · 且（AND）</text>
+    <text x="425" y="392" class="code">record_id = 开始.record_id</text>
+    <text x="425" y="427" class="code">service_type = 开始.service_type</text>
+    <text x="425" y="462" class="code">owner_sim_user_id</text>
+    <text x="448" y="490" class="code">= 开始.owner_sim_user_id</text>
+    <rect x="425" y="515" width="170" height="32" rx="8" fill="#f4f6fa"/>
+    <text x="442" y="537" class="tiny">查询上限：1 条</text>
+    <text x="615" y="537" class="tiny">异常：返回错误状态</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="858" y="255" width="310" height="215" rx="18" fill="white" stroke="#dce4ee"/>
+    <rect x="858" y="255" width="310" height="66" rx="18" fill="#edf2fb"/>
+    <rect x="858" y="296" width="310" height="25" fill="#edf2fb"/>
+    <path d="M883 288 L894 277 L905 288 L894 299 Z" fill="#5275c8"/>
+    <text x="923" y="297" class="node-title">结果判断</text>
+    <text x="881" y="361" class="body">查询执行成功</text>
+    <text x="881" y="396" class="body">且 outputList 非空？</text>
+    <text x="881" y="439" class="tiny">无匹配与跨用户采用同一提示</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="1210" y="180" width="410" height="300" rx="18" fill="white" stroke="#dce4ee"/>
+    <rect x="1210" y="180" width="410" height="66" rx="18" fill="#eaf5f3"/>
+    <rect x="1210" y="221" width="410" height="25" fill="#eaf5f3"/>
+    <rect x="1234" y="202" width="24" height="24" rx="6" fill="#2f9d91"/>
+    <text x="1278" y="222" class="node-title">结束 · 返回匹配记录</text>
+    <text x="1237" y="286" class="label">返回 outputList 中的业务字段</text>
+    <text x="1237" y="328" class="code">record_id · service_type · status</text>
+    <text x="1237" y="364" class="code">updated_at · public_note</text>
+    <text x="1237" y="400" class="code">simulation_only</text>
+    <text x="1237" y="448" class="tiny">保持“模拟数据”标识，不表示真实办事进度</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="1210" y="550" width="410" height="210" rx="18" fill="white" stroke="#dce4ee"/>
+    <rect x="1210" y="550" width="410" height="66" rx="18" fill="#fff2e7"/>
+    <rect x="1210" y="591" width="410" height="25" fill="#fff2e7"/>
+    <rect x="1234" y="572" width="24" height="24" rx="6" fill="#dc9750"/>
+    <text x="1278" y="592" class="node-title">结束 · 通用提示</text>
+    <text x="1237" y="658" class="body">当前无法查询这条模拟记录。</text>
+    <text x="1237" y="695" class="body">请核对输入信息后重试。</text>
+    <text x="1237" y="733" class="tiny">不返回其他用户的数据或伪造成功状态</text>
+  </g>
+
+  <rect x="56" y="823" width="1564" height="126" rx="16" fill="white" stroke="#dce4ee"/>
+  <text x="82" y="860" class="label">预备测试输入 · 仅合成数据 · 本图未展示运行结果</text>
+  <text x="82" y="903" class="code">record_id: SIM-REC-002</text>
+  <text x="515" y="903" class="code">service_type: dorm_repair</text>
+  <text x="1010" y="903" class="code">owner_sim_user_id: SIM-USER-002</text>
+  <text x="58" y="995" class="tiny">图示依据：项目节点合同与合成状态表。此图用于说明拟配置的流程，Coze 页面与平台执行结果仍以真实记录为准。</text>
+</svg>

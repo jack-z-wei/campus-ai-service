@@ -1,0 +1,8 @@
+{
+    "python_version": "3.12",
+    "dependencies": ["./src"],
+    "graphs": {
+        "campus_customer_service": "./src/agents/campus_customer_service.py:campus_customer_service"
+    },
+    "env": "./.env"
+}

@@ -1,0 +1,30 @@
+sequenceDiagram
+    actor Student as 演示用户
+    participant UI as Streamlit / CLI
+    participant Agent as 原理版或 LangGraph Agent
+    participant Guard as 身份与循环边界
+    participant RAG as 校园检索
+    participant Tool as 状态 / 模拟工单工具
+    participant LLM as DeepSeek Flash
+    participant Trace as manifest / trace
+
+    Student->>UI: 提问（可附 SIM 合成身份）
+    UI->>Agent: 问题、thread/session、运行配置
+    Agent->>Guard: 校验身份范围与可用工具
+    alt 知识问题
+        Agent->>RAG: query embedding + Top-K
+        RAG-->>Agent: 证据、来源版本与范围
+        Agent->>LLM: 问题 + 实际检索上下文
+        LLM-->>Agent: 带依据的答复或信息不足
+    else 状态/工单问题
+        Agent->>LLM: 问题 + 当前身份范围内的工具 schema
+        LLM-->>Agent: 结构化工具调用
+        Agent->>Guard: 再次校验可调用工具
+        Guard->>Tool: 限定 owner 的查询或合成写入
+        Tool-->>Agent: 结果 / 错误 / simulation_only
+        Agent->>LLM: 将工具结果作为 observation
+        LLM-->>Agent: 最终答复
+    end
+    Agent->>Trace: 保存运行状态、来源/工具、延迟、usage
+    Agent-->>UI: 答案、来源/模拟状态与 trace 引用
+    UI-->>Student: 展示结果（浏览器 UI 仍需人工现场验收）

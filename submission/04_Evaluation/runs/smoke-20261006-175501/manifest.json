@@ -1,0 +1,47 @@
+{
+  "run_id": "smoke-20261006-175501",
+  "mode": "test_fake",
+  "course_result": false,
+  "paid_api_request_performed": false,
+  "base_url": "http://127.0.0.1:57389",
+  "started_at": "2026-10-06T17:55:01+08:00",
+  "service": {
+    "ready": true,
+    "agents": [
+      "chatbot",
+      "campus-customer-service",
+      "research-assistant",
+      "rag-assistant",
+      "command-agent",
+      "bg-task-agent",
+      "langgraph-supervisor-agent",
+      "langgraph-supervisor-hierarchy-agent",
+      "interrupt-agent",
+      "knowledge-base-agent",
+      "github-mcp-agent"
+    ],
+    "invoke_type": "ai",
+    "invoke_answer": "This is a test response from the fake model."
+  },
+  "campus_agent": {
+    "registered": true,
+    "invoke_type": "ai",
+    "invoke_answer": "This is a test response from the fake model.",
+    "simulation_config_request_accepted": true,
+    "course_result": false
+  },
+  "streamlit": {
+    "rendered": true,
+    "chat_input_count": 1,
+    "sidebar_selectbox_count": 2,
+    "sidebar_toggle_count": 2,
+    "initial_chat_message_count": 1,
+    "chat_connected_to_service": true,
+    "selected_agent": "campus-customer-service",
+    "demo_identity_selector_rendered": true,
+    "selected_demo_identity": "SIM-USER-002",
+    "assistant_response": "This is a test response from the fake model.",
+    "course_result": false
+  },
+  "finished_at": "2026-10-06T17:55:14+08:00"
+}

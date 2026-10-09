@@ -1,0 +1,805 @@
+{
+  "run_id": "chunking-compare-20261006-174049",
+  "started_at": "2026-10-06T17:40:49+08:00",
+  "platform": "win32",
+  "source_manifest_sha256": "05e297bcf2fc85151e7741c9a1fa33a995d3e3b122a49630f6318c7c499c0b4c",
+  "paid_api_request_performed": false,
+  "course_answer_result": false,
+  "embedding_model": "bge-m3:latest",
+  "embedding_dimension": 1024,
+  "batch_size": 8,
+  "comparisons": [
+    {
+      "strategy": "fixed_size500_overlap80",
+      "chunk_count": 147,
+      "min_characters": 30,
+      "max_characters": 500,
+      "mean_characters": 470.05,
+      "raw_numpy_mrr_at_5": 0.511111,
+      "policy_filtered_numpy_mrr_at_5": 1.0,
+      "query_results": [
+        {
+          "query_id": "K01",
+          "strategy": "fixed_size500_overlap80",
+          "raw": {
+            "reciprocal_rank": 1.0,
+            "hits": [
+              {
+                "rank": 1,
+                "score": 0.72037775,
+                "source_id": "academic_course_selection_2022",
+                "chunk_id": "a416144f69206dd9436bf5aa",
+                "index_policy": "dated_policy"
+              },
+              {
+                "rank": 2,
+                "score": 0.68405341,
+                "source_id": "academic_status_2022",
+                "chunk_id": "64ae02ebcfef2808b3b9911b",
+                "index_policy": "dated_policy"
+              },
+              {
+                "rank": 3,
+                "score": 0.67979935,
+                "source_id": "academic_status_2022",
+                "chunk_id": "b59ec0745f574ed2ace3fbc3",
+                "index_policy": "dated_policy"
+              },
+              {
+                "rank": 4,
+                "score": 0.64440718,
+                "source_id": "academic_status_2022",
+                "chunk_id": "bacf6582dc85219816b9ce33",
+                "index_policy": "dated_policy"
+              },
+              {
+                "rank": 5,
+                "score": 0.64414768,
+                "source_id": "academic_status_2022",
+                "chunk_id": "f0ef5da3db51ea3932e4e72f",
+                "index_policy": "dated_policy"
+              }
+            ]
+          },
+          "policy_filtered": {
+            "reciprocal_rank": 1.0,
+            "hits": [
+              {
+                "rank": 1,
+                "score": 0.72037775,
+                "source_id": "academic_course_selection_2022",
+                "chunk_id": "a416144f69206dd9436bf5aa",
+                "index_policy": "dated_policy"
+              },
+              {
+                "rank": 2,
+                "score": 0.68405341,
+                "source_id": "academic_status_2022",
+                "chunk_id": "64ae02ebcfef2808b3b9911b",
+                "index_policy": "dated_policy"
+              },
+              {
+                "rank": 3,
+                "score": 0.67979935,
+                "source_id": "academic_status_2022",
+                "chunk_id": "b59ec0745f574ed2ace3fbc3",
+                "index_policy": "dated_policy"
+              },
+              {
+                "rank": 4,
+                "score": 0.64440718,
+                "source_id": "academic_status_2022",
+                "chunk_id": "bacf6582dc85219816b9ce33",
+                "index_policy": "dated_policy"
+              },
+              {
+                "rank": 5,
+                "score": 0.64414768,
+                "source_id": "academic_status_2022",
+                "chunk_id": "f0ef5da3db51ea3932e4e72f",
+                "index_policy": "dated_policy"
+              }
+            ]
+          }
+        },
+        {
+          "query_id": "K10",
+          "strategy": "fixed_size500_overlap80",
+          "raw": {
+            "reciprocal_rank": 0.333333,
+            "hits": [
+              {
+                "rank": 1,
+                "score": 0.79856841,
+                "source_id": "library_archive_reader_rules",
+                "chunk_id": "6bb5d600fc35c31199d0c4b2",
+                "index_policy": "archive_not_for_current_answers"
+              },
+              {
+                "rank": 2,
+                "score": 0.79832591,
+                "source_id": "library_archive_hours",
+                "chunk_id": "90a70bdf9c1fe76788d36bd7",
+                "index_policy": "archive_not_for_current_answers"
+              },
+              {
+                "rank": 3,
+                "score": 0.79198349,
+                "source_id": "library_home_2026",
+                "chunk_id": "1ebca36c7cfb273e33eefcba",
+                "index_policy": "current_homepage_snapshot"
+              },
+              {
+                "rank": 4,
+                "score": 0.77989554,
+                "source_id": "library_archive_remote_access",
+                "chunk_id": "544733c0b9bf12f49313414d",
+                "index_policy": "archive_not_for_current_answers"
+              },
+              {
+                "rank": 5,
+                "score": 0.76574565,
+                "source_id": "library_archive_reader_rules",
+                "chunk_id": "9fe8d142b87c4246879fa55a",
+                "index_policy": "archive_not_for_current_answers"
+              }
+            ]
+          },
+          "policy_filtered": {
+            "reciprocal_rank": 1.0,
+            "hits": [
+              {
+                "rank": 1,
+                "score": 0.79198349,
+                "source_id": "library_home_2026",
+                "chunk_id": "1ebca36c7cfb273e33eefcba",
+                "index_policy": "current_homepage_snapshot"
+              },
+              {
+                "rank": 2,
+                "score": 0.70914617,
+                "source_id": "student_summer_notice_2026",
+                "chunk_id": "d6c347ebd41ea9cff98a104b",
+                "index_policy": "time_limited_notice"
+              },
+              {
+                "rank": 3,
+                "score": 0.69676246,
+                "source_id": "library_home_2026",
+                "chunk_id": "75b37a7a8453fff990be3bf3",
+                "index_policy": "current_homepage_snapshot"
+              },
+              {
+                "rank": 4,
+                "score": 0.65655192,
+                "source_id": "international_off_campus_housing_2017",
+                "chunk_id": "76a7fbda31993c6b779fff8b",
+                "index_policy": "narrow_scope_historical"
+              },
+              {
+                "rank": 5,
+                "score": 0.64243751,
+                "source_id": "campus_fire_safety_2012",
+                "chunk_id": "89c355c757ee26c2b2f5e4a7",
+                "index_policy": "historical_policy"
+              }
+            ]
+          }
+        },
+        {
+          "query_id": "U01",
+          "strategy": "fixed_size500_overlap80",
+          "raw": {
+            "reciprocal_rank": 0.2,
+            "hits": [
+              {
+                "rank": 1,
+                "score": 0.75363637,
+                "source_id": "library_archive_hours",
+                "chunk_id": "e0bddfb4a3796d6969a361e8",
+                "index_policy": "archive_not_for_current_answers"
+              },
+              {
+                "rank": 2,
+                "score": 0.69878774,
+                "source_id": "library_archive_reader_rules",
+                "chunk_id": "031f72d4b281751cf28f7c6a",
+                "index_policy": "archive_not_for_current_answers"
+              },
+              {
+                "rank": 3,
+                "score": 0.69166046,
+                "source_id": "library_archive_hours",
+                "chunk_id": "e15c342b4cd158e4a699cb2e",
+                "index_policy": "archive_not_for_current_answers"
+              },
+              {
+                "rank": 4,
+                "score": 0.68847556,
+                "source_id": "library_archive_remote_access",
+                "chunk_id": "ea0e9b7ad63308188ba1d05f",
+                "index_policy": "archive_not_for_current_answers"
+              },
+              {
+                "rank": 5,
+                "score": 0.68301615,
+                "source_id": "library_home_2026",
+                "chunk_id": "1ebca36c7cfb273e33eefcba",
+                "index_policy": "current_homepage_snapshot"
+              }
+            ]
+          },
+          "policy_filtered": {
+            "reciprocal_rank": 1.0,
+            "hits": [
+              {
+                "rank": 1,
+                "score": 0.68301615,
+                "source_id": "library_home_2026",
+                "chunk_id": "1ebca36c7cfb273e33eefcba",
+                "index_policy": "current_homepage_snapshot"
+              },
+              {
+                "rank": 2,
+                "score": 0.59146264,
+                "source_id": "library_home_2026",
+                "chunk_id": "75b37a7a8453fff990be3bf3",
+                "index_policy": "current_homepage_snapshot"
+              },
+              {
+                "rank": 3,
+                "score": 0.58362328,
+                "source_id": "student_fall_notice_2026",
+                "chunk_id": "33fde8607fd48dd3db1fe5af",
+                "index_policy": "time_limited_notice"
+              },
+              {
+                "rank": 4,
+                "score": 0.58340238,
+                "source_id": "student_summer_notice_2026",
+                "chunk_id": "33aa1e94d898e641c2a1ccf0",
+                "index_policy": "time_limited_notice"
+              },
+              {
+                "rank": 5,
+                "score": 0.57703821,
+                "source_id": "campus_fire_safety_2012",
+                "chunk_id": "89c355c757ee26c2b2f5e4a7",
+                "index_policy": "historical_policy"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "strategy": "recursive_size500_overlap80",
+      "chunk_count": 213,
+      "min_characters": 16,
+      "max_characters": 499,
+      "mean_characters": 338.19,
+      "raw_numpy_mrr_at_5": 0.333333,
+      "policy_filtered_numpy_mrr_at_5": 1.0,
+      "query_results": [
+        {
+          "query_id": "K01",
+          "strategy": "recursive_size500_overlap80",
+          "raw": {
+            "reciprocal_rank": 1.0,
+            "hits": [
+              {
+                "rank": 1,
+                "score": 0.71913451,
+                "source_id": "academic_course_selection_2022",
+                "chunk_id": "7b22529be5a90aeed4398717",
+                "index_policy": "dated_policy"
+              },
+              {
+                "rank": 2,
+                "score": 0.70243117,
+                "source_id": "academic_status_2022",
+                "chunk_id": "9dc789c316bc9281bd9d425d",
+                "index_policy": "dated_policy"
+              },
+              {
+                "rank": 3,
+                "score": 0.67807487,
+                "source_id": "academic_status_2022",
+                "chunk_id": "8b1e9df9b40441899f654285",
+                "index_policy": "dated_policy"
+              },
+              {
+                "rank": 4,
+                "score": 0.6618822,
+                "source_id": "academic_status_2022",
+                "chunk_id": "d4cd669c910d577ba0628dd1",
+                "index_policy": "dated_policy"
+              },
+              {
+                "rank": 5,
+                "score": 0.65881233,
+                "source_id": "academic_course_selection_2022",
+                "chunk_id": "f301b19ed015e351e5cdba37",
+                "index_policy": "dated_policy"
+              }
+            ]
+          },
+          "policy_filtered": {
+            "reciprocal_rank": 1.0,
+            "hits": [
+              {
+                "rank": 1,
+                "score": 0.71913451,
+                "source_id": "academic_course_selection_2022",
+                "chunk_id": "7b22529be5a90aeed4398717",
+                "index_policy": "dated_policy"
+              },
+              {
+                "rank": 2,
+                "score": 0.70243117,
+                "source_id": "academic_status_2022",
+                "chunk_id": "9dc789c316bc9281bd9d425d",
+                "index_policy": "dated_policy"
+              },
+              {
+                "rank": 3,
+                "score": 0.67807487,
+                "source_id": "academic_status_2022",
+                "chunk_id": "8b1e9df9b40441899f654285",
+                "index_policy": "dated_policy"
+              },
+              {
+                "rank": 4,
+                "score": 0.6618822,
+                "source_id": "academic_status_2022",
+                "chunk_id": "d4cd669c910d577ba0628dd1",
+                "index_policy": "dated_policy"
+              },
+              {
+                "rank": 5,
+                "score": 0.65881233,
+                "source_id": "academic_course_selection_2022",
+                "chunk_id": "f301b19ed015e351e5cdba37",
+                "index_policy": "dated_policy"
+              }
+            ]
+          }
+        },
+        {
+          "query_id": "K10",
+          "strategy": "recursive_size500_overlap80",
+          "raw": {
+            "reciprocal_rank": 0.0,
+            "hits": [
+              {
+                "rank": 1,
+                "score": 0.7922092,
+                "source_id": "library_archive_reader_rules",
+                "chunk_id": "33f322f5678d0d777f838a98",
+                "index_policy": "archive_not_for_current_answers"
+              },
+              {
+                "rank": 2,
+                "score": 0.7922092,
+                "source_id": "library_archive_hours",
+                "chunk_id": "fffd5dc42c36b203d55b3c3e",
+                "index_policy": "archive_not_for_current_answers"
+              },
+              {
+                "rank": 3,
+                "score": 0.77945715,
+                "source_id": "library_archive_remote_access",
+                "chunk_id": "53aab78a481dbcc6d5814c66",
+                "index_policy": "archive_not_for_current_answers"
+              },
+              {
+                "rank": 4,
+                "score": 0.73510558,
+                "source_id": "library_archive_reader_rules",
+                "chunk_id": "54b306efc6c305a5273086dd",
+                "index_policy": "archive_not_for_current_answers"
+              },
+              {
+                "rank": 5,
+                "score": 0.73281287,
+                "source_id": "library_archive_remote_access",
+                "chunk_id": "ba17db45b21386bfbc84753b",
+                "index_policy": "archive_not_for_current_answers"
+              }
+            ]
+          },
+          "policy_filtered": {
+            "reciprocal_rank": 1.0,
+            "hits": [
+              {
+                "rank": 1,
+                "score": 0.70772414,
+                "source_id": "library_home_2026",
+                "chunk_id": "ad98b77decaef2a3915b0cb2",
+                "index_policy": "current_homepage_snapshot"
+              },
+              {
+                "rank": 2,
+                "score": 0.70387485,
+                "source_id": "library_home_2026",
+                "chunk_id": "55881e811b6955553404e382",
+                "index_policy": "current_homepage_snapshot"
+              },
+              {
+                "rank": 3,
+                "score": 0.69389333,
+                "source_id": "student_fall_notice_2026",
+                "chunk_id": "fa5f28711c2f1928af86b20b",
+                "index_policy": "time_limited_notice"
+              },
+              {
+                "rank": 4,
+                "score": 0.66758012,
+                "source_id": "campus_fire_safety_2012",
+                "chunk_id": "c75d9ea249aeec3ef514ecfd",
+                "index_policy": "historical_policy"
+              },
+              {
+                "rank": 5,
+                "score": 0.66742096,
+                "source_id": "aid_portal_2025",
+                "chunk_id": "012a2c5a6b9d8ad3c69a71cd",
+                "index_policy": "official_index"
+              }
+            ]
+          }
+        },
+        {
+          "query_id": "U01",
+          "strategy": "recursive_size500_overlap80",
+          "raw": {
+            "reciprocal_rank": 0.0,
+            "hits": [
+              {
+                "rank": 1,
+                "score": 0.72671962,
+                "source_id": "library_archive_hours",
+                "chunk_id": "e1bb120d7d7a69a53127b67d",
+                "index_policy": "archive_not_for_current_answers"
+              },
+              {
+                "rank": 2,
+                "score": 0.71820596,
+                "source_id": "library_archive_hours",
+                "chunk_id": "5dfafe7a69bf5ea9a6617c3a",
+                "index_policy": "archive_not_for_current_answers"
+              },
+              {
+                "rank": 3,
+                "score": 0.67295406,
+                "source_id": "library_archive_reader_rules",
+                "chunk_id": "54b306efc6c305a5273086dd",
+                "index_policy": "archive_not_for_current_answers"
+              },
+              {
+                "rank": 4,
+                "score": 0.66974491,
+                "source_id": "library_archive_remote_access",
+                "chunk_id": "ba17db45b21386bfbc84753b",
+                "index_policy": "archive_not_for_current_answers"
+              },
+              {
+                "rank": 5,
+                "score": 0.66598217,
+                "source_id": "library_archive_hours",
+                "chunk_id": "e91f8ebec112527ddf3c85c6",
+                "index_policy": "archive_not_for_current_answers"
+              }
+            ]
+          },
+          "policy_filtered": {
+            "reciprocal_rank": 1.0,
+            "hits": [
+              {
+                "rank": 1,
+                "score": 0.65465792,
+                "source_id": "library_home_2026",
+                "chunk_id": "55881e811b6955553404e382",
+                "index_policy": "current_homepage_snapshot"
+              },
+              {
+                "rank": 2,
+                "score": 0.58947853,
+                "source_id": "student_summer_notice_2026",
+                "chunk_id": "a76dd8d4aebbdd8a6e8521bb",
+                "index_policy": "time_limited_notice"
+              },
+              {
+                "rank": 3,
+                "score": 0.58653098,
+                "source_id": "academic_course_selection_2022",
+                "chunk_id": "f301b19ed015e351e5cdba37",
+                "index_policy": "dated_policy"
+              },
+              {
+                "rank": 4,
+                "score": 0.5775634,
+                "source_id": "student_summer_notice_2026",
+                "chunk_id": "9168f9a833e98545988b76ed",
+                "index_policy": "time_limited_notice"
+              },
+              {
+                "rank": 5,
+                "score": 0.57304905,
+                "source_id": "aid_work_study_2025_listing_2016_text",
+                "chunk_id": "5d763c26c8ceb1f5902ba319",
+                "index_policy": "version_conflict_review_required"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "strategy": "header_size700",
+      "chunk_count": 115,
+      "min_characters": 9,
+      "max_characters": 699,
+      "mean_characters": 508.22,
+      "raw_numpy_mrr_at_5": 0.416667,
+      "policy_filtered_numpy_mrr_at_5": 1.0,
+      "query_results": [
+        {
+          "query_id": "K01",
+          "strategy": "header_size700",
+          "raw": {
+            "reciprocal_rank": 1.0,
+            "hits": [
+              {
+                "rank": 1,
+                "score": 0.71456358,
+                "source_id": "academic_course_selection_2022",
+                "chunk_id": "05b5587fcf2972c819494fde",
+                "index_policy": "dated_policy"
+              },
+              {
+                "rank": 2,
+                "score": 0.70457319,
+                "source_id": "academic_status_2022",
+                "chunk_id": "1caacae5287e1b5dd8d767e6",
+                "index_policy": "dated_policy"
+              },
+              {
+                "rank": 3,
+                "score": 0.65911524,
+                "source_id": "academic_status_2022",
+                "chunk_id": "6f788cf26c4df7dd3404e69a",
+                "index_policy": "dated_policy"
+              },
+              {
+                "rank": 4,
+                "score": 0.65333183,
+                "source_id": "aid_national_grant_2021",
+                "chunk_id": "e3eb8d3e67cfb8a6415ef3e9",
+                "index_policy": "historical_policy"
+              },
+              {
+                "rank": 5,
+                "score": 0.64260666,
+                "source_id": "academic_status_2022",
+                "chunk_id": "c37a793e34af4cda556769b6",
+                "index_policy": "dated_policy"
+              }
+            ]
+          },
+          "policy_filtered": {
+            "reciprocal_rank": 1.0,
+            "hits": [
+              {
+                "rank": 1,
+                "score": 0.71456358,
+                "source_id": "academic_course_selection_2022",
+                "chunk_id": "05b5587fcf2972c819494fde",
+                "index_policy": "dated_policy"
+              },
+              {
+                "rank": 2,
+                "score": 0.70457319,
+                "source_id": "academic_status_2022",
+                "chunk_id": "1caacae5287e1b5dd8d767e6",
+                "index_policy": "dated_policy"
+              },
+              {
+                "rank": 3,
+                "score": 0.65911524,
+                "source_id": "academic_status_2022",
+                "chunk_id": "6f788cf26c4df7dd3404e69a",
+                "index_policy": "dated_policy"
+              },
+              {
+                "rank": 4,
+                "score": 0.65333183,
+                "source_id": "aid_national_grant_2021",
+                "chunk_id": "e3eb8d3e67cfb8a6415ef3e9",
+                "index_policy": "historical_policy"
+              },
+              {
+                "rank": 5,
+                "score": 0.64260666,
+                "source_id": "academic_status_2022",
+                "chunk_id": "c37a793e34af4cda556769b6",
+                "index_policy": "dated_policy"
+              }
+            ]
+          }
+        },
+        {
+          "query_id": "K10",
+          "strategy": "header_size700",
+          "raw": {
+            "reciprocal_rank": 0.0,
+            "hits": [
+              {
+                "rank": 1,
+                "score": 0.78909835,
+                "source_id": "library_archive_remote_access",
+                "chunk_id": "d96298e88b54316d4e8199b1",
+                "index_policy": "archive_not_for_current_answers"
+              },
+              {
+                "rank": 2,
+                "score": 0.78419879,
+                "source_id": "library_archive_hours",
+                "chunk_id": "b51d41abcfe792358f89eb77",
+                "index_policy": "archive_not_for_current_answers"
+              },
+              {
+                "rank": 3,
+                "score": 0.78417918,
+                "source_id": "library_archive_reader_rules",
+                "chunk_id": "97d600fbcd5d4bb5d6df1a18",
+                "index_policy": "archive_not_for_current_answers"
+              },
+              {
+                "rank": 4,
+                "score": 0.74922048,
+                "source_id": "library_archive_hours",
+                "chunk_id": "5d3e6f230cdb3afe7219570f",
+                "index_policy": "archive_not_for_current_answers"
+              },
+              {
+                "rank": 5,
+                "score": 0.74511921,
+                "source_id": "library_archive_remote_access",
+                "chunk_id": "e80d0a8600a493be4b0cd308",
+                "index_policy": "archive_not_for_current_answers"
+              }
+            ]
+          },
+          "policy_filtered": {
+            "reciprocal_rank": 1.0,
+            "hits": [
+              {
+                "rank": 1,
+                "score": 0.72267631,
+                "source_id": "library_home_2026",
+                "chunk_id": "2191c9cf3b391340e399e028",
+                "index_policy": "current_homepage_snapshot"
+              },
+              {
+                "rank": 2,
+                "score": 0.69813739,
+                "source_id": "library_home_2026",
+                "chunk_id": "3418e7d650e981af7c21ff4f",
+                "index_policy": "current_homepage_snapshot"
+              },
+              {
+                "rank": 3,
+                "score": 0.65229747,
+                "source_id": "campus_fire_safety_2012",
+                "chunk_id": "ea8a11606ebbb26f9c2ca65d",
+                "index_policy": "historical_policy"
+              },
+              {
+                "rank": 4,
+                "score": 0.65217699,
+                "source_id": "aid_portal_2025",
+                "chunk_id": "8a965f718a819905403736a4",
+                "index_policy": "official_index"
+              },
+              {
+                "rank": 5,
+                "score": 0.64165768,
+                "source_id": "student_fall_notice_2026",
+                "chunk_id": "18e9f17056e38a2d7cb462b0",
+                "index_policy": "time_limited_notice"
+              }
+            ]
+          }
+        },
+        {
+          "query_id": "U01",
+          "strategy": "header_size700",
+          "raw": {
+            "reciprocal_rank": 0.25,
+            "hits": [
+              {
+                "rank": 1,
+                "score": 0.73547363,
+                "source_id": "library_archive_hours",
+                "chunk_id": "5d3e6f230cdb3afe7219570f",
+                "index_policy": "archive_not_for_current_answers"
+              },
+              {
+                "rank": 2,
+                "score": 0.72671962,
+                "source_id": "library_archive_hours",
+                "chunk_id": "fd015d9ce5617cb63b804c0b",
+                "index_policy": "archive_not_for_current_answers"
+              },
+              {
+                "rank": 3,
+                "score": 0.71735156,
+                "source_id": "library_archive_hours",
+                "chunk_id": "50095452a44a49fb34ae30ad",
+                "index_policy": "archive_not_for_current_answers"
+              },
+              {
+                "rank": 4,
+                "score": 0.67605732,
+                "source_id": "library_home_2026",
+                "chunk_id": "2191c9cf3b391340e399e028",
+                "index_policy": "current_homepage_snapshot"
+              },
+              {
+                "rank": 5,
+                "score": 0.66867395,
+                "source_id": "library_archive_reader_rules",
+                "chunk_id": "58bb0bd377ccdf03d20bd3eb",
+                "index_policy": "archive_not_for_current_answers"
+              }
+            ]
+          },
+          "policy_filtered": {
+            "reciprocal_rank": 1.0,
+            "hits": [
+              {
+                "rank": 1,
+                "score": 0.67605732,
+                "source_id": "library_home_2026",
+                "chunk_id": "2191c9cf3b391340e399e028",
+                "index_policy": "current_homepage_snapshot"
+              },
+              {
+                "rank": 2,
+                "score": 0.59960831,
+                "source_id": "student_summer_notice_2026",
+                "chunk_id": "0786729918413a917a810235",
+                "index_policy": "time_limited_notice"
+              },
+              {
+                "rank": 3,
+                "score": 0.580183,
+                "source_id": "student_summer_notice_2026",
+                "chunk_id": "bf2582d2b35f9c0aaeccdd50",
+                "index_policy": "time_limited_notice"
+              },
+              {
+                "rank": 4,
+                "score": 0.57748776,
+                "source_id": "library_home_2026",
+                "chunk_id": "3418e7d650e981af7c21ff4f",
+                "index_policy": "current_homepage_snapshot"
+              },
+              {
+                "rank": 5,
+                "score": 0.57038994,
+                "source_id": "student_fall_notice_2026",
+                "chunk_id": "18e9f17056e38a2d7cb462b0",
+                "index_policy": "time_limited_notice"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "finished_at": "2026-10-06T17:41:11+08:00"
+}

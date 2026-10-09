@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="长安大学图书馆"/>
+    <meta name="description" content=""/>
+    <meta name="renderer" content="webkit">
+    <title>长安大学图书馆</title>
+
+</head>
+<style>
+    #nprogress {
+        pointer-events: none;
+    }
+
+    #nprogress .bar {
+        background: #5188FF;
+        position: fixed;
+        z-index: 1031;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+    }
+
+    #nprogress .peg {
+        display: block;
+        position: absolute;
+        right: 0px;
+        width: 100px;
+        height: 100%;
+        box-shadow: 0 0 10px #5188FF, 0 0 5px #5188FF;
+        opacity: 1;
+        -webkit-transform: rotate(3deg) translate(0px, -4px);
+        -ms-transform: rotate(3deg) translate(0px, -4px);
+        transform: rotate(3deg) translate(0px, -4px);
+    }
+
+    .nprogress-custom-parent {
+        overflow: hidden;
+        position: relative;
+    }
+
+    .nprogress-custom-parent #nprogress .bar {
+        position: absolute;
+    }
+</style>
+<body class="grid-bottom-spacer">
+<div id="htContainer" style="height:100%" >
+</div>
+
+        <script src="https://mh.chaoxing.com/sv2/assets/js/media.js"></script>
+
+<script src="/assets/js/v2.js?v=2026011508"></script>
+
+<script type="text/javascript">
+    var rqIp = '180.120.228.118';
+    var pagePubId = 'f4d04d761414b111f01beb35598cfc3d2b31';
+    // 二级页面参数
+    var previewUrl = '/mhssr2/?p=f4d04d761414b111f01beb35598cfc3d2b31&w=f4aa00c46414b111f01beb366b1801872dc2&v=5134bb9b2e0f24bdcdeac220a31e77d44246';
+    var engineId = '';
+    var webPubId = 'f4aa00c46414b111f01beb366b1801872dc2';
+    var typeId = '';
+    var dataId = '';
+    var aid = '';
+    var hp = '';
+    var isWebIndex = 1;
+    var p_wfwfid = 1968;
+    var wxMiniUrl = '';
+    var appUsePc = 'false';
+    var openPageLoading = false;
+    var app = getQueryString("app")
+
+    /* 子页面数据 */
+    //分类数据
+    var classifyData = {}
+    //详情数据
+    var detailData = {}
+    //面包屑数据
+    var crumbData = {}
+    /* 子页面数据 */
+
+    if (previewUrl){
+        if (app != null) {
+            // 指定参数强制访问pc端或者移动端
+            if (app == 1) {
+                previewUrl = replaceUrlParam(previewUrl,'a','1')
+            } else if (app == 0) {
+                previewUrl = replaceUrlParam(previewUrl,'a','0')
+            }
+        } else {
+            if (!appUsePc || appUsePc == 'false') {
+                if (window.location.href.indexOf('mh-v2-iframe=1') > -1 || isV2Mobile){
+                    previewUrl = replaceUrlParam(previewUrl,'a','1')
+                }
+            } else {
+                previewUrl = replaceUrlParam(previewUrl,'a','0')
+            }
+        }
+    }
+    jq("#htContainer").load(previewUrl)
+    function replaceUrlParam(url, param, value) {
+        if (url) {
+            var re = new RegExp("[?&](" + param + "=[^&]*)", "gi");
+            var replaceStr = param + "=" + value;
+            return re.test(url) ? url.replace(RegExp.$1, replaceStr) : url.indexOf('?') > -1 ? url + "&" + replaceStr : url + "?" + replaceStr;
+        } else {
+            return "";
+        }
+    }
+    function getQueryString (name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return unescape(r[2]);
+        return null;
+    }
+</script>
+
+    <div><script type="text/javascript" src="https://robot.chaoxing.com/sdk/CxRobotSdkJs.js"></script>
+<script type="text/javascript">
+    CxRobotSdkJs.init("https://robot.chaoxing.com/embedChat?unitId=1968&robotId=4f80435ced0b4ed4a458042ed85321a5&groupId=0&openType=openUrl&openPage=coze", "ea64bc4977cae5b6d00b35c914cdc243");
+</script>
+</div>
+</body>
+</html>

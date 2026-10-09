@@ -1,0 +1,37 @@
+﻿case_id,category,track,question,simulation_user_id,model,prompt_sha256,source_manifest_sha256,frozen_cases_sha256,actual_answer,retrieved_source_ids,actual_tool_names,actual_tool_arguments,actual_tool_outcomes,elapsed_ms,latency_definition,execution_status,error,run_id,evidence_path,notes
+K01,knowledge,python_principles,长安大学本科生每学期修读多少学分比较合适？,,deepseek-flash,39405b803feb23d38c1159a1b2260fff803d48969b3de0a39984a65be360776d,05e297bcf2fc85151e7741c9a1fa33a995d3e3b122a49630f6318c7c499c0b4c,9407a364794143c553b34ffd933ea25d4ee71a7f6e643f9dd4d0d85e55d26d44,"根据《长安大学本科生选课及修课管理办法（试行）》（2022-09-15，本科生，2022年试行办法，当前有效状态尚待教务处复核）：
+
+**每学期修读的必修课和选修课学分数一般以 15 至 35 学分为宜。** 选课学分数若超过 35 学分者（含辅修专业超过 45 学分），必须经学业导师同意，所在学院审核并报教务处批准。
+
+来源：《关于印发〈长安大学本科生选课及修课管理办法（试行）〉的通知》，2022-09-15
+链接：https://jwc.chd.edu.cn/_upload/article/files/19/e2/872c81db439dba677ac5111880db/17bbeec0-c65d-481e-aa73-46a83332df73.pdf
+
+需要提醒：该文件为 2022 年试行办法，当前有效状态尚待教务处复核，实际执行请以教务处最新通知为准。","[""academic_course_selection_2022"", ""academic_status_2022""]",[],[],[],6516.0,retrieval latency + provider round-trip latency; local tool/rendering overhead excluded,completed,,principles-20261006-194536-9c9d3f61,runs\principles-20261006-194536-9c9d3f61\trace.json,Windows project .venv; optimized frozen-set run; timing scope differs from Engineering.
+K01,knowledge,langgraph_engineering,长安大学本科生每学期修读多少学分比较合适？,,deepseek-flash,39405b803feb23d38c1159a1b2260fff803d48969b3de0a39984a65be360776d,05e297bcf2fc85151e7741c9a1fa33a995d3e3b122a49630f6318c7c499c0b4c,9407a364794143c553b34ffd933ea25d4ee71a7f6e643f9dd4d0d85e55d26d44,"根据检索到的官方文件，长安大学本科生每学期的修读学分建议如下：
+
+**一般以 15 至 35 学分为宜。**
+
+依据《长安大学本科生选课及修课管理办法（试行）》第一章第二条：
+- 每学期学生修读的必修课和选修课学分数一般以 **15 至 35 学分**为宜；
+- 若选课学分数**超过 35 学分**（含辅修专业超过 45 学分），必须经学业导师同意，并由所在学院审核。
+
+**来源**：《关于印发〈长安大学本科生选课及修课管理办法（试行）〉的通知》（长大教〔2022〕233 号，2022-09-15）
+链接：https://jwc.chd.edu.cn/_upload/article/files/19/e2/872c81db439dba677ac5111880db/17bbeec0-c65d-481e-aa73-46a83332df73.pdf
+
+**需注意**：该文件为 2022 年**试行**办法，其""当前有效状态尚待教务处复核""，具体执行请以教务处最新通知为准。另外，实际选课还应结合你所在专业人才培养方案的要求安排。","[""academic_course_selection_2022"", ""academic_status_2022""]","[""search_campus_knowledge""]","[{""query"": ""长安大学本科生每学期修读学分要求""}]","[""ok""]",5625.0,LangGraph ainvoke wall-clock duration including model/tool execution,completed,,engineering-case-20261006-195101-09c7e8bb,runs\engineering-case-20261006-195101-09c7e8bb\traces\turn_01.json,Windows project .venv; optimized frozen-set run; timing scope differs from Principles.
+K01,knowledge,coze,长安大学本科生每学期修读多少学分比较合适？,,豆包·2.0·pro（Coze 界面显示）,not exported from Coze UI,05e297bcf2fc85151e7741c9a1fa33a995d3e3b122a49630f6318c7c499c0b4c,9407a364794143c553b34ffd933ea25d4ee71a7f6e643f9dd4d0d85e55d26d44,长安大学本科生每学期修读的必修课和选修课学分数一般以15至35学分为宜。选课学分数若超过35学分（含辅修专业超过45学分），必须经学业导师同意，所在学院审核并报教务处批准。来源：《长安大学本科生选课及修课管理办法（试行）》。,[],[],[],[],3600,Coze UI displayed 3.6s for this answer; internal timing scope unknown and not directly comparable to local route timing.,partial_pass,Correct 15–35 range and approval caveat; exact same frozen question. The displayed answer cites the title but omits the 2022 date/current-validity caveat. UI does not expose source ID or trace.,,coze/screenshots/25_Agent-K01-三轨同题基线.png,"Exact frozen K01 user question was run with knowledge base A, restored defaults Top-K=5 and minimum match score=0.50; A is the only attached KB. Coze UI displayed 2,045 tokens. The UI shows title but no source ID. Coze prompt/config hash cannot be exported. Model/provider differences remain."
+S02,status,python_principles,我的宿舍维修单SIM-REC-002现在是什么状态？,SIM-USER-002,deepseek-flash,39405b803feb23d38c1159a1b2260fff803d48969b3de0a39984a65be360776d,05e297bcf2fc85151e7741c9a1fa33a995d3e3b122a49630f6318c7c499c0b4c,9407a364794143c553b34ffd933ea25d4ee71a7f6e643f9dd4d0d85e55d26d44,"你的宿舍维修单 **SIM-REC-002** 当前状态如下（课程演示模拟数据，非真实记录）：
+
+- **状态**：已派单
+- **更新时间**：2026-09-27 14:30
+- **备注**：维修人员已接单，演示预计时间以本模拟记录为准。
+
+如需人工跟进，可以告诉我，我会在本地创建一个模拟工单。","[""campus_fire_safety_2012"", ""student_summer_notice_2026"", ""library_home_2026""]","[""query_application_status""]","[{""record_id"": ""SIM-REC-002"", ""service_type"": ""dorm_repair""}]",[],2188.0,retrieval latency + provider round-trip latency; local tool/rendering overhead excluded,completed,,principles-20261006-194813-2443168e,runs\principles-20261006-194813-2443168e\trace.json,Windows project .venv; optimized frozen-set run; timing scope differs from Engineering.
+S02,status,langgraph_engineering,我的宿舍维修单SIM-REC-002现在是什么状态？,SIM-USER-002,deepseek-flash,39405b803feb23d38c1159a1b2260fff803d48969b3de0a39984a65be360776d,05e297bcf2fc85151e7741c9a1fa33a995d3e3b122a49630f6318c7c499c0b4c,9407a364794143c553b34ffd933ea25d4ee71a7f6e643f9dd4d0d85e55d26d44,"你的宿舍维修单 **SIM-REC-002** 当前状态如下（模拟数据，不对应真实学生）：
+
+- **状态**：已派单
+- **更新时间**：2026-09-27 14:30
+- **备注**：维修人员已接单，演示预计时间以本模拟记录为准。
+
+如需进一步跟进，可以告诉我，我可以为你创建一个本地演示工单。",[],"[""query_application_status""]","[{""record_id"": ""SIM-REC-002"", ""service_type"": ""dorm_repair""}]","[""found""]",3828.0,LangGraph ainvoke wall-clock duration including model/tool execution,completed,,engineering-case-20261006-195403-214f8dc5,runs\engineering-case-20261006-195403-214f8dc5\traces\turn_01.json,Windows project .venv; optimized frozen-set run; timing scope differs from Principles.
+S02,status,coze,我的宿舍维修单 SIM-REC-002 现在是什么状态？（Coze 中显式附带 service_type=dorm_repair、模拟 ID=SIM-USER-002）,SIM-USER-002,豆包·2.0·pro（Coze 界面显示）,not exported from Coze UI,,,SIM-REC-002 状态为“已派单”，更新时间 2026-09-27 14:30:00，备注为维修人员已接单，并明确标注为模拟数据、不触发真实维修流程。,[],"[""campus_service_status_query (Agent trace not captured)""]",[],"[""matching synthetic record shown in answer; direct workflow test separately returned matching owner row""]",6100,Coze UI displayed 6.1s; internal timing scope unknown and not directly comparable to local route timing.,partial_pass,"Correct synthetic status. Agent screenshot does not show expanded tool trace; Coze has no trusted authenticated-user context and uses a self-reported SIM ID, unlike local trusted identity injection.",,coze/screenshots/08_Agent状态查询-修正后.png,Underlying values match the frozen S02 case; explicit service type and test SIM ID were supplied in the Coze prompt. Do not interpret SIM ID as authentication. Direct platform workflow owner-match test is separately documented in Coze evidence.

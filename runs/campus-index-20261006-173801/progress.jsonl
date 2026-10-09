@@ -1,0 +1,22 @@
+{"batch": 1, "batches_total": 19, "chunks_completed": 8, "chunks_total": 147, "dimension": 1024, "duration_seconds": 10.88, "stage": "embedding"}
+{"batch": 2, "batches_total": 19, "chunks_completed": 16, "chunks_total": 147, "dimension": 1024, "duration_seconds": 4.39, "stage": "embedding"}
+{"batch": 3, "batches_total": 19, "chunks_completed": 24, "chunks_total": 147, "dimension": 1024, "duration_seconds": 0.67, "stage": "embedding"}
+{"batch": 4, "batches_total": 19, "chunks_completed": 32, "chunks_total": 147, "dimension": 1024, "duration_seconds": 0.44, "stage": "embedding"}
+{"batch": 5, "batches_total": 19, "chunks_completed": 40, "chunks_total": 147, "dimension": 1024, "duration_seconds": 0.3, "stage": "embedding"}
+{"batch": 6, "batches_total": 19, "chunks_completed": 48, "chunks_total": 147, "dimension": 1024, "duration_seconds": 0.33, "stage": "embedding"}
+{"batch": 7, "batches_total": 19, "chunks_completed": 56, "chunks_total": 147, "dimension": 1024, "duration_seconds": 0.31, "stage": "embedding"}
+{"batch": 8, "batches_total": 19, "chunks_completed": 64, "chunks_total": 147, "dimension": 1024, "duration_seconds": 0.31, "stage": "embedding"}
+{"batch": 9, "batches_total": 19, "chunks_completed": 72, "chunks_total": 147, "dimension": 1024, "duration_seconds": 0.31, "stage": "embedding"}
+{"batch": 10, "batches_total": 19, "chunks_completed": 80, "chunks_total": 147, "dimension": 1024, "duration_seconds": 0.33, "stage": "embedding"}
+{"batch": 11, "batches_total": 19, "chunks_completed": 88, "chunks_total": 147, "dimension": 1024, "duration_seconds": 0.33, "stage": "embedding"}
+{"batch": 12, "batches_total": 19, "chunks_completed": 96, "chunks_total": 147, "dimension": 1024, "duration_seconds": 0.27, "stage": "embedding"}
+{"batch": 13, "batches_total": 19, "chunks_completed": 104, "chunks_total": 147, "dimension": 1024, "duration_seconds": 0.3, "stage": "embedding"}
+{"batch": 14, "batches_total": 19, "chunks_completed": 112, "chunks_total": 147, "dimension": 1024, "duration_seconds": 0.33, "stage": "embedding"}
+{"batch": 15, "batches_total": 19, "chunks_completed": 120, "chunks_total": 147, "dimension": 1024, "duration_seconds": 0.3, "stage": "embedding"}
+{"batch": 16, "batches_total": 19, "chunks_completed": 128, "chunks_total": 147, "dimension": 1024, "duration_seconds": 0.31, "stage": "embedding"}
+{"batch": 17, "batches_total": 19, "chunks_completed": 136, "chunks_total": 147, "dimension": 1024, "duration_seconds": 0.31, "stage": "embedding"}
+{"batch": 18, "batches_total": 19, "chunks_completed": 144, "chunks_total": 147, "dimension": 1024, "duration_seconds": 0.31, "stage": "embedding"}
+{"batch": 19, "batches_total": 19, "chunks_completed": 147, "chunks_total": 147, "dimension": 1024, "duration_seconds": 0.22, "stage": "embedding"}
+{"query_id": "K01", "stage": "retrieval", "top1": {"chunk_id": "a416144f69206dd9436bf5aa", "index_policy": "dated_policy", "rank": 1, "score": 0.72037775, "source_id": "academic_course_selection_2022"}}
+{"query_id": "K10", "stage": "retrieval", "top1": {"chunk_id": "6bb5d600fc35c31199d0c4b2", "index_policy": "archive_not_for_current_answers", "rank": 1, "score": 0.79856841, "source_id": "library_archive_reader_rules"}}
+{"query_id": "U01", "stage": "retrieval", "top1": {"chunk_id": "e0bddfb4a3796d6969a361e8", "index_policy": "archive_not_for_current_answers", "rank": 1, "score": 0.75363637, "source_id": "library_archive_hours"}}

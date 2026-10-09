@@ -1,0 +1,22 @@
+{
+  "started_at": "2026-10-06T21:01:40+08:00",
+  "mode": "live_streamlit_app_test_synthetic_user",
+  "course_result": false,
+  "synthetic_data_only": true,
+  "model_usage_available_from_service_response": false,
+  "estimated_cost_usd": null,
+  "note": "Current chat API response does not expose provider token usage.",
+  "agent_url": "http://127.0.0.1:8080",
+  "model": "deepseek-flash",
+  "question": "请查询我的模拟助学申请记录 SIM-REC-001，告诉我状态和更新时间。",
+  "simulation_user_id": "SIM-USER-001",
+  "completed": true,
+  "selected_model": "deepseek-flash",
+  "selected_agent": "campus-customer-service",
+  "selected_synthetic_identity": "SIM-USER-001",
+  "assistant_message_rendered": true,
+  "assistant_answer": "查询结果如下（**模拟数据**，不对应真实学生）：\n\n- **记录编号**：SIM-REC-001\n- **服务类型**：助学申请（aid_application）\n- **当前状态**：材料审核中\n- **更新时间**：2026-09-28 10:00（+08:00）\n- **公开备注**：材料已提交，等待审核。\n\n如需进一步跟进，我可以为你创建一个本地演示工单（仅生成本地模拟 ticket，不会通知真实工作人员）。",
+  "tool_status_elements": [],
+  "elapsed_seconds": 7.734,
+  "finished_at": "2026-10-06T21:01:48+08:00"
+}

@@ -1,0 +1,12 @@
+{
+  "platform": "win32",
+  "command": ".venv\\Scripts\\python.exe -m pytest -q",
+  "suite": "default Windows pytest suite after Chroma cold-start locking and concurrency regression test; Docker-marked cases skipped without --run-docker",
+  "passed": 244,
+  "failed": 0,
+  "skipped": 4,
+  "warnings": 18,
+  "duration_seconds": 28.16,
+  "test_pass_rate": 1.0,
+  "recorded_at": "2026-10-08T08:13:25+08:00"
+}

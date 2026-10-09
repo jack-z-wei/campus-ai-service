@@ -1,0 +1,161 @@
+{
+  "question": "请查一下SIM-REC-001的进度。",
+  "request_id": "principles-417b6f2a-663b-40bd-a8ff-b4e3a2b47d2b",
+  "retrieval": {
+    "backend": "numpy",
+    "top_k": 5,
+    "latency_ms": 344.0,
+    "context_expansions": [
+      {
+        "source_id": "student_fall_notice_2026",
+        "anchor_chunk_id": "e6c4084e63820558ef1374d4",
+        "continuation_chunk_id": "2517dabfd7693c20155f1723",
+        "overlap_chars_removed": 80,
+        "continuation_chars_added": 420
+      }
+    ],
+    "evidence_context_sha256": "2267cdb1c796a54c4ed41768db962c63474e0cd81f274b97a1a8f511731f6ad4",
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "rank": 1,
+        "score": 0.446613,
+        "source_id": "student_fall_notice_2026",
+        "title": "关于做好2026年秋季学期开学本科生教育管理工作的通知",
+        "url": "https://xgb.chd.edu.cn/2026/0908/c4706a262542/page.htm",
+        "published_on": "2026-08-28",
+        "scope": "仅适用于2026年秋季开学工作；本科生教育管理和宿舍走访",
+        "index_policy": "time_limited_notice",
+        "text": "生重温红色历史，推进理想信念教育，筑牢学生听党话、跟党走的思想根基，涵养学生家国情怀；大力开展新生教育工程，实施好入学与适应教育、专业与职业认知教育等6个模块，帮助新生“入好门、走好路、学好业、成好才”；创新网络育人新课堂，积极组织新媒体平台推出各类网络文化作品，着力培育和践行社会主义核心价值观，激发网络正能量，营造清朗网络空间。\n二、全面掌握学生动态状态\n1.各院（系）要以调查问卷、座谈访谈等多种形式，围绕暑期国内外大事和社会热点话题、学生思想困惑和学习生活实际问题、对学校建设发展的意见建议及新学期目标规划等内容开展调研，全面掌握学生思想动态，并及时回应和解决学生急难愁盼问题。请各院（系）于9月1日（周二）中午12：00前将本科生暑期思想动态调研报告（模版见附件，2000字）发送至xgbszk@chd.edu.cn。\n2.各院（系）要及时更新退学、休学、复学等人数变动情况，精准掌握应返校学生名单，做好动态了解跟踪，提醒学生返校后及时确认到达，并于8月30日晚22点前填写【腾讯文档】2026年秋季开学本科生返校情况统计表https://docs.qq.com/sheet/DRU5Qem",
+        "context_expansion": null,
+        "expanded_from_chunk_id": null
+      },
+      {
+        "evidence_id": "E2",
+        "rank": null,
+        "score": null,
+        "source_id": "student_fall_notice_2026",
+        "title": "关于做好2026年秋季学期开学本科生教育管理工作的通知",
+        "url": "https://xgb.chd.edu.cn/2026/0908/c4706a262542/page.htm",
+        "published_on": "2026-08-28",
+        "scope": "仅适用于2026年秋季开学工作；本科生教育管理和宿舍走访",
+        "index_policy": "time_limited_notice",
+        "text": "J4WW9hem5h?tab=BB08J2。各院（系）在开学后要通过宿舍走访、晚点名/周见面等多种方式认真核查在校学生人数，详细了解不能按时返校学生的情况，并和学生家长保持联系沟通。\n三、关心关爱学生成长发展\n1.加强学生学业情况了解与帮扶。各院（系）要结合新学期开学、补考缓考和课程学习实际，深入摸底学生上学期期末考试、学业预警和课程修读情况，全面掌握学生学业状态。要教育引导学生尽快从假期状态转入学习状态，端正学习态度，明确学期目标，合理制定学习计划。对学业困难、补考压力较大、复学后适应困难等学生，要通过谈心谈话、学业导师指导、朋辈学业帮扶等方式开展精准帮扶；对需要家校协同的学生，要及时与家长沟通学生表现和帮扶安排，形成育人合力。\n2.深入开展心理健康教育宣传。各院（系）要把握开学初学生心理适应的关键时期，面向全体学生广泛开展心理健康知识宣传教育，积极倡导“勤于自助、善于求助、乐于互助”的理念，帮助学生尽快适应校园生活和新学期学",
+        "context_expansion": "adjacent_continuation",
+        "expanded_from_chunk_id": "e6c4084e63820558ef1374d4"
+      },
+      {
+        "evidence_id": "E3",
+        "rank": 2,
+        "score": 0.437304,
+        "source_id": "academic_status_2022",
+        "title": "长安大学本科生学籍管理规定（2022版）",
+        "url": "https://jwc.chd.edu.cn/_upload/article/files/32/cb/586327c446978b0484b8feaa6ef0/7bf1b966-028b-48f6-930d-48e350c6c60d.pdf",
+        "published_on": "2022",
+        "scope": "本科生；2022年文件，当前有效状态尚待教务处复核",
+        "index_policy": "dated_policy",
+        "text": "学生在第三学年结束时，已获得专业培养方案规定毕业要\n求学分 80%及以上者，可在第四学年初提出书面申请。学院（系）\n对申请者的学习成绩和能力进行审查同意后，报教务处备案，将\n该生纳入毕业年级统一管理。\n第四十三条 学生可在基本学制结束前根据个人学习情况向\n学校申请延长学习年限，延长学习年限以学年为单位，且不得超\n过最长学习年限。申请延长学习年限的学生应按学校规定办理相\n关手续。基本学制结束前未办理延长学习年限的学生，学校根据\n其课程修读情况做毕业、结业、肄业处理。延长学习年限在每学\n年开学 2 周内或毕业年级最后一学期教务处下达的通知时限内办\n理，逾期不再受理。\n延长学习年限学生原则上按照入学年的专业人才培养方案继\n续修读，按正式报到入学注册年级的专业人才培养方案和学位授\n\n## PDF 第 12 页\n\n- 12 -\n予条件进行资格审查。学生在延长学习年限期间遇有个别课程停\n开，经所在学院（系）和开课单位批准，可选修其他相近课程取\n得毕业所需学分。\n第四十四条 修完培养方案规定的内容但未达到毕业要求的\n准予结业，由学校发给结业证书。符合结业标准的学生，填写结\n业申请表，经学院（系）审核",
+        "context_expansion": null,
+        "expanded_from_chunk_id": null
+      },
+      {
+        "evidence_id": "E4",
+        "rank": 3,
+        "score": 0.437077,
+        "source_id": "student_management_2017",
+        "title": "长安大学学生管理规定",
+        "url": "https://xxgk.chd.edu.cn/images/17/10/20/2cnigeztqs/i0197s8j.pdf",
+        "published_on": "2017-08-09",
+        "scope": "2017年学生管理规定；宿舍具体事项按学校另行规定执行，现行效力待核验",
+        "index_policy": "historical_policy",
+        "text": "学校制定、 实施学生申诉制度、 听证制度和具体\n规定。学生应该遵循严肃、认真、诚实的原则提出申诉；学校不\n断健全学生申诉处理委员会的组成与工作规则，提供必要条件，\n坚持合法、公开、公平、公正、及时、实事求是和有错必纠的原\n则，处理学生的申诉。 \n第四十八条  学生对学校作出的涉及 本人权益的下列决定有\n异议， 可以在接到学校处理或者处分决定书之日起10 日内， 向学\n校学生申诉处理委员会提出书面申诉： \n（一）取消入学资格、退学的决定； \n（二）违纪处分的决定； \n（三）依照国家和学校有关规定可以提出申诉的其他决定。 \n第四十九条 学生对学校作出取消入学资格、 退学的处理或者\n开除学籍处分决定有异议并提起申诉时，有权要求通过听证方式\n对原决定进行复查。学生要求听证的，学生申诉处理委员会应组\n织听证。 \n第五十条  有关听证和申诉的具体规定按照学校关于学生听\n证与申诉的相关规定执行。 \n\n## PDF 第 12 页\n\n  - 12 - \n \n第九章 监督检查 \n第五十一条 学校对学生管理工作实行监督检查制度。 \n学校定期组织人员对学校有关学生的奖励、资助、处分、申\n诉、 听证、 档案管",
+        "context_expansion": null,
+        "expanded_from_chunk_id": null
+      },
+      {
+        "evidence_id": "E5",
+        "rank": 4,
+        "score": 0.434174,
+        "source_id": "student_fall_notice_2026",
+        "title": "关于做好2026年秋季学期开学本科生教育管理工作的通知",
+        "url": "https://xgb.chd.edu.cn/2026/0908/c4706a262542/page.htm",
+        "published_on": "2026-08-28",
+        "scope": "仅适用于2026年秋季开学工作；本科生教育管理和宿舍走访",
+        "index_policy": "time_limited_notice",
+        "text": "后及时确认到达，并于8月30日晚22点前填写【腾讯文档】2026年秋季开学本科生返校情况统计表https://docs.qq.com/sheet/DRU5QemJ4WW9hem5h?tab=BB08J2。各院（系）在开学后要通过宿舍走访、晚点名/周见面等多种方式认真核查在校学生人数，详细了解不能按时返校学生的情况，并和学生家长保持联系沟通。\n三、关心关爱学生成长发展\n1.加强学生学业情况了解与帮扶。各院（系）要结合新学期开学、补考缓考和课程学习实际，深入摸底学生上学期期末考试、学业预警和课程修读情况，全面掌握学生学业状态。要教育引导学生尽快从假期状态转入学习状态，端正学习态度，明确学期目标，合理制定学习计划。对学业困难、补考压力较大、复学后适应困难等学生，要通过谈心谈话、学业导师指导、朋辈学业帮扶等方式开展精准帮扶；对需要家校协同的学生，要及时与家长沟通学生表现和帮扶安排，形成育人合力。\n2.深入开展心理健康教育宣传。各院（系）要把握开学初学生心理适应的关键时期，面向全体学生广泛开展心理健康知识宣传教育，积极倡导“勤于自助、善于求助、乐于互助”的理念，帮助学生尽快适应校园生活和新学期学",
+        "context_expansion": null,
+        "expanded_from_chunk_id": null
+      },
+      {
+        "evidence_id": "E6",
+        "rank": 5,
+        "score": 0.433163,
+        "source_id": "academic_status_2022",
+        "title": "长安大学本科生学籍管理规定（2022版）",
+        "url": "https://jwc.chd.edu.cn/_upload/article/files/32/cb/586327c446978b0484b8feaa6ef0/7bf1b966-028b-48f6-930d-48e350c6c60d.pdf",
+        "published_on": "2022",
+        "scope": "本科生；2022年文件，当前有效状态尚待教务处复核",
+        "index_policy": "dated_policy",
+        "text": "假、徇私舞弊等情形的，确定为\n复查不合格，取消学籍；情节严重的，学校移交有关部门调查处\n理。\n复查中发现学生身心状况不适宜在校学习，经学校指定的二\n\n## PDF 第 4 页\n\n- 4 -\n级甲等（含）以上医院诊断，需要在家休养的，可以申请保留入\n学资格。\n第七条 新生应于入学当年十月份在学信网进行新生学籍自\n查，核实本人学籍是否注册、信息是否准确等。\n第八条 每学期开学时，学生必须按时到校，按学校的有关规\n定到所在学院（系）办理注册手续，因故不能如期注册者，必须\n事先履行请假手续暂缓注册。未按学校规定缴纳学费等相关费用\n者以及其他不符合注册条件者不予注册。家庭经济困难的学生可\n以申请助学贷款或其他形式资助，办理有关手续后方可办理注册\n手续。未注册的学生不能参与相应的教学活动及考核。未经请假\n逾期两周不注册者按自动退学处理。\n第三章 学制与学习年限\n第九条 学校实行学分制管理和弹性学习年限，学生可以分阶\n段完成学业。普通本科四年制专业基本学制年限为 4 年，弹性学\n习年限为 3 至 6 年；普通本科五年制专业基本学制年限为 5 年，\n弹性学习年限为 4 至 7 年。学生应在学校规定的最",
+        "context_expansion": null,
+        "expanded_from_chunk_id": null
+      }
+    ]
+  },
+  "model": "deepseek-flash",
+  "memory": {
+    "prior_turn_count": 0,
+    "history_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "max_turns": 4
+  },
+  "model_requests": [
+    {
+      "request_number": 1,
+      "request_attempted": true,
+      "status": "succeeded",
+      "latency_ms": 1187.0,
+      "finish_reason": "tool_calls",
+      "usage": {
+        "input_tokens": 3560,
+        "output_tokens": 52,
+        "total_tokens": 3612
+      },
+      "tool_call_count": 1,
+      "answer_content": null
+    },
+    {
+      "request_number": 2,
+      "request_attempted": true,
+      "status": "succeeded",
+      "latency_ms": 922.0,
+      "finish_reason": "stop",
+      "usage": {
+        "input_tokens": 3701,
+        "output_tokens": 98,
+        "total_tokens": 3799
+      },
+      "tool_call_count": 0,
+      "answer_content": "已查到该模拟记录（课程演示数据，非真实学生信息）：\n\n- **记录编号**：SIM-REC-001\n- **服务类型**：资助申请（aid_application）\n- **当前状态**：材料审核中\n- **更新时间**：2026-09-28 10:00\n- **备注**：材料已提交，等待审核。\n\n如需针对该记录申请人工跟进服务，请告诉我，我可以为你创建一个本地模拟工单。"
+    }
+  ],
+  "tool_calls": [
+    {
+      "tool_call_id": "call_00_MsJ0VpcaagGOArP8YvCv1973",
+      "name": "query_application_status",
+      "arguments": "{\"record_id\": \"SIM-REC-001\"}",
+      "result": {
+        "outcome": "found",
+        "record_id": "SIM-REC-001",
+        "service_type": "aid_application",
+        "status": "材料审核中",
+        "updated_at": "2026-09-28T10:00:00+08:00",
+        "public_note": "材料已提交，等待审核。",
+        "simulation_only": true
+      }
+    }
+  ],
+  "total_tool_calls": 1,
+  "status": "completed",
+  "answer": "已查到该模拟记录（课程演示数据，非真实学生信息）：\n\n- **记录编号**：SIM-REC-001\n- **服务类型**：资助申请（aid_application）\n- **当前状态**：材料审核中\n- **更新时间**：2026-09-28 10:00\n- **备注**：材料已提交，等待审核。\n\n如需针对该记录申请人工跟进服务，请告诉我，我可以为你创建一个本地模拟工单。",
+  "finish_reason": "stop"
+}

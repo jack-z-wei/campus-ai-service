@@ -1,0 +1,145 @@
+{
+  "captured_on": "2026-10-06",
+  "sources": [
+    {
+      "id": "academic_course_selection_2022",
+      "title": "关于印发《长安大学本科生选课及修课管理办法（试行）》的通知",
+      "category": "教务",
+      "url": "https://jwc.chd.edu.cn/_upload/article/files/19/e2/872c81db439dba677ac5111880db/17bbeec0-c65d-481e-aa73-46a83332df73.pdf",
+      "kind": "pdf",
+      "published_on": "2022-09-15",
+      "scope": "本科生；2022年试行办法，当前有效状态尚待教务处复核",
+      "index_policy": "dated_policy"
+    },
+    {
+      "id": "academic_status_2022",
+      "title": "长安大学本科生学籍管理规定（2022版）",
+      "category": "教务",
+      "url": "https://jwc.chd.edu.cn/_upload/article/files/32/cb/586327c446978b0484b8feaa6ef0/7bf1b966-028b-48f6-930d-48e350c6c60d.pdf",
+      "kind": "pdf",
+      "published_on": "2022",
+      "scope": "本科生；2022年文件，当前有效状态尚待教务处复核",
+      "index_policy": "dated_policy"
+    },
+    {
+      "id": "aid_portal_2025",
+      "title": "学生资助信息公开目录",
+      "category": "奖助",
+      "url": "https://xxgk.chd.edu.cn/xxgkml/c6/xszz.htm",
+      "kind": "html",
+      "published_on": "目录页；包含2025年更新条目",
+      "scope": "学校资助政策入口；只回答目录中明确列出的项目与日期",
+      "index_policy": "official_index"
+    },
+    {
+      "id": "aid_national_grant_2021",
+      "title": "长安大学本科生国家助学金评审办法（修订）",
+      "category": "奖助",
+      "url": "https://xxgk.chd.edu.cn/__local/9/2A/68/D6E39D22EB17FD84D3176530A4E_ACF11E16_2CBC8.pdf",
+      "kind": "pdf",
+      "published_on": "2021-06-28",
+      "scope": "本科生；历史版本，不能据此断言当前金额或现行申请时间",
+      "index_policy": "historical_policy"
+    },
+    {
+      "id": "aid_work_study_2025_listing_2016_text",
+      "title": "长安大学学生勤工助学管理办法",
+      "category": "奖助",
+      "url": "https://xxgk.chd.edu.cn/images/17/10/27/2vpoyxiaxd/vloblolz.pdf",
+      "kind": "pdf",
+      "published_on": "信息公开目录标注2025-08-03；PDF正文落款2016-07-08，HTTP Last-Modified为2021-07-07",
+      "scope": "文件版本与目录发布日期不一致；当前效力必须另行核验",
+      "index_policy": "version_conflict_review_required"
+    },
+    {
+      "id": "student_management_2017",
+      "title": "长安大学学生管理规定",
+      "category": "宿舍",
+      "url": "https://xxgk.chd.edu.cn/images/17/10/20/2cnigeztqs/i0197s8j.pdf",
+      "kind": "pdf",
+      "published_on": "2017-08-09",
+      "scope": "2017年学生管理规定；宿舍具体事项按学校另行规定执行，现行效力待核验",
+      "index_policy": "historical_policy"
+    },
+    {
+      "id": "student_summer_notice_2026",
+      "title": "关于做好2026年暑期学生工作的通知",
+      "category": "宿舍",
+      "url": "https://webplus.chd.edu.cn/_s86/2026/0908/c4706a262541/page.psp",
+      "kind": "html",
+      "published_on": "2026-07-03",
+      "scope": "仅适用于2026年暑假安排；宿舍安全、留校和离返校规定以原文为准",
+      "index_policy": "time_limited_notice"
+    },
+    {
+      "id": "student_fall_notice_2026",
+      "title": "关于做好2026年秋季学期开学本科生教育管理工作的通知",
+      "category": "宿舍",
+      "url": "https://xgb.chd.edu.cn/2026/0908/c4706a262542/page.htm",
+      "kind": "html",
+      "published_on": "2026-08-28",
+      "scope": "仅适用于2026年秋季开学工作；本科生教育管理和宿舍走访",
+      "index_policy": "time_limited_notice"
+    },
+    {
+      "id": "international_off_campus_housing_2017",
+      "title": "长安大学来华留学生校外住宿管理办法",
+      "category": "宿舍",
+      "url": "https://webplus.chd.edu.cn/_s21/2017/1026/c2596a37145/page.psp",
+      "kind": "html",
+      "published_on": "2017-10-26",
+      "scope": "仅限来华国际学生；不得外推到中国籍本科生或研究生",
+      "index_policy": "narrow_scope_historical"
+    },
+    {
+      "id": "campus_fire_safety_2012",
+      "title": "关于印发《长安大学消防安全管理规定》的通知",
+      "category": "宿舍",
+      "url": "https://xxgk.chd.edu.cn/info/1032/2271.htm",
+      "kind": "html",
+      "published_on": "2012-06-30",
+      "scope": "学校消防安全；历史规定，现行效力待保卫处核验",
+      "index_policy": "historical_policy"
+    },
+    {
+      "id": "library_home_2026",
+      "title": "长安大学图书馆官网首页（动态主页快照）",
+      "category": "图书馆",
+      "url": "https://lib.chd.edu.cn/",
+      "kind": "library_home_snapshot",
+      "published_on": "持续更新；抓取日期2026-10-06",
+      "scope": "官网服务导航、联系信息和公告标题；公告标题不能代替正文，当前开放时间以官方最新公告为准",
+      "index_policy": "current_homepage_snapshot"
+    },
+    {
+      "id": "library_archive_hours",
+      "title": "长安大学图书馆旧版开放时间页面",
+      "category": "图书馆",
+      "url": "https://libold.chd.edu.cn/dzfw/kfsj.htm",
+      "kind": "html",
+      "published_on": "旧版页面日期未标明",
+      "scope": "历史页面；不得用于回答当前开放时间",
+      "index_policy": "archive_not_for_current_answers"
+    },
+    {
+      "id": "library_archive_reader_rules",
+      "title": "长安大学图书馆旧版读者须知页面",
+      "category": "图书馆",
+      "url": "https://libold.chd.edu.cn/dzfw/dzxz/rgxz.htm",
+      "kind": "html",
+      "published_on": "旧版页面日期未标明",
+      "scope": "历史页面；当前借阅规则应以现行官方页面为准",
+      "index_policy": "archive_not_for_current_answers"
+    },
+    {
+      "id": "library_archive_remote_access",
+      "title": "长安大学图书馆旧版校外访问页面",
+      "category": "图书馆",
+      "url": "https://libold.chd.edu.cn/dzfw/xwfw.htm",
+      "kind": "html",
+      "published_on": "旧版页面日期未标明",
+      "scope": "历史页面；不可据此确认当前远程访问方式",
+      "index_policy": "archive_not_for_current_answers"
+    }
+  ]
+}

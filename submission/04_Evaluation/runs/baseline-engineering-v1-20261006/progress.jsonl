@@ -1,0 +1,21 @@
+{"case_id": "M01", "run_id": "engineering-multiturn-20261006-184452-62342997", "status": "reused_existing_evidence"}
+{"case_id": "M02", "run_id": "engineering-multiturn-20261006-184518-5069f94b", "status": "reused_existing_evidence"}
+{"case_id": "K01", "duration_seconds": 12.328, "error_type": null, "run_id": "engineering-case-20261006-191800-f570fdee", "status": "completed"}
+{"case_id": "K02", "duration_seconds": 12.968, "error_type": null, "run_id": "engineering-case-20261006-191812-1ce803df", "status": "completed"}
+{"case_id": "K03", "duration_seconds": 13.235, "error_type": null, "run_id": "engineering-case-20261006-191825-2abf4436", "status": "completed"}
+{"case_id": "K04", "duration_seconds": 12.515, "error_type": null, "run_id": "engineering-case-20261006-191838-889e5998", "status": "completed"}
+{"case_id": "K05", "duration_seconds": 12.313, "error_type": null, "run_id": "engineering-case-20261006-191851-5ab9ec2a", "status": "completed"}
+{"case_id": "K06", "duration_seconds": 12.484, "error_type": null, "run_id": "engineering-case-20261006-191905-1e10173b", "status": "completed"}
+{"case_id": "K07", "duration_seconds": 13.344, "error_type": null, "run_id": "engineering-case-20261006-191918-fdc52397", "status": "completed"}
+{"case_id": "K08", "duration_seconds": 12.0, "error_type": null, "run_id": "engineering-case-20261006-191931-a09a1677", "status": "completed"}
+{"case_id": "K09", "duration_seconds": 12.406, "error_type": null, "run_id": "engineering-case-20261006-191943-0fdff7bc", "status": "completed"}
+{"case_id": "K10", "duration_seconds": 12.0, "error_type": null, "run_id": "engineering-case-20261006-191955-2eb79417", "status": "completed"}
+{"case_id": "S01", "duration_seconds": 11.516, "error_type": null, "run_id": "engineering-case-20261006-192011-3c622303", "status": "completed"}
+{"case_id": "S02", "duration_seconds": 11.782, "error_type": null, "run_id": "engineering-case-20261006-192022-936fed97", "status": "completed"}
+{"case_id": "S03", "duration_seconds": 11.203, "error_type": null, "run_id": "engineering-case-20261006-192034-608a087b", "status": "completed"}
+{"case_id": "S04", "duration_seconds": 11.625, "error_type": null, "run_id": "engineering-case-20261006-192046-f1d6ba53", "status": "completed"}
+{"case_id": "S05", "duration_seconds": 11.39, "error_type": null, "run_id": "engineering-case-20261006-192058-0f353067", "status": "completed"}
+{"case_id": "U01", "duration_seconds": 11.984, "error_type": null, "run_id": "engineering-case-20261006-192112-edc875be", "status": "completed"}
+{"case_id": "U02", "duration_seconds": 12.734, "error_type": null, "run_id": "engineering-case-20261006-192124-37150ece", "status": "completed"}
+{"case_id": "B01", "duration_seconds": 10.703, "error_type": null, "run_id": "engineering-case-20261006-192136-0f74394e", "status": "completed"}
+{"case_id": "B02", "duration_seconds": 11.125, "error_type": null, "run_id": "engineering-case-20261006-192148-a8d49484", "status": "completed"}

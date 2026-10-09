@@ -1,0 +1,53 @@
+{
+  "run_id": "engineering-case-20261008-075216-1192bdc7",
+  "case_id": "M01",
+  "turn_number": 1,
+  "question": "我的助学申请到哪一步了？",
+  "answer": "请提供你的申请记录编号，我才能帮你查询对应的模拟状态。",
+  "elapsed_seconds": 2.453,
+  "memory": {
+    "prior_stored_message_count": 0,
+    "model_context_turn_count": 0,
+    "max_model_context_turns": 4,
+    "thread_id": "engineering-case-20261008-075216-1192bdc7"
+  },
+  "new_messages": [
+    {
+      "type": "human",
+      "content": "我的助学申请到哪一步了？",
+      "tool_calls": []
+    },
+    {
+      "type": "ai",
+      "content": "请提供你的申请记录编号，我才能帮你查询对应的模拟状态。",
+      "tool_calls": []
+    }
+  ],
+  "tool_calls": [],
+  "tool_results": [],
+  "model_usage": [
+    {
+      "run_id": "engineering-case-20261008-075216-1192bdc7",
+      "case_id": "M01",
+      "turn_number": 1,
+      "implementation": "engineering",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "invocation": 1,
+      "request_status": "succeeded",
+      "request_attempted": true,
+      "usage_available": true,
+      "usage": {
+        "input_tokens": 916,
+        "output_tokens": 15,
+        "total_tokens": 931
+      },
+      "estimated_cost_usd": 0.0002928,
+      "cost_basis": "DeepSeek peak rate; cache miss assumed for all input tokens",
+      "pricing_source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/"
+    }
+  ],
+  "status_tool_verified": false,
+  "ticket_tool_verified": false,
+  "status": "completed"
+}

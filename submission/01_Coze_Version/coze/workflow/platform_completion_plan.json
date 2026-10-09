@@ -1,0 +1,92 @@
+{
+  "status": "executed_with_declared_limits",
+  "updated_at": "2026-10-08",
+  "completion_basis": "Two-day implementation plan H-02 Coze technical delivery checklist; this is not teacher sign-off.",
+  "reuse_existing_resources": true,
+  "resource_names": {
+    "agent": "长安大学校园智能客服",
+    "knowledge_a": "校园客服知识库-A",
+    "knowledge_b": "校园客服知识库-B",
+    "status_table": "application_status",
+    "ticket_table": "human_service_ticket"
+  },
+  "agent": {
+    "mode": "single_agent_self_planning",
+    "model_ui_label": "豆包·2.0·pro",
+    "attached_knowledge_base": "A",
+    "knowledge_invocation": "automatic",
+    "published_publicly": false,
+    "evidence": ["../screenshots/03_Agent与K01.png", "../screenshots/05_Agent工作流接入.png"]
+  },
+  "authentication": {
+    "mode": "synthetic_course_demo_only",
+    "identity_source": "Tester-supplied SIM ID in agent prompt or controlled workflow test input",
+    "must_not_infer_from_chat": true,
+    "actual_binding_method": "No authenticated campus identity is available in this Coze setup. The SIM ID is a declared synthetic test value, not authentication.",
+    "limitation": "Agent preview arguments are not fully exported, so the displayed response alone does not prove the workflow saw a trusted principal."
+  },
+  "status_workflow": {
+    "name": "campus_service_status_query",
+    "platform_workflow_id": "7693891212118818854",
+    "platform_url": null,
+    "inputs": {"record_id": "String", "service_type": "String", "owner_sim_user_id": "String"},
+    "conditions": [
+      {"field": "record_id", "operator": "=", "reference": "start.record_id"},
+      {"field": "service_type", "operator": "=", "reference": "start.service_type"},
+      {"field": "owner_sim_user_id", "operator": "=", "reference": "start.owner_sim_user_id"}
+    ],
+    "condition_relation": "AND",
+    "limit": 1,
+    "return_fields": ["record_id", "service_type", "status", "updated_at", "public_note", "simulation_only"],
+    "direct_platform_tests": ["owner match", "cross-owner no-match", "missing-record no-match"],
+    "agent_preview_tests": ["S01", "S02", "S05", "M01", "M02"],
+    "error_policy": "No matching result must not be presented as success; platform node failure is not fully exercised.",
+    "trace_limit": "Full workflow arguments are not visible for every Agent preview case."
+  },
+  "human_service_workflow": {
+    "name": "campus_human_service_demo",
+    "platform_workflow_id": "7693901471003689023",
+    "platform_url": null,
+    "observed_runs": {
+      "direct_run_ticket_id": "7693904260018454543",
+      "agent_m02_ticket_id": "7693919908337303579",
+      "simulation_only": true
+    },
+    "notifies_real_people": false,
+    "validated": ["explicit handoff request created a visible synthetic ticket", "Agent M02 invoked the workflow"],
+    "not_validated": ["request_key duplicate replay", "linked-record owner revalidation", "node-failure compensation", "concurrent idempotency"],
+    "evidence": ["../screenshots/06_campus_human_service_demo流程.png", "../screenshots/07_campus_human_service_demo发布记录.png", "../screenshots/21_Agent-M02-查询后创建模拟工单.png"]
+  },
+  "retrieval_comparison": {
+    "same_question": "K01",
+    "knowledge_groups": ["A", "B"],
+    "chunking_actual": {
+      "A": {"max_length_chars": 500, "separator": "two_newlines", "overlap_percent": 16, "document_count": 14, "slice_count": 2084},
+      "B": {"max_length_chars": 700, "separator": "single_newline", "overlap_percent": 0, "document_count": 14, "slice_count": 2365}
+    },
+    "parameter_actual": [
+      {"run": "R01-baseline", "top_k": 5, "minimum_match_score": 0.50, "search_strategy": "mixed", "query_rewriting": true, "reranking": true},
+      {"run": "R02-variant", "top_k": 3, "minimum_match_score": 0.70, "search_strategy": "mixed", "query_rewriting": true, "reranking": true},
+      {"run": "R03-restored", "top_k": 5, "minimum_match_score": 0.50, "search_strategy": "mixed", "query_rewriting": true, "reranking": true}
+    ],
+    "record_actual_ui_values_only": true,
+    "interpretation_limit": "Single K01 comparisons are descriptive and do not establish statistical or causal effects."
+  },
+  "course_delivery_checklist": {
+    "real_bot_and_at_least_five_early_campus_answers": "met",
+    "knowledge_unknown_status_handoff_and_two_multiturn_groups": "met_with_case_level_limitations_disclosed",
+    "two_actual_chunking_groups_with_same_question": "met",
+    "at_least_ten_fixed_cases": "met_14_cases_16_assistant_turns",
+    "same_knowledge_and_status_questions_across_three_tracks": "met_6_independent_outputs",
+    "configuration_workflow_run_outputs_and_screenshots": "archived_with_unobservable_fields_declared",
+    "teacher_sign_off_claimed": false
+  },
+  "operation_policy": {
+    "publish_agent_publicly": false,
+    "upgrade_subscription": false,
+    "reuse_status_rows": true,
+    "insert_synthetic_ticket_only_after_explicit_handoff": true,
+    "capture_actual_answers_and_visible_node_outputs": true,
+    "do_not_fill_platform_hidden_fields": true
+  }
+}

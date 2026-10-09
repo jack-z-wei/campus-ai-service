@@ -1,0 +1,4 @@
+comparison_id,knowledge_base,question,top_k,minimum_match_score,search_strategy,query_rewriting,reranking,observed_answer,observed_sources,displayed_elapsed_tokens,evidence,interpretation
+R01-baseline,A,长安大学本科生每学期修读多少学分比较合适？请根据知识库回答并标出来源。,5,0.50,mixed,on,on,15–35学分；超过35（辅修45）需审批；答复列出办法标题与日期及链接,《长安大学本科生选课及修课管理办法（试行）》；2022-09-15；官方教务处PDF,未把Coze内部时间作为基准,coze/screenshots/09_Agent-K01-学分检索.png,单次观察
+R02-variant,A,长安大学本科生每学期修读多少学分比较合适？请根据知识库回答并标出来源。,3,0.70,mixed,on,on,15–35学分并给出超过35（辅修45）审批条件；结果与基线主答案一致,《长安大学本科生选课及修课管理办法（试行）》；2022-09-15；官方教务处PDF,4.6秒/1994 Tokens（预览显示）,coze/screenshots/23_Agent-K01-低阈值高召回对照.png,单次运行未观察到主答案变化；不据一例推断整体参数效果
+R03-restored,A,恢复默认配置：自动调用、混合搜索、最大召回5、最低匹配度0.50、查询改写和重排开启,5,0.50,mixed,on,on,配置已恢复并在设置弹窗截图核对,不适用,不适用,coze/screenshots/24_Agent-检索配置恢复默认.png,最终草稿保持默认参数配置

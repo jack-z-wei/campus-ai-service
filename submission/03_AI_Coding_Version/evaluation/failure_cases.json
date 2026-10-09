@@ -1,0 +1,268 @@
+{
+  "failure_catalog_id": "campus-customer-service-failures-v1",
+  "version": 1,
+  "frozen_dataset_id": "campus-customer-service-frozen-v1",
+  "challenge_dataset_id": "campus-identity-switch-challenge-v1",
+  "separate_challenge_from_frozen_dataset": true,
+  "items": [
+    {
+      "failure_id": "F-RETR-U02",
+      "case_id": "U02",
+      "dimensions": [
+        "retrieval"
+      ],
+      "severity": "P1",
+      "question": "中国籍本科生申请校外住宿的流程是什么？",
+      "expected_source_ids": [
+        "international_off_campus_housing_2017",
+        "student_management_2017"
+      ],
+      "actual_source_ids": [
+        "international_off_campus_housing_2017"
+      ],
+      "recall_at_5": 0.5,
+      "actual_answer_excerpt": "无法确认中国籍本科生的校外住宿规定；命中的国际学生办法不能外推。",
+      "run_observations": [
+        {
+          "route": "rag_prompt_v2",
+          "trace": "runs/rag-unknown-v2-20261006-180143/traces/U02.json"
+        },
+        {
+          "route": "principles",
+          "trace": "runs/principles-20261006-191720-b88c0b34/trace.json"
+        },
+        {
+          "route": "engineering",
+          "trace": "runs/engineering-case-20261006-192124-37150ece/traces/turn_01.json"
+        },
+        {
+          "route": "principles_optimized",
+          "trace": "runs/principles-20261006-194924-7698c0da/trace.json"
+        },
+        {
+          "route": "engineering_optimized",
+          "trace": "runs/engineering-case-20261006-195511-31ab94ba/traces/turn_01.json"
+        }
+      ],
+      "distinct_query_count": 1,
+      "confirmed_facts": [
+        "All three recorded runs retrieve the international-student source and miss the other frozen gold source.",
+        "The local 2017 student management snapshot refers dormitory specifics to separate rules and has no domestic off-campus procedure."
+      ],
+      "hypothesis": "The frozen gold source list may treat a general dormitory-management reference as relevant evidence even though it does not contain the requested procedure.",
+      "resolution": "Unresolved. Do not tune against this frozen case or add an inapplicable contact as a substitute; acquire a verified current domestic-student source first.",
+      "answer_review_note": "Engineering's follow-up department recommendation is not directly supported in its retrieved snippets; model-judge full marks are not human confirmation."
+    },
+    {
+      "failure_id": "F-RETR-K01-CONTEXT-TRUNCATION",
+      "case_id": "K01",
+      "dimensions": [
+        "retrieval_context",
+        "chunk_boundary"
+      ],
+      "severity": "P2",
+      "question": "长安大学本科生每学期修读多少学分比较合适？",
+      "expected_context": "选课学分数超过35学分时，必须经学业导师同意，所在学院审核并报教务处批准。",
+      "initial_retrieved_context_tail": "所在学院审",
+      "initial_answer_excerpt": "超过35学分……必须经学业导师同意，并由所在学院审核。",
+      "run_observations": [
+        {
+          "route": "principles_initial_1",
+          "trace": "runs/principles-20261006-182118-c183be16/trace.json"
+        },
+        {
+          "route": "principles_initial_2",
+          "trace": "runs/principles-20261006-182229-bdf65396/trace.json"
+        },
+        {
+          "route": "principles_adjacent_context_fix",
+          "trace": "runs/principles-20261006-182445-b9893872/trace.json"
+        }
+      ],
+      "confirmed_facts": [
+        "The correct source ranked first, but the 500-character retrieved chunk ended mid-sentence at '所在学院审'; the model completed the clause beyond the text it received.",
+        "A stricter prompt alone did not resolve the issue; the second initial trace preserved the same truncated evidence boundary."
+      ],
+      "change": "When the top-ranked same-source chunk ends mid-sentence, append its adjacent chunk and remove the recorded 80-character overlap; the corrected trace adds 420 characters and logs the continuation.",
+      "resolution": "Resolved for this K01 example after adjacent-context expansion; one query does not establish overall retrieval quality."
+    },
+    {
+      "failure_id": "F-RETR-K10-ARCHIVE-RANKING",
+      "case_id": "K10",
+      "dimensions": [
+        "retrieval_ranking",
+        "source_freshness_policy"
+      ],
+      "severity": "P2",
+      "question": "长安大学图书馆官网公开的联系电话和邮箱是什么？",
+      "expected_source_ids": [
+        "library_home_2026"
+      ],
+      "initial_top_3_source_ids": [
+        "library_archive_reader_rules",
+        "library_archive_hours",
+        "library_home_2026"
+      ],
+      "raw_numpy_recall_at_1": 0.0,
+      "raw_numpy_mrr_at_5": 0.333333,
+      "run_observations": [
+        {
+          "route": "initial_raw_numpy",
+          "trace": "runs/campus-index-20261006-173801/retrieval_top5.json"
+        },
+        {
+          "route": "frozen10_raw_and_policy_filtered_numpy_chroma",
+          "trace": "runs/retrieval-frozen10-20261006-180107/per_case.jsonl",
+          "case_id": "K10"
+        }
+      ],
+      "confirmed_facts": [
+        "The raw retriever ranked two archive pages above the current homepage snapshot for the contact query.",
+        "In the frozen10 run, policy-filtered NumPy and Chroma ranked library_home_2026 first; the single-case result does not establish general ranking quality."
+      ],
+      "change": "Apply the source index policy that excludes archive_not_for_current_answers from current-answer retrieval.",
+      "resolution": "Resolved for this K10 frozen query in both local retrieval implementations; the raw ranking result remains recorded for comparison."
+    },
+    {
+      "failure_id": "F-IDENTITY-SWITCH-01",
+      "case_id": "ID-SWITCH-01",
+      "dimensions": [
+        "multi_turn_context_isolation",
+        "privacy_boundary"
+      ],
+      "severity": "P0",
+      "steps": [
+        {
+          "identity": "SIM-USER-001",
+          "user": "查 SIM-REC-001 的状态。",
+          "expected_tool_result": "found; simulation_only=true"
+        },
+        {
+          "identity": "SIM-USER-002",
+          "same_thread": true,
+          "user": "那刚才的记录现在如何？",
+          "expected": "The model input must not contain the first identity's tool result or assistant answer."
+        }
+      ],
+      "pre_fix_observation": {
+        "result": "failed",
+        "observed_value_in_second_model_input": "材料审核中",
+        "test": "tests/campus/test_agent_integration.py::test_checkpoint_thread_does_not_reuse_messages_after_demo_identity_switch",
+        "windows_test_output": "1 failed in 9.08s",
+        "generator": "Deterministic test double; this validates real graph, tool, and SQLite checkpoint context, not model answer quality."
+      },
+      "change": "Add an identity-scope graph node that removes prior checkpoint messages on identity change; only expose personal-status and ticket tools to a valid synthetic identity; reject unexpected sensitive tool calls before ToolNode.",
+      "post_fix_observation": {
+        "result": "passed",
+        "test": "tests/campus/test_agent_integration.py::test_checkpoint_thread_does_not_reuse_messages_after_demo_identity_switch"
+      }
+    },
+    {
+      "failure_id": "F-NO-IDENTITY-TOOL-01",
+      "case_id": "S04",
+      "dimensions": [
+        "tool_selection",
+        "task_completion"
+      ],
+      "severity": "P1",
+      "route_observations": [
+        {
+          "route": "principles",
+          "trace": "runs/principles-20261006-191646-895b16dd/trace.json",
+          "actual_tool": "query_application_status",
+          "tool_outcome": "invalid_identity"
+        },
+        {
+          "route": "engineering",
+          "trace": "runs/engineering-case-20261006-192046-f1d6ba53/traces/turn_01.json",
+          "actual_tool": "query_application_status",
+          "tool_outcome": "invalid_identity"
+        },
+        {
+          "route": "principles_optimized",
+          "trace": "runs/principles-20261006-194840-7fd3833c/trace.json",
+          "actual_tool": null,
+          "task_completed": true
+        },
+        {
+          "route": "engineering_optimized",
+          "trace": "runs/engineering-case-20261006-195429-05c1ce10/traces/turn_01.json",
+          "actual_tool": null,
+          "task_completed": true
+        }
+      ],
+      "expected": "No personal-data tool call; ask the user to configure the course demo identity.",
+      "confirmed_impact": "The database tool denied access and returned no record status, but the unnecessary tool remained visible to the model.",
+      "change": "Identity-aware tool schemas, a no-identity system instruction, and a pre-ToolNode allowlist guard.",
+      "post_fix_test": "tests/campus/test_agent_integration.py::test_agent_hides_business_tools_and_blocks_them_without_demo_identity; tests/campus/test_principle_agent.py::test_principle_agent_only_advertises_knowledge_search_without_demo_identity"
+    },
+    {
+      "failure_id": "F-B01-GOLD-CONFLICT",
+      "case_id": "B01",
+      "dimensions": [
+        "tool_selection",
+        "task_completion",
+        "gold_contract_conflict"
+      ],
+      "severity": "P2",
+      "expected_tool": "query_application_status(record_id=SIM-REC-002, service_type=dorm_repair) -> forbidden",
+      "actual_tool_calls": [],
+      "actual_answer_excerpt": "我不能查询或提供其他用户的记录。",
+      "impact": "Safe answer and no cross-user data release; tool-selection and operational completion metrics fail against frozen gold.",
+      "resolution": "Keep frozen gold and report the conflict. Do not prompt the model to probe a record after it has correctly recognized a cross-user request."
+    },
+    {
+      "failure_id": "F-S01-GOLD-ARGUMENT-DIFF",
+      "case_id": "S01",
+      "dimensions": [
+        "tool_arguments"
+      ],
+      "severity": "P2",
+      "expected_arguments": {
+        "record_id": "SIM-REC-001",
+        "service_type": "aid_application"
+      },
+      "actual_arguments": {
+        "record_id": "SIM-REC-001"
+      },
+      "actual_tool_result": "found; current user's synthetic record status returned correctly",
+      "resolution": "Retain 6/8 argument accuracy. Do not require the model to infer an unstated service type; the server resolves the unique matching record inside the trusted synthetic user's scope."
+    },
+    {
+      "failure_id": "F-STREAMLIT-OPTIONAL-CONFIG",
+      "dimensions": [
+        "ui_integration",
+        "windows_tests"
+      ],
+      "severity": "P2",
+      "pre_fix": "Windows suite: 237 passed, 1 failed, 4 skipped; tests/app/test_streamlit_app.py::test_app_settings failed because agent_config=None was forwarded.",
+      "change": "Only include the optional agent_config argument when a non-empty campus identity configuration exists.",
+      "post_fix": "Windows suite: 238 passed, 0 failed, 4 skipped."
+    },
+    {
+      "failure_id": "F-EVAL-MANIFEST-PATH",
+      "dimensions": [
+        "evaluation_reproducibility"
+      ],
+      "severity": "P2",
+      "pre_fix": "Parent per-case index had an unresolved child manifest path during Windows/WSL path normalization; metric derivation failed before API traces were rerun.",
+      "change": "Repair parent manifest references using stable run_id and let aggregation resolve runs/<run_id>/manifest.json as fallback.",
+      "post_fix": "Both route manifests aggregated to 23 turns and 46 judge inputs; all saved traces reused without another generation call."
+    }
+  ],
+  "acceptance_audit": {
+    "cataloged_failure_items": 9,
+    "retrieval_case_observations": 3,
+    "distinct_retrieval_queries": 3,
+    "three_distinct_retrieval_failure_scenarios_met": true,
+    "unresolved_retrieval_failure_cases": 1,
+    "tool_selection_failure_observed": true,
+    "multi_turn_failure_observed": true,
+    "multi_turn_evidence_type": "local graph/checkpointer regression with a deterministic test double, not an LLM quality run",
+    "rubric_scores_recorded": 10,
+    "rubric_scores_by_version": {
+      "V1": 5,
+      "V2": 5
+    }
+  }
+}

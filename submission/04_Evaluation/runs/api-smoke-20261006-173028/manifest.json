@@ -1,0 +1,40 @@
+{
+  "run_id": "api-smoke-20261006-173028",
+  "purpose": "DeepSeek connectivity smoke; not a course question result",
+  "started_at": "2026-10-06T17:30:28+08:00",
+  "platform": "win32",
+  "model": "deepseek-flash",
+  "base_url": "https://api.deepseek.com",
+  "requested_max_tokens": 32,
+  "max_retries": 0,
+  "paid_api_request_performed": true,
+  "course_result": false,
+  "response": "校园客服 API 连通。",
+  "usage": {
+    "input_tokens": 49,
+    "output_tokens": 75,
+    "total_tokens": 124,
+    "cached_input_tokens": 0,
+    "raw_usage_metadata": {
+      "input_tokens": 49,
+      "output_tokens": 75,
+      "total_tokens": 124,
+      "input_token_details": {
+        "cache_read": 0
+      },
+      "output_token_details": {
+        "reasoning": 68
+      }
+    }
+  },
+  "estimated_cost_usd": 0.0001047,
+  "observed_output_exceeded_requested_max_tokens": true,
+  "pricing_basis": "DeepSeek official peak rates; all uncached input assumed",
+  "pricing_source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
+  "error_type": null,
+  "error_status_code": null,
+  "response_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "finished_at": "2026-10-06T17:30:30+08:00",
+  "duration_seconds": 2.725
+}

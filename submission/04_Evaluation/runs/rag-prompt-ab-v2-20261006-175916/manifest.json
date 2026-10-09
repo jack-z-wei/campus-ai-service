@@ -1,0 +1,52 @@
+{
+  "run_id": "rag-prompt-ab-v2-20261006-175916",
+  "started_at": "2026-10-06T17:59:16+08:00",
+  "mode": "deepseek_live_campus_rag",
+  "agent": "campus-customer-service",
+  "model": "deepseek-flash",
+  "prompt_version": "v2",
+  "prompt_sha256": "fb4bdadb5f52e6d5d9c5f916f90ae6c4b4e4b6ba4d82536159c14ef6c242a53f",
+  "frozen_cases_sha256": "9407a364794143c553b34ffd933ea25d4ee71a7f6e643f9dd4d0d85e55d26d44",
+  "source_manifest_sha256": "05e297bcf2fc85151e7741c9a1fa33a995d3e3b122a49630f6318c7c499c0b4c",
+  "index_id": "campus-fixed500-bge-m3-v1",
+  "chunking": {
+    "strategy": "fixed_length",
+    "chunk_size": 500,
+    "overlap": 80
+  },
+  "embedding": {
+    "provider": "ollama",
+    "model": "bge-m3:latest",
+    "dimension": 1024
+  },
+  "search_top_k": 5,
+  "configured_max_tokens_per_model_turn": 768,
+  "deepseek_thinking_disabled": true,
+  "case_ids": [
+    "K01",
+    "K05",
+    "K06",
+    "K09",
+    "K10"
+  ],
+  "course_answer_evaluation": true,
+  "paid_api_request_attempted": true,
+  "case_count": 5,
+  "completed_case_count": 5,
+  "failed_case_count": 0,
+  "finished_at": "2026-10-06T17:59:35+08:00",
+  "api_invocation_count": 10,
+  "api_usage_values_available": true,
+  "estimated_total_cost_usd": 0.008967,
+  "retrieval_macro_average": {
+    "recall_at_1": 1.0,
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "mrr_at_5": 1.0
+  },
+  "answer_quality_human_review_required": true,
+  "limitations": [
+    "Answer correctness, faithfulness and citation accuracy are not inferred from retrieval metrics.",
+    "Runs use the same frozen questions and current recorded index; no cache result is substituted."
+  ]
+}

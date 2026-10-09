@@ -1,0 +1,10 @@
+{
+  "index_id": "campus-fixed500-bge-m3-v1",
+  "source_manifest_sha256": "05e297bcf2fc85151e7741c9a1fa33a995d3e3b122a49630f6318c7c499c0b4c",
+  "chunk_run_id": "campus-index-20261006-173801",
+  "chroma_run_id": "retrieval-policy-20261006-173948",
+  "chroma_collection": "campus-policy-filter-v1",
+  "chunking": {"strategy": "fixed_length", "chunk_size": 500, "overlap": 80},
+  "embedding": {"provider": "ollama", "model": "bge-m3:latest", "dimension": 1024},
+  "runtime_excluded_index_policies": ["archive_not_for_current_answers"]
+}

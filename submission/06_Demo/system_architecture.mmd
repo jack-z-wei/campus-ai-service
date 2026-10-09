@@ -1,0 +1,24 @@
+flowchart LR
+    U[学生 / 演示用户] --> UI[Streamlit 页面]
+    UI -->|AgentClient HTTP| API[FastAPI 服务]
+    API --> ENG[LangGraph 工程版 Agent]
+    CLI[Python 原理版 CLI] --> PR[NumPy RAG + 显式 ToolRegistry]
+
+    ENG --> LLM[DeepSeek Flash API]
+    PR --> LLM
+    ENG --> RET[Chroma 检索]
+    PR --> RET2[NumPy cosine 检索]
+    RET --> EMB[本机 Ollama BGE-M3]
+    RET2 --> EMB
+    RET --> SRC[14 份带范围元数据的校园快照]
+    RET2 --> SRC
+    ENG --> DB[(SQLite 合成状态 / 工单)]
+    PR --> DB
+    ENG --> CP[(SQLite checkpoint)]
+    PR --> MEM[(SQLite 有界会话记忆)]
+    ENG --> RUNS[运行 Manifest / Trace]
+    PR --> RUNS
+    EVAL[冻结集与四层指标] --> RUNS
+
+    classDef synthetic fill:#fff1cc,stroke:#bf8b00;
+    class DB,MEM,CP synthetic;

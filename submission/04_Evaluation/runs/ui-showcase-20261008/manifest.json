@@ -1,0 +1,112 @@
+{
+  "run_id": "ui-showcase-20261008",
+  "started_at": "2026-10-08T14:17:13+08:00",
+  "platform": "win32",
+  "api_url": "http://127.0.0.1:8081",
+  "ui_url": "http://127.0.0.1:8502",
+  "model": "deepseek-flash",
+  "fake_model": false,
+  "deepseek_key_configured": true,
+  "isolated_sqlite_path": "C:\\Users\\26313\\Desktop\\人工智能课设\\campus-ai-service\\runs\\ui-showcase-20261008\\checkpoints.sqlite3",
+  "api_pid": 30328,
+  "ui_pid": 22780,
+  "api_health_status": 200,
+  "api_info_status": 200,
+  "ui_health_status": 200,
+  "ui_page_status": 200,
+  "paid_chat_performed_by_launcher": false,
+  "ready": true,
+  "stop_processes_after_capture": [
+    30328,
+    22780
+  ],
+  "browser_opened": true,
+  "screenshot_capture_method": "Windows visible Chrome browser; PowerShell SendInput/clipboard mouse-keyboard interaction and CopyFromScreen capture",
+  "verified_stream_http_200_count": 6,
+  "user_input_count": 6,
+  "scenario_group_count": 5,
+  "screenshot_count": 6,
+  "screenshots": [
+    {
+      "run_file": "runs/ui-showcase-20261008/01_multiturn_missing_id.png",
+      "submission_file": "submission/06_Demo/screenshots/engineering_ui_followup_20261008.png",
+      "scenario": "Multi-turn follow-up: asks for record ID",
+      "size_bytes": 199773,
+      "sha256": "cdbf2a074f9ca1861684839c4531d9ac6e10c8bb86c979d9d9d7687a22b36c98"
+    },
+    {
+      "run_file": "runs/ui-showcase-20261008/02_multiturn_status.png",
+      "submission_file": "submission/06_Demo/screenshots/engineering_ui_status_multiturn_20261008.png",
+      "scenario": "Multi-turn status: synthetic aid record and timestamp",
+      "size_bytes": 274118,
+      "sha256": "c41ee2a0600b95ef92cf82dce26057ed9176dd45decff8efc3ac53dd70c09932"
+    },
+    {
+      "run_file": "runs/ui-showcase-20261008/03_multiturn_ticket.png",
+      "submission_file": "submission/06_Demo/screenshots/engineering_ui_simulated_ticket_20261008.png",
+      "scenario": "Multi-turn ticket: locally simulated, no real staff contact",
+      "size_bytes": 306370,
+      "sha256": "582faef242b24bf112426e90b2e9f09b15b1476b1811d3dc4fe9aa7dc3822d16"
+    },
+    {
+      "run_file": "runs/ui-showcase-20261008/04_unknown_library_hours.png",
+      "submission_file": "submission/06_Demo/screenshots/engineering_ui_unknown_hours_20261008.png",
+      "scenario": "Unknown current library hours: refuses to invent exact hours",
+      "size_bytes": 345673,
+      "sha256": "77e363391faed17a8d42f23b052678abe00480a6b7eaece54ffd6e4b541849ae"
+    },
+    {
+      "run_file": "runs/ui-showcase-20261008/05_library_contact.png",
+      "submission_file": "submission/06_Demo/screenshots/engineering_ui_library_contact_20261008.png",
+      "scenario": "Library contact: phone, email, official source and snapshot date",
+      "size_bytes": 268517,
+      "sha256": "33516cc84ea335fd22bd61d59e1c56a8e9dfc4c7eb9d976aee9bc67fe2ecfcb7"
+    },
+    {
+      "run_file": "runs/ui-showcase-20261008/06_course_credit_policy.png",
+      "submission_file": "submission/06_Demo/screenshots/engineering_ui_course_credit_20261008.png",
+      "scenario": "Course credit policy: range, approval condition and official source",
+      "size_bytes": 296904,
+      "sha256": "a9257798bef5d267028221e55b549b5b48ea8420ad2d6b51151345f5a576dc51"
+    }
+  ],
+  "scenario_results": [
+    {
+      "scenario": "Multi-turn aid-status and simulated service ticket",
+      "inputs": [
+        "我想查询我的助学申请进度。",
+        "我的申请记录编号是 SIM-REC-001。",
+        "请帮我为这条助学申请创建一个模拟人工服务单，咨询预计审核完成时间。"
+      ],
+      "observed": "The agent asks for the missing record ID, returns SIM-REC-001 status 材料审核中 with update time 2026-09-28 10:00, then creates SIM-TICKET-4dceb292097e5718 linked to SIM-REC-001 and says it will not contact or trigger real staff."
+    },
+    {
+      "scenario": "Unknown library opening hours",
+      "input": "请问长安大学图书馆今天各馆区分别几点开门、几点闭馆？",
+      "observed": "Refuses to confirm specific hours because the retrieved official snapshot only lists a notice title and not its body; suggests the library official site and public contact channels."
+    },
+    {
+      "scenario": "Library contact and citation",
+      "input": "请问长安大学图书馆的联系电话和联系邮箱是什么？请给出资料来源。",
+      "observed": "Returns +86-029-82334372 and tsgbgs@chd.edu.cn with official library homepage snapshot, URL and 2026-10-06 capture date."
+    },
+    {
+      "scenario": "Course credit policy and citation",
+      "input": "长安大学本科生每学期修读的必修课和选修课学分一般以多少为宜？请说明超出后的要求并标明来源。",
+      "observed": "Returns 15–35 credits as the general range; over 35 (over 45 for supplementary major) requires advisor consent, college review and Academic Affairs approval; cites the 2022 trial notice and says current validity requires confirmation."
+    }
+  ],
+  "usage": "The UI /stream response does not expose provider token usage or request cost. This run is excluded from API_USAGE.jsonl; actual billed usage is unknown.",
+  "service_stop_pending": false,
+  "last_updated_at": "2026-10-08T14:35:02+08:00",
+  "services_stopped": true,
+  "services_stopped_at": "2026-10-08T14:35:02+08:00",
+  "service_process_ids_stopped": [
+    27172,
+    31696,
+    30328,
+    22780
+  ],
+  "service_ports_released": true,
+  "stop_verification": "Windows PowerShell confirmed no listeners remain on 127.0.0.1:8081 or :8502; default 8080/8501 processes were not targeted."
+}

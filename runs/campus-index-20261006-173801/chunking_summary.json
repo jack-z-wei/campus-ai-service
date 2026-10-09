@@ -1,0 +1,23 @@
+{
+  "fixed_length_size500_overlap80": {
+    "chunk_count": 147,
+    "min_characters": 30,
+    "max_characters": 500,
+    "mean_characters": 470.05,
+    "source_count": 14
+  },
+  "recursive_size500_overlap80": {
+    "chunk_count": 213,
+    "min_characters": 16,
+    "max_characters": 499,
+    "mean_characters": 338.19,
+    "source_count": 14
+  },
+  "header_structure_size700": {
+    "chunk_count": 115,
+    "min_characters": 9,
+    "max_characters": 699,
+    "mean_characters": 508.22,
+    "source_count": 14
+  }
+}

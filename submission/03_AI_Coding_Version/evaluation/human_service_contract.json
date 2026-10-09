@@ -1,0 +1,45 @@
+{
+  "contract_id": "campus-human-service-tool-v1",
+  "frozen_on": "2026-10-06",
+  "frozen": true,
+  "simulation_only": true,
+  "purpose": "Acceptance specifications for a local SQLite demo ticket tool; they do not represent a real staff handoff.",
+  "counts": {"normal": 1, "idempotent_replay": 1, "error": 2, "persistence": 1, "total": 5},
+  "cases": [
+    {
+      "case_id": "HS01",
+      "category": "normal",
+      "authenticated_user_id": "SIM-USER-002",
+      "arguments": {"service_type": "dorm_repair_followup", "reason": "请模拟确认报修预计上门时间。", "idempotency_key": "HS01-REQUEST-001", "record_id": "SIM-REC-002"},
+      "expected": {"outcome": "created_simulated_ticket", "status": "created_simulated", "simulation_only": true, "real_human_contacted": false}
+    },
+    {
+      "case_id": "HS02",
+      "category": "idempotent_replay",
+      "authenticated_user_id": "SIM-USER-002",
+      "arguments": {"service_type": "dorm_repair_followup", "reason": "请模拟确认报修预计上门时间。", "idempotency_key": "HS01-REQUEST-001", "record_id": "SIM-REC-002"},
+      "expected": {"outcome": "created_simulated_ticket", "same_ticket_id_as": "HS01", "idempotent_replay": true}
+    },
+    {
+      "case_id": "HS03",
+      "category": "error",
+      "authenticated_user_id": null,
+      "arguments": {"service_type": "dorm_repair_followup", "reason": "需要确认。", "idempotency_key": "HS03-REQUEST-001"},
+      "expected": {"outcome": "invalid_identity", "ticket_created": false}
+    },
+    {
+      "case_id": "HS04",
+      "category": "error",
+      "authenticated_user_id": "SIM-USER-002",
+      "arguments": {"service_type": "dorm_repair_followup", "reason": "需要确认。", "idempotency_key": "HS04-REQUEST-001", "record_id": "SIM-REC-001"},
+      "expected": {"outcome": "record_unavailable", "ticket_created": false, "must_not_reveal_owner": true}
+    },
+    {
+      "case_id": "HS05",
+      "category": "persistence",
+      "authenticated_user_id": "SIM-USER-002",
+      "arguments": {"service_type": "general_student_service", "reason": "持久化验收。", "idempotency_key": "HS05-REQUEST-001"},
+      "expected": {"outcome": "created_simulated_ticket", "visible_after_new_service_instance": true}
+    }
+  ]
+}

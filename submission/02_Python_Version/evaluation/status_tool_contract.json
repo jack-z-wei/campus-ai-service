@@ -1,0 +1,57 @@
+{
+  "contract_id": "campus-status-tool-v1",
+  "frozen_on": "2026-10-06",
+  "frozen": true,
+  "source": "data/campus/simulation_records.json",
+  "purpose": "Acceptance cases for the local synthetic status-query tool; these are test specifications, not observed results.",
+  "counts": {
+    "normal": 3,
+    "error": 2,
+    "not_found": 1,
+    "total": 6
+  },
+  "cases": [
+    {
+      "case_id": "ST01",
+      "category": "normal",
+      "authenticated_user_id": "SIM-USER-001",
+      "arguments": {"record_id": "SIM-REC-001", "service_type": "aid_application"},
+      "expected": {"outcome": "found", "status": "材料审核中", "simulation_only": true}
+    },
+    {
+      "case_id": "ST02",
+      "category": "normal",
+      "authenticated_user_id": "SIM-USER-002",
+      "arguments": {"record_id": "SIM-REC-002", "service_type": "dorm_repair"},
+      "expected": {"outcome": "found", "status": "已派单", "simulation_only": true}
+    },
+    {
+      "case_id": "ST03",
+      "category": "normal",
+      "authenticated_user_id": "SIM-USER-003",
+      "arguments": {"record_id": "SIM-REC-003", "service_type": "library_service"},
+      "expected": {"outcome": "found", "status": "已办结", "simulation_only": true}
+    },
+    {
+      "case_id": "ST04",
+      "category": "error",
+      "authenticated_user_id": null,
+      "arguments": {"record_id": "SIM-REC-001", "service_type": "aid_application"},
+      "expected": {"outcome": "invalid_identity", "must_not_reveal_record": true}
+    },
+    {
+      "case_id": "ST05",
+      "category": "error",
+      "authenticated_user_id": "SIM-USER-001",
+      "arguments": {"record_id": "../../private", "service_type": "aid_application"},
+      "expected": {"outcome": "invalid_record_id", "must_not_query_database": true}
+    },
+    {
+      "case_id": "ST06",
+      "category": "not_found",
+      "authenticated_user_id": "SIM-USER-001",
+      "arguments": {"record_id": "SIM-REC-999", "service_type": "aid_application"},
+      "expected": {"outcome": "not_found", "must_not_invent_status": true}
+    }
+  ]
+}
