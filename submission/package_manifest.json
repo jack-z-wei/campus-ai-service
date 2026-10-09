@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-10-09T20:31:33+08:00",
+  "created_at": "2026-10-09T20:51:18+08:00",
   "status": "technical_package_complete_scope_limited",
   "platform": "win32",
   "directory_count": 6,
@@ -3795,8 +3795,8 @@
     },
     {
       "path": "04_Evaluation/reports/FINAL_AUDIT.md",
-      "size_bytes": 3919,
-      "sha256": "2aff217ec4ca538a6ce5a293b07793d7681789ba8c06f2596e88154852b5365b"
+      "size_bytes": 3955,
+      "sha256": "1fd1ae275db26bbbed1a3eed589d64b5a03a2fce1c991e3438ba293d949ac887"
     },
     {
       "path": "04_Evaluation/reports/Failure_Analysis.md",
@@ -7990,8 +7990,8 @@
     },
     {
       "path": "05_Final_Report/21_day_alignment.md",
-      "size_bytes": 3672,
-      "sha256": "dbbfc6273dc758132637ef40535f165c5966dd69c80eda1f52125faa60010a3c"
+      "size_bytes": 3731,
+      "sha256": "a34dc5a87cad88b369ae1a3ab4ae345673db2c58934b0103eeca5b1bc5dc2f81"
     },
     {
       "path": "05_Final_Report/Agent_Evaluation.md",
@@ -8000,8 +8000,8 @@
     },
     {
       "path": "05_Final_Report/FINAL_AUDIT.md",
-      "size_bytes": 3920,
-      "sha256": "e357e71c482ce350d796b2f038235971c43550e5836de9df7c4cb04a9c2e6d2a"
+      "size_bytes": 4000,
+      "sha256": "1a56890a3d61765a197702901184099ee79dd514b5892fb0f9076cb2c1bdec6f"
     },
     {
       "path": "05_Final_Report/Failure_Analysis.md",
@@ -8010,8 +8010,8 @@
     },
     {
       "path": "05_Final_Report/final_report.md",
-      "size_bytes": 82996,
-      "sha256": "aec5d15c4cd57d1168499ebe51f18efa5842c10d143b4273d975b293d11d0297"
+      "size_bytes": 83348,
+      "sha256": "c9727fdbdbd67d10709afd99930835333ee7bec52b5519de9753d5bc8f838972"
     },
     {
       "path": "05_Final_Report/optimization_latency_metrics.svg",

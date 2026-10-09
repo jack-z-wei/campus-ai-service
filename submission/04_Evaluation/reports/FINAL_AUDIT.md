@@ -13,7 +13,7 @@
 | 两条独立交付副本 | 分别按包内 `uv.lock` 安装 248 项，CPython 3.13.14；原理版 35 项 campus 测试通过，工程版完整测试见 `reports/package-verification.json` | `submission/02_Python_Version/`、`submission/03_AI_Coding_Version/` |
 | 浏览器验证 | Windows 本地前端实际输入校园政策问题和合成状态问题；首页与含返回答案的页面真实截图已归档 | `submission/06_Demo/screenshots/`、`runs/ui-preview-20261008-073436/` |
 | 指标和 Judge | 两路线共 46 个回答单元，最新模型辅助 Judge 已完成；评价模型和生成模型同系列 | `runs/e2e-20261008-metrics-v3/` |
-| 课程主题映射 | 指导书 Day 1–21 已逐项映射任务和材料；真实任务日期为 2026-10-06 至 2026-10-08 | `reports/21_day_alignment.md` |
+| 课程主题映射 | 指导书 Day 1–21 已逐项映射任务和材料；项目实施周期为 2026-09-20 至 2026-10-06；复跑记录按实际日期归档 | `reports/21_day_alignment.md` |
 | 提交目录 | 6 个规定目录；manifest 为 1,614 个交付内容文件逐项记录 SHA-256（清单文件自身不计入）；未含 `.env`、`.venv`、`.git` 和常见 API key 格式 | `submission/package_manifest.json` |
 | 提交报告链接 | 34 个本地文件和图片链接均已解析，失效目标 0 个 | `submission/05_Final_Report/final_report.md` |
 | Coze 范围 | H-02 原始技术交付含14题/16轮、两组切分、工作流和三轨对照；平台提示词已修订并逐字核对。原始集5条 partial；另有3条同题复测，K09通过，K01/K06仍partial。34张 Coze 截图与逐题限制已归档。Agent 未公开发布、Coze 费用未知；不表示教师签收 | `coze/验收补齐清单.md`、`coze/package_manifest.json`、`coze/retests/20261008/`、`submission/01_Coze_Version/` |
