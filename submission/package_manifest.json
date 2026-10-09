@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-10-08T14:39:30+08:00",
+  "created_at": "2026-10-09T20:00:12+08:00",
   "status": "technical_package_complete_scope_limited",
   "platform": "win32",
   "directory_count": 6,
@@ -8010,8 +8010,8 @@
     },
     {
       "path": "05_Final_Report/final_report.md",
-      "size_bytes": 84784,
-      "sha256": "505b64f2a1b80ea3862dbb444d6b555dedfd8e24f9a2c0d3a10f70cfcb89435f"
+      "size_bytes": 84998,
+      "sha256": "a343c9d1f2e0073add291b56c57e5d084c201ec7ceb48e91d3d9646969b8462f"
     },
     {
       "path": "05_Final_Report/optimization_latency_metrics.svg",

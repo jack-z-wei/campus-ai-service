@@ -15,7 +15,7 @@
 | 项目开始日期 | 2026-10-01 |
 | 项目完成日期 | 2026-10-08（最新双路线运行与工程回归修复） |
 | 报告版本 | V1.2 |
-| Git 仓库 / 项目路径 | 本地 `campus-ai-service`；Windows：`C:\Users\26313\Desktop\人工智能课设\campus-ai-service` |
+| Git 仓库 / 项目路径 | [GitHub 公开仓库](https://github.com/jack-z-wei/campus-ai-service)；本地 `campus-ai-service`；Windows：`C:\Users\26313\Desktop\人工智能课设\campus-ai-service` |
 | 最终提交时间 | 未提供 |
 
 ### 项目组织方式
@@ -861,10 +861,10 @@ API/UI 的 PowerShell 启动与题目说明另见 `reports/demo_script.md`。索
 |---|---|
 | 上游仓库 | `JoshuaC215/agent-service-toolkit`；MIT License 保留 |
 | 固定上游提交 | `88ebfa1fadd1a207aa92115635abf7ed20d66a88` |
-| 本地校园实现 | 当前项目修改尚未形成最终 release commit/tag；工作区含未提交更改 |
+| 本地校园实现 | [GitHub 公开仓库](https://github.com/jack-z-wei/campus-ai-service)，主分支为 `main`；当前报告版本已推送，工作区干净；未创建单独的 release tag |
 | 课程许可 | 报告披露 MIT 上游复用范围；未声称取得教师许可 |
 
-来源、复用范围和改动记录见 `UPSTREAM.md`。本报告不把未创建的本地 commit/tag 写成已有。
+来源、复用范围和改动记录见 `UPSTREAM.md`。仓库状态以 GitHub `main` 分支为准；本报告未声称创建 release tag。
 
 ---
 
@@ -1086,7 +1086,7 @@ Windows 全量测试曾发现 Agent 配置为 `None` 时的调用回归，修复
 | 运行态功能测试 | 2026-10-06 | Windows API/UI fake smoke、真实 DeepSeek 工具路径和实时 UI 合成状态查询 | TASK-017～018 |
 | 双路线端到端复跑与并发检索修复 | 2026-10-08 | 原理版与修复后工程版各 21 案例；244 项目测试通过；浏览器实截图和模型辅助评估 | TASK-026 |
 
-这些里程碑都有对应 TASK 记录；我没有创建 Git tag 或最终发布 commit。
+这些里程碑都有对应 TASK 记录。当前报告及交付材料已推送到 GitHub；未创建单独的 Git tag。
 
 课程 Day 1–21 的项目证据映射见[附录 D：课程主题映射](21_day_alignment.md)。Day 是指导书编号；实际任务日志日期保持为 2026-10-06 至 2026-10-08。
 
